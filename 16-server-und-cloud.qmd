@@ -1,0 +1,72 @@
+---
+title: "16. Server, lokal und Cloud"
+---
+
+## Warum das wichtig ist
+
+In Kapitel 14 hast du gelernt, dass das Internet ein riesiges Netzwerk aus vielen einzelnen Netzwerken ist. Über dieses Netzwerk kommunizieren nicht nur Menschen mit Websites, sondern auch Geräte mit sogenannten **Servern**. In diesem Kapitel klären wir, was ein Server ist, was "die Cloud" eigentlich bedeutet – und wo der Unterschied zur lokalen Speicherung auf deinem eigenen Gerät liegt.
+
+## Lokale Speicherung
+
+**Lokal** gespeicherte Daten liegen direkt auf deinem eigenen Gerät – auf der SSD oder HDD, wie in Kapitel 2 beschrieben. Der Vorteil: Du hast jederzeit Zugriff, auch ohne Internetverbindung, und die Daten verlassen dein Gerät nicht von selbst. Der Nachteil: Geht das Gerät kaputt oder verloren, sind die Daten unter Umständen ebenfalls verloren, falls keine Sicherungskopie existiert (mehr zu Backups in Kapitel 21).
+
+## Was ist ein Server?
+
+Ein **Server** ist – vereinfacht gesagt – ein Computer, der meist dauerhaft läuft, permanent mit dem Internet verbunden ist, und dessen Aufgabe es ist, Daten oder Dienste für andere Computer bereitzustellen. Diese anfragenden Geräte (z. B. dein Laptop oder Smartphone) nennt man in diesem Zusammenhang **Client**. Das Grundprinzip: Der Client sendet eine Anfrage über das Internet, der Server sendet eine Antwort zurück – z. B. eine Webseite, ein Video oder eine gespeicherte Datei.
+
+Server stehen üblicherweise nicht bei dir zu Hause, sondern in großen, professionell betriebenen **Rechenzentren**, oft von spezialisierten Unternehmen betrieben.
+
+## Was bedeutet "die Cloud"?
+
+**Cloud** (englisch für Wolke) ist letztlich nur ein anschaulicherer Begriff für: Daten oder Programme laufen nicht auf deinem eigenen Gerät, sondern auf Servern eines Anbieters, auf die du über das Internet zugreifst. Wenn du ein Foto "in die Cloud" hochlädst (z. B. zu Google Drive, iCloud, OneDrive oder Dropbox), landet es technisch gesehen einfach auf Servern in einem Rechenzentrum dieses Anbieters.
+
+::: {.callout-note}
+## "Es gibt keine Cloud, nur andere Computer"
+
+Dieser bekannte Satz bringt es auf den Punkt: "Die Cloud" ist keine eigene, unsichtbare Technologie, sondern schlicht ein Netzwerk aus Servern, die anderen Firmen gehören und die du über das Internet nutzt.
+:::
+
+## Vor- und Nachteile im Vergleich
+
+| | Lokale Speicherung | Server/Cloud |
+|---|---|---|
+| Zugriff ohne Internet | Ja | Meist nein |
+| Zugriff von mehreren Geräten gleichzeitig | Schwierig | Einfach (überall mit Internetzugang) |
+| Automatische Sicherung bei Geräteverlust | Nein (außer eigenes Backup) | Meist ja, da auf fremden Servern gespeichert |
+| Kontrolle über die eigenen Daten | Vollständig bei dir | Teilweise beim Anbieter |
+
+Der letzte Punkt ist wichtig: Sobald deine Daten auf einem fremden Server liegen, hast du nicht mehr die vollständige, alleinige Kontrolle darüber – der Anbieter könnte theoretisch Einblick in die Daten haben oder sie für eigene Zwecke auswerten. Diesen Aspekt vertiefen wir in Kapitel 20 zum Thema Datenschutz.
+
+## Praktische Übung
+
+1. Speichere eine Textdatei lokal auf deinem Gerät (siehe Kapitel 7) und öffne sie erneut, nachdem du das WLAN ausgeschaltet hast (siehe Kapitel 10) – sie sollte weiterhin problemlos zugänglich sein.
+2. Lade dieselbe Datei (mit eingeschaltetem WLAN) in einen Cloud-Speicher deiner Wahl hoch, den du bereits nutzt oder mit Erlaubnis einrichten darfst (z. B. Google Drive oder OneDrive).
+3. Schalte das WLAN wieder aus und versuche, über die Weboberfläche des Cloud-Speichers erneut auf die Datei zuzugreifen. Beobachte den Unterschied zum lokalen Zugriff.
+
+## Verständnisfragen
+
+<details>
+<summary>Was ist der Unterschied zwischen einem Server und einem Client?</summary>
+Ein Server stellt Daten oder Dienste über das Internet bereit und läuft meist dauerhaft. Ein Client (z. B. dein Laptop) fragt diese Daten oder Dienste beim Server an.
+</details>
+
+<details>
+<summary>Was bedeutet es technisch gesehen, wenn eine Datei "in die Cloud" hochgeladen wird?</summary>
+Die Datei wird über das Internet auf einen Server eines Anbieters übertragen und dort in einem Rechenzentrum gespeichert – "die Cloud" ist kein eigenständiger, unsichtbarer Ort, sondern schlicht ein fremder Server.
+</details>
+
+<details>
+<summary>Nenne einen Vorteil und einen Nachteil der Cloud-Speicherung gegenüber lokaler Speicherung.</summary>
+Vorteil: Zugriff von mehreren Geräten aus, meist automatische Sicherung gegen Geräteverlust. Nachteil: Zugriff meist nur mit Internetverbindung möglich, und die Daten liegen nicht mehr vollständig unter eigener Kontrolle.
+</details>
+
+## Zusammenfassung
+
+- **Lokale Speicherung** liegt auf dem eigenen Gerät, ist auch ohne Internet zugänglich, aber ungeschützt bei Geräteverlust.
+- Ein **Server** stellt Daten/Dienste über das Internet für anfragende **Clients** bereit.
+- **Cloud** bedeutet: Daten/Programme laufen auf fremden Servern statt auf dem eigenen Gerät.
+- Cloud-Speicherung bringt Komfort (Zugriff von überall), aber auch einen Kontrollverlust über die eigenen Daten – ein Thema, das in Kapitel 20 vertieft wird.
+
+## Ausblick
+
+E-Mail ist einer der ältesten und bis heute wichtigsten Dienste, die über Server im Internet laufen. Im nächsten Kapitel schauen wir uns E-Mail im Detail an: Aufbau einer Adresse, Anhänge und ein erster Hinweis auf Spam.

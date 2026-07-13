@@ -1,0 +1,74 @@
+---
+title: "9. Apps und Software: Was ist ein Programm?"
+---
+
+## Warum das wichtig ist
+
+In Kapitel 4 hast du das Betriebssystem kennengelernt – die grundlegende Software, die Hardware verwaltet und anderen Programmen erst die Ausführung ermöglicht. In diesem Kapitel geht es um genau diese anderen Programme: die **Anwendungssoftware**, mit der du tatsächlich arbeitest – Browser, Textprogramme, Spiele, Messenger.
+
+## Was ist Software?
+
+**Software** ist der Sammelbegriff für alle Programme und Daten, die auf einem Computer oder Smartphone ausgeführt werden – im Gegensatz zur **Hardware**, den physisch anfassbaren Bauteilen wie CPU, RAM oder Bildschirm (Kapitel 2). Software besteht letztlich aus Befehlen, die von der CPU verarbeitet werden – geschrieben in einer Programmiersprache (Kapitel 13) und übersetzt in eine Form, die der Computer ausführen kann.
+
+Man unterscheidet grob zwei Arten von Software:
+
+- **Systemsoftware:** Das Betriebssystem selbst sowie Treiber – die Grundlage, auf der alles andere aufbaut (siehe Kapitel 4).
+- **Anwendungssoftware** (Applikationen): Programme, die eine konkrete Aufgabe für dich erledigen, z. B. ein Browser zum Surfen, ein Textprogramm zum Schreiben oder ein Spiel. Um diese Kategorie geht es in diesem Kapitel.
+
+## "App" oder "Programm" – ist das dasselbe?
+
+Technisch gesehen ja: **App** ist einfach die Kurzform von **Application** (englisch für Anwendung) und bezeichnet dasselbe wie "Anwendungssoftware" oder "Programm". Im alltäglichen Sprachgebrauch hat sich allerdings eine Gewohnheit eingebürgert:
+
+- Für Software auf **Smartphones/Tablets** (Android, iOS) sagt man fast immer **"App"**.
+- Für Software auf **Desktop-Computern** (Windows, macOS, Ubuntu) sagt man häufiger **"Programm"**, auch wenn zunehmend ebenfalls von "Apps" die Rede ist (z. B. in den Windows-Einstellungen unter "Apps").
+
+Diese Unterscheidung ist rein sprachlich, nicht technisch. Ein gutes Beispiel: Der Browser Firefox gibt es sowohl als "Programm" für Windows/Ubuntu als auch als "App" für Android – es handelt sich um dieselbe Art von Software (mit jeweils leicht angepasstem Programmcode für die jeweilige Plattform), nur der Sprachgebrauch unterscheidet sich je nach Gerät.
+
+::: {.callout-note}
+## Abgrenzung zu Kapitel 4
+
+In Kapitel 4 ging es um das Betriebssystem als Systemsoftware, die Hardware verwaltet. In diesem Kapitel geht es um Anwendungssoftware – die Programme, die *auf* dem Betriebssystem laufen und konkrete Aufgaben für dich übernehmen. Wie so eine Anwendung installiert wird, erfährst du in Kapitel 11; ihre typischen Menüpunkte in Kapitel 10.
+:::
+
+## Praktische Übung
+
+Verschaffe dir einen Überblick über installierte Software auf deinen Geräten.
+
+**Windows:**
+
+1. Öffne "Einstellungen" → "Apps" → "Installierte Apps".
+2. Schau dir die Liste an: Findest du Programme, die du täglich nutzt?
+
+**Ubuntu:**
+
+1. Öffne die App "Software" (Ubuntu Software Center) und klicke auf den Tab "Installiert".
+2. Alternativ: Öffne ein Terminal und tippe `apt list --installed` – das listet alle über die Paketverwaltung installierten Programme auf (mehr zur Kommandozeile in Kapitel 12, mehr zur Paketverwaltung in Kapitel 11).
+
+**Zusatz:** Schau bei einem Smartphone in den App-Übersicht nach – zähle, wie viele Apps installiert sind, und überlege, welche davon es auch als Desktop-Programm gibt.
+
+## Verständnisfragen
+
+<details>
+<summary>Was ist der Unterschied zwischen Software und Hardware?</summary>
+Hardware sind die physischen Bauteile eines Geräts (CPU, RAM, Bildschirm usw.). Software sind die Programme und Daten, die auf dieser Hardware ausgeführt werden.
+</details>
+
+<details>
+<summary>Ist "App" technisch etwas anderes als "Programm"?</summary>
+Nein. "App" ist die Kurzform von "Application" und bedeutet dasselbe wie "Programm" bzw. "Anwendungssoftware". Der Unterschied im Sprachgebrauch (App für Smartphones, Programm für Desktop) ist rein umgangssprachlich, keine technische Unterscheidung.
+</details>
+
+<details>
+<summary>Was ist der Unterschied zwischen Systemsoftware und Anwendungssoftware?</summary>
+Systemsoftware (z. B. das Betriebssystem, Treiber) bildet die Grundlage, auf der alles andere läuft und verwaltet die Hardware. Anwendungssoftware (Apps/Programme) läuft auf dieser Grundlage und erledigt konkrete Aufgaben für die Nutzerin oder den Nutzer.
+</details>
+
+## Zusammenfassung
+
+- **Software** ist der Sammelbegriff für Programme und Daten, im Gegensatz zur physischen **Hardware**.
+- Man unterscheidet **Systemsoftware** (Betriebssystem, Treiber) und **Anwendungssoftware** (Programme/Apps für konkrete Aufgaben).
+- **"App"** und **"Programm"** meinen technisch dasselbe – der Unterschied ist reiner Sprachgebrauch (App eher mobil, Programm eher Desktop).
+
+## Ausblick
+
+Fast jede App und jedes Programm hat ähnliche Menüpunkte – ein Konto-Bereich, Benachrichtigungseinstellungen, ein Hilfe-Menü. Im nächsten Kapitel schauen wir uns diese typischen Menüpunkte an – und vergleichen sie mit den Systemeinstellungen von Windows, Ubuntu und Android.

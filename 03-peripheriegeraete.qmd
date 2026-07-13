@@ -1,0 +1,78 @@
+---
+title: "3. Peripheriegeräte: Tastatur, Maus und Co."
+---
+
+## Warum das wichtig ist
+
+CPU, GPU, RAM und Speicher (Kapitel 2) sind die "inneren Werte" eines Computers – aber ohne eine Möglichkeit, mit ihnen zu kommunizieren, wären sie nutzlos. Die Geräte, mit denen du Daten in den Computer eingibst oder Ergebnisse ausgegeben bekommst, heißen **Peripheriegeräte** (von griechisch "peripherie" = das, was am Rand liegt). In diesem Kapitel geht es ausschließlich um Ein- und Ausgabegeräte – nicht um externe Speichermedien wie USB-Sticks, die eine eigene Kategorie sind.
+
+## Eingabegeräte
+
+Eingabegeräte wandeln eine Handlung von dir in Daten um, die der Computer verarbeiten kann.
+
+- **Tastatur:** Jeder Tastendruck erzeugt ein elektrisches Signal, das der Computer einem bestimmten Zeichen zuordnet – so wie in Kapitel 1 beschrieben, letztlich als Bitfolge (z. B. über den ASCII-Standard).
+- **Maus:** Erkennt Bewegung (heute meist optisch über einen kleinen Sensor, der die Unterlage abtastet) und wandelt sie in Bewegungsdaten für den Mauszeiger um. Klicks werden als separate Signale übertragen.
+- **Mikrofon:** Wandelt Schallwellen (Luftdruckschwankungen) über eine Membran in ein elektrisches Signal um, das anschließend in digitale Daten (Bits) umgewandelt wird – diesen Vorgang nennt man Analog-Digital-Wandlung.
+
+## Ausgabegeräte
+
+Ausgabegeräte wandeln Daten aus dem Computer in etwas um, das du wahrnehmen kannst.
+
+- **Bildschirm:** Besteht aus Millionen winziger Bildpunkte (Pixel), die einzeln angesteuert werden können. Mehr zu Pixeln erfährst du in Kapitel 8.
+- **Lautsprecher:** Der umgekehrte Weg zum Mikrofon: Digitale Audiodaten werden in ein elektrisches Signal und darüber in eine Membranbewegung umgewandelt, die hörbare Schallwellen erzeugt.
+- **Drucker:** Wandelt eine digitale Datei (z. B. ein Dokument) in ein Ergebnis auf Papier um, entweder durch Tintentröpfchen (Tintenstrahldrucker) oder durch aufgeschmolzenes Pulver (Laserdrucker).
+
+::: {.callout-note}
+## Manche Geräte sind beides
+
+Ein Touchscreen ist gleichzeitig Ausgabegerät (er zeigt etwas an) und Eingabegerät (er erkennt deine Berührungen). Auch ein Headset mit Mikrofon vereint Ausgabe (Kopfhörer) und Eingabe (Mikrofon) in einem Gerät.
+:::
+
+## Wie der Computer Peripheriegeräte erkennt
+
+Damit Windows oder Ubuntu ein angeschlossenes Gerät nutzen kann, braucht es einen passenden **Treiber** – ein kleines Programm, das dem Betriebssystem erklärt, wie es mit genau diesem Gerät kommunizieren muss. Für die meisten Standardgeräte (Tastatur, Maus, USB-Headsets) bringen Windows und Ubuntu bereits passende Treiber mit, sodass das Gerät sofort funktioniert, wenn du es anschließt. Bei spezielleren Geräten (z. B. bestimmten Druckermodellen) muss man den Treiber manchmal zusätzlich installieren.
+
+## Praktische Übung
+
+Finde heraus, welche Peripheriegeräte an deinem Rechner erkannt werden.
+
+**Windows:**
+
+1. Öffne "Einstellungen" → "Bluetooth & Geräte" → "Geräte" (oder öffne den Geräte-Manager über die Suche).
+2. Schau dir an, welche Eingabe- und Ausgabegeräte gelistet sind (z. B. unter "Tastaturen", "Mäuse", "Audioein- und -ausgänge").
+
+**Ubuntu:**
+
+1. Öffne die "Einstellungen" und schaue unter "Bluetooth" bzw. "Geräte" nach.
+2. Öffne zusätzlich ein Terminal und tippe `lsusb` – das listet alle über USB angeschlossenen Geräte auf, oft inklusive Tastatur und Maus.
+
+Vergleiche: Welche Geräte erkennst du in der Liste wieder?
+
+## Verständnisfragen
+
+<details>
+<summary>Was unterscheidet ein Eingabegerät von einem Ausgabegerät?</summary>
+Ein Eingabegerät wandelt eine Handlung von dir (Tastendruck, Bewegung, Sprache) in Daten für den Computer um. Ein Ausgabegerät wandelt Daten des Computers in etwas um, das du wahrnehmen kannst (Bild, Ton, Ausdruck).
+</details>
+
+<details>
+<summary>Nenne ein Gerät, das gleichzeitig Ein- und Ausgabegerät ist, und erkläre warum.</summary>
+Ein Touchscreen: Er zeigt Inhalte an (Ausgabe) und erkennt gleichzeitig Berührungen (Eingabe).
+</details>
+
+<details>
+<summary>Was ist ein Treiber und wozu wird er gebraucht?</summary>
+Ein Treiber ist ein Programm, das dem Betriebssystem erklärt, wie es mit einem bestimmten Peripheriegerät kommunizieren muss. Ohne passenden Treiber kann das Betriebssystem das Gerät nicht richtig nutzen.
+</details>
+
+## Zusammenfassung
+
+- **Peripheriegeräte** sind Ein- und Ausgabegeräte, über die du mit dem Computer kommunizierst.
+- **Eingabegeräte** (Tastatur, Maus, Mikrofon) wandeln deine Handlungen in Daten um.
+- **Ausgabegeräte** (Bildschirm, Lautsprecher, Drucker) wandeln Daten in wahrnehmbare Ergebnisse um.
+- Manche Geräte vereinen beide Funktionen, z. B. ein Touchscreen.
+- Ein **Treiber** ist nötig, damit das Betriebssystem ein Gerät korrekt ansteuern kann.
+
+## Ausblick
+
+Wer koordiniert eigentlich, dass Tastatureingaben ankommen, während gleichzeitig ein Video läuft und eine Datei gespeichert wird? Diese Aufgabe übernimmt das **Betriebssystem** – darum geht es im nächsten Kapitel.

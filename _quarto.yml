@@ -1,0 +1,62 @@
+project:
+  type: website
+
+website:
+  title: "IT-Wissen für Kinder"
+  description: "IT-Grundlagen für Jugendliche (12–14 Jahre) – verständlich erklärt für Windows und Ubuntu"
+  page-navigation: true
+  back-to-top-navigation: true
+  sidebar:
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+      - index.qmd
+      - section: "Grundlagen"
+        contents:
+          - 01-bits-und-bytes.qmd
+          - 02-hardware-grundlagen.qmd
+          - 03-peripheriegeraete.qmd
+          - 04-betriebssysteme.qmd
+      - section: "Dateien und Ordner"
+        contents:
+          - 05-ordnersystem.qmd
+          - 06-dateiarten-und-endungen.qmd
+          - 07-dateien-verwalten.qmd
+          - 08-bilddateien.qmd
+      - section: "Software und Kommandozeile"
+        contents:
+          - 09-apps-und-software.qmd
+          - 10-app-menues-und-einstellungen.qmd
+          - 11-installation-von-apps.qmd
+          - 12-kommandozeile.qmd
+          - 13-programmiersprachen.qmd
+      - section: "Internet und Netzwerke"
+        contents:
+          - 14-internet-und-netzwerke.qmd
+          - 15-mobilfunk-wlan-nfc-bluetooth.qmd
+          - 16-server-und-cloud.qmd
+          - 17-email.qmd
+      - section: "Sicherheit und Datenschutz"
+        contents:
+          - 18-passwoerter-und-accounts.qmd
+          - 19-it-sicherheit.qmd
+          - 20-datenschutz.qmd
+          - 21-updates-und-backups.qmd
+      - section: "Sonstiges"
+        contents:
+          - 22-finanzierung-von-software.qmd
+  page-footer:
+    center: "IT-Wissen für Kinder – ein Lernprojekt für 12- bis 14-Jährige"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-title: "Auf dieser Seite"
+    lang: de
+    number-sections: false
+    smooth-scroll: true
+
+lang: de

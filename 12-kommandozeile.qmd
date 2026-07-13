@@ -1,0 +1,75 @@
+---
+title: "12. Die Kommandozeile (CLI)"
+---
+
+## Warum das wichtig ist
+
+Bisher hast du Computer über Fenster, Symbole und Mausklicks bedient. Das nennt man **GUI** (Graphical User Interface, grafische Benutzeroberfläche). Es gibt aber noch eine zweite, ältere Art der Bedienung: die **Kommandozeile**. In Kapitel 5 hast du bereits Pfade kennengelernt – genau die brauchst du jetzt, um dich über die Kommandozeile durch das Ordnersystem zu bewegen.
+
+## GUI vs. CLI
+
+- **GUI:** Du klickst mit der Maus auf Symbole, Menüs und Fenster. Sehr anschaulich, aber jede Aktion braucht mehrere Klicks.
+- **CLI** (Command Line Interface, Kommandozeilen-Schnittstelle): Du gibst Befehle als Text ein, die der Computer direkt ausführt. Das wirkt zunächst weniger anschaulich, ist aber oft schneller und lässt sich – anders als Mausklicks – auch automatisieren (mehrere Befehle nacheinander in einem Skript speichern und auf Knopfdruck ausführen).
+
+Das Programm, in dem du CLI-Befehle eingibst, nennt man **Terminal** (manchmal auch Konsole). Im Terminal läuft ein Programm namens **Shell**, das deine eingetippten Befehle entgegennimmt, interpretiert und ausführt.
+
+- Unter **Windows** heißt das klassische Terminalprogramm **"Eingabeaufforderung"** (cmd.exe); zusätzlich gibt es die modernere **PowerShell**. In diesem Kapitel nutzen wir die klassischen `cmd`-Befehle.
+- Unter **Ubuntu** heißt das Terminalprogramm einfach **"Terminal"**, die darin laufende Shell heißt meist **Bash**.
+
+## Grundbefehle im Vergleich
+
+Da Windows und Ubuntu unterschiedliche Shells verwenden, unterscheiden sich auch viele Befehle. Hier die wichtigsten Grundbefehle:
+
+| Aktion | Windows (Eingabeaufforderung) | Ubuntu (Bash) |
+|---|---|---|
+| Aktuelles Verzeichnis anzeigen | `cd` (ohne weitere Angabe) | `pwd` |
+| Verzeichnisinhalt auflisten | `dir` | `ls` |
+| Verzeichnis wechseln | `cd <Pfad>` | `cd <Pfad>` |
+| Neuen Ordner anlegen | `mkdir <Name>` | `mkdir <Name>` |
+
+`cd` steht in beiden Systemen für "change directory" (Verzeichnis wechseln) und funktioniert nach demselben Prinzip – nur dass unter Windows `cd` ohne Zusatzangabe das aktuelle Verzeichnis anzeigt, während du unter Ubuntu dafür den eigenen Befehl `pwd` ("print working directory") brauchst.
+
+Ein Beispiel, das den Pfad-Begriff aus Kapitel 5 wieder aufgreift: Um von der Kommandozeile aus in den Downloads-Ordner zu wechseln, tippst du
+
+- unter Windows: `cd C:\Users\Anna\Downloads`
+- unter Ubuntu: `cd /home/anna/Downloads`
+
+::: {.callout-tip}
+## Abkürzungen, die das Leben leichter machen
+
+Unter Ubuntu kannst du statt des vollen Pfads auch die Tilde nutzen (siehe Kapitel 5): `cd ~/Downloads` bringt dich direkt in dein persönliches Downloads-Verzeichnis, egal wie dein Benutzername lautet. Tippst du nur `cd` ohne weitere Angabe, springt Bash automatisch ins Home-Verzeichnis.
+:::
+
+## Praktische Übung
+
+1. **Windows:** Öffne die "Eingabeaufforderung" (Suche in der Taskleiste nach "cmd"). Tippe `cd`, um dein aktuelles Verzeichnis zu sehen. Tippe `dir`, um den Inhalt aufzulisten. Wechsle dann mit `cd Downloads` (falls du bereits in deinem Benutzerordner stehst) oder mit dem vollständigen Pfad aus Kapitel 5 in deinen Downloads-Ordner und tippe erneut `dir`.
+2. **Ubuntu:** Öffne das "Terminal" (z. B. über die Tastenkombination `Strg+Alt+T`). Tippe `pwd`, um dein aktuelles Verzeichnis zu sehen. Tippe `ls`, um den Inhalt aufzulisten. Wechsle dann mit `cd ~/Downloads` in deinen Downloads-Ordner und tippe erneut `ls`.
+3. Lege in beiden Terminals mit `mkdir testordner` einen neuen Ordner an und kontrolliere im jeweiligen Dateimanager, ob er dort erscheint.
+
+## Verständnisfragen
+
+<details>
+<summary>Was ist der Unterschied zwischen GUI und CLI?</summary>
+Bei einer GUI bedienst du den Computer über grafische Elemente (Fenster, Symbole, Maus). Bei einer CLI gibst du Textbefehle in ein Terminal ein, die direkt ausgeführt werden.
+</details>
+
+<details>
+<summary>Mit welchem Befehl listest du unter Ubuntu den Inhalt des aktuellen Verzeichnisses auf, mit welchem unter Windows?</summary>
+Unter Ubuntu: ls. Unter Windows: dir.
+</details>
+
+<details>
+<summary>Was macht der Befehl cd ~/Downloads unter Ubuntu?</summary>
+Er wechselt in den Downloads-Ordner im Home-Verzeichnis des aktuell angemeldeten Benutzers, unabhängig vom konkreten Benutzernamen, da ~ als Abkürzung für das eigene Home-Verzeichnis steht.
+</details>
+
+## Zusammenfassung
+
+- Die **CLI** (Kommandozeile) ist eine textbasierte Alternative zur grafischen Bedienung (GUI) und läuft in einem **Terminal**.
+- Windows nutzt die **Eingabeaufforderung** (cmd) oder PowerShell, Ubuntu nutzt meist **Bash**.
+- Wichtige Grundbefehle unterscheiden sich: `dir` (Windows) vs. `ls` (Ubuntu) zum Auflisten, `cd` (beide) zum Wechseln des Verzeichnisses.
+- Der Pfad-Begriff aus Kapitel 5 ist die Grundlage, um sich auf der Kommandozeile zu bewegen.
+
+## Ausblick
+
+Mit der Kommandozeile kannst du nicht nur durch Ordner navigieren, sondern auch Programme starten – zum Beispiel ein selbst geschriebenes Programm. Im nächsten Kapitel schauen wir uns **Programmiersprachen** an und schreiben ein kleines Python-Programm, das du direkt über die Kommandozeile ausführst.

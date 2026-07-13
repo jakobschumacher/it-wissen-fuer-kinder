@@ -1,0 +1,68 @@
+---
+title: "10. Typische Menüpunkte einer App"
+---
+
+## Warum das wichtig ist
+
+Egal welche App oder welches Programm du öffnest – viele Menüs tauchen immer wieder in ähnlicher Form auf. Wenn du diese Muster einmal verstanden hast, findest du dich in jeder neuen App schneller zurecht. Zusätzlich schauen wir uns in diesem Kapitel an, wo du die wichtigsten **Systemeinstellungen** findest – nachgeholt aus Kapitel 4, wo wir bewusst nur die Grundidee eines Betriebssystems behandelt, aber noch keine konkreten Menüs gezeigt haben.
+
+## Typische Menüpunkte innerhalb einer App
+
+Fast jede App, die mit einem Benutzerkonto arbeitet oder mit dem Internet verbunden ist, bietet ähnliche Bereiche an:
+
+- **Konto/Profil:** Hier siehst und änderst du Angaben zu deinem Benutzerkonto – Name, E-Mail-Adresse, Profilbild, manchmal auch Abo-Einstellungen.
+- **Benachrichtigungen:** Hier stellst du ein, worüber dich die App informieren darf (z. B. per Pop-up, Ton oder Symbol) und worüber nicht.
+- **Design/Theme:** Hier kannst du oft zwischen einem hellen und einem dunklen Erscheinungsbild ("Light Mode"/"Dark Mode") wählen.
+- **Hilfe/Info:** Hier findest du Bedienungshinweise, den Kontakt zum Support und oft die genaue Versionsnummer der App.
+
+Diese Bereiche liegen meist hinter einem Zahnrad-Symbol (⚙), drei Punkten (⋮) oder einem Menü mit dem Profilbild.
+
+## Systemeinstellungen im Vergleich: Windows, Ubuntu, Android
+
+Neben den Einstellungen einzelner Apps hat jedes Betriebssystem eigene, zentrale **Systemeinstellungen**, die für das ganze Gerät gelten. Hier die drei wichtigsten Beispiele im Vergleich:
+
+| Einstellung | Windows | Ubuntu | Android |
+|---|---|---|---|
+| **WLAN an/aus** | Einstellungen → Netzwerk & Internet → WLAN, oder Schnelleinstellungen (Symbol unten rechts in der Taskleiste) | Schnelleinstellungen (oben rechts im Bildschirm) oder Einstellungen → Wi-Fi | Schnelleinstellungen (von oben herunterwischen) oder Einstellungen → Netzwerk & Internet |
+| **Bildschirmhelligkeit** | Einstellungen → System → Bildschirm, oder Schnelleinstellungen | Schnelleinstellungen (oben rechts, Regler direkt sichtbar) | Schnelleinstellungen (Regler direkt sichtbar) |
+| **Benachrichtigungen** | Einstellungen → System → Benachrichtigungen | Einstellungen → Benachrichtigungen | Einstellungen → Apps → (App auswählen) → Benachrichtigungen, oder Einstellungen → Benachrichtigungen |
+
+::: {.callout-note}
+## Gleiche Idee, andere Wege
+
+Auffällig ist: Alle drei Systeme bieten dieselben grundlegenden Funktionen (WLAN, Helligkeit, Benachrichtigungen steuern), aber jedes über eigene Menüpfade und eigene Bezeichnungen. Das liegt daran, dass jedes Betriebssystem seine Oberfläche unabhängig entwickelt hat – auch wenn sie, wie in Kapitel 4 erklärt, im Kern ähnliche Aufgaben lösen.
+:::
+
+## Praktische Übung
+
+1. Öffne auf einem Windows-Rechner die Schnelleinstellungen (unten rechts in der Taskleiste) und schalte probeweise das WLAN aus und wieder an.
+2. Mache dasselbe auf einem Ubuntu-Rechner über die Schnelleinstellungen oben rechts.
+3. Falls du ein Smartphone zur Hand hast: Wische von oben über den Bildschirm, um die Schnelleinstellungen zu öffnen, und passe die Bildschirmhelligkeit mit dem Regler an.
+4. Öffne in einer beliebigen App (z. B. einem Messenger oder Browser) die Einstellungen und suche den Bereich "Benachrichtigungen". Schalte eine Benachrichtigungsart testweise aus.
+
+## Verständnisfragen
+
+<details>
+<summary>Nenne drei Menüpunkte, die in vielen Apps ähnlich vorkommen.</summary>
+Zum Beispiel: Konto/Profil, Benachrichtigungen, Design/Theme, Hilfe/Info.
+</details>
+
+<details>
+<summary>Warum unterscheiden sich die Menüpfade für dieselbe Funktion (z. B. WLAN an/aus) zwischen Windows, Ubuntu und Android?</summary>
+Weil jedes Betriebssystem seine eigene Benutzeroberfläche unabhängig entwickelt hat. Die grundlegende Funktion ist gleich, aber Bezeichnung, Anordnung und Bedienweg unterscheiden sich.
+</details>
+
+<details>
+<summary>Wo findest du unter Android die Benachrichtigungseinstellungen für eine einzelne App?</summary>
+Über Einstellungen → Apps → die jeweilige App auswählen → Benachrichtigungen (oder über Einstellungen → Benachrichtigungen, je nach Android-Version).
+</details>
+
+## Zusammenfassung
+
+- Viele Apps teilen typische Menübereiche: **Konto/Profil**, **Benachrichtigungen**, **Design/Theme**, **Hilfe/Info**.
+- Zusätzlich zu App-internen Einstellungen gibt es geräteweite **Systemeinstellungen** (WLAN, Helligkeit, Benachrichtigungen).
+- Windows, Ubuntu und Android bieten dieselben grundlegenden Systemfunktionen, aber über unterschiedliche Menüs und Bezeichnungen.
+
+## Ausblick
+
+Damit eine App überhaupt Einstellungen haben kann, muss sie erst einmal auf dem Gerät installiert sein. Im nächsten Kapitel schauen wir uns an, wie die Installation auf Windows, Ubuntu und Android jeweils funktioniert – über `.exe`-Dateien, die Paketverwaltung oder App-Stores.

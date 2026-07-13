@@ -1,0 +1,82 @@
+---
+title: "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien"
+---
+
+## Warum das wichtig ist
+
+Im letzten Kapitel hast du gelernt, dass ein Computer alles in Bits und Bytes speichert und verarbeitet. Aber wo passiert das eigentlich? Ein Computer besteht aus mehreren Bauteilen, die zusammenarbeiten, um Daten zu verarbeiten und zu speichern. In diesem Kapitel lernst du die vier wichtigsten kennen: CPU, GPU, RAM und Speichermedien (HDD/SSD).
+
+## CPU: Der Prozessor
+
+Die **CPU** (Central Processing Unit, "zentrale Verarbeitungseinheit") ist das Bauteil, das die eigentlichen Berechnungen und Befehle eines Programms ausführt. Man nennt sie manchmal das "Gehirn" des Computers – diese Analogie ist vereinfacht, trifft aber die Rolle ganz gut: Jede Aktion, die dein Computer ausführt (eine Taste drücken, ein Fenster öffnen, eine Formel berechnen), läuft über Befehle, die letztlich von der CPU abgearbeitet werden.
+
+Eine moderne CPU hat mehrere **Kerne** (Cores), die unabhängig voneinander Aufgaben bearbeiten können – ähnlich wie mehrere Personen, die gleichzeitig an unterschiedlichen Aufgaben arbeiten. Die **Taktfrequenz** (angegeben in GHz, Gigahertz) gibt an, wie viele Rechenschritte ein Kern pro Sekunde grundsätzlich ausführen kann – ein Kern mit 3 GHz führt bis zu 3 Milliarden Taktzyklen pro Sekunde aus. Wie schnell ein Computer sich tatsächlich "anfühlt", hängt aber von vielen weiteren Faktoren ab, nicht nur von der Taktfrequenz allein.
+
+## GPU: Die Grafikkarte
+
+Die **GPU** (Graphics Processing Unit) ist auf eine andere Art von Arbeit spezialisiert als die CPU. Während eine CPU wenige, aber sehr leistungsfähige Kerne hat, die gut darin sind, komplexe Einzelaufgaben nacheinander (und mit vielen Verzweigungen/Entscheidungen) abzuarbeiten, besitzt eine GPU sehr viele, einfachere Kerne, die dieselbe Art von Rechenoperation **gleichzeitig auf riesige Datenmengen** anwenden können.
+
+Das passt gut zur ursprünglichen Aufgabe: Um ein Bild auf dem Bildschirm darzustellen, muss für jedes einzelne Pixel (mehr dazu in Kapitel 8) eine ähnliche Berechnung durchgeführt werden – und das für Millionen Pixel gleichzeitig, oft mehrfach pro Sekunde bei Spielen oder Videos. Diese Fähigkeit zur massiven Parallelverarbeitung wird heute auch für andere Zwecke genutzt, etwa beim Training von KI-Modellen.
+
+## RAM: Der Arbeitsspeicher
+
+Der **RAM** (Random Access Memory, Arbeitsspeicher) ist ein sehr schneller, aber **flüchtiger** Speicher. Flüchtig bedeutet: Sobald der Computer keinen Strom mehr bekommt, gehen alle Daten im RAM verloren. Der RAM dient als kurzfristiger Arbeitsbereich – wenn du ein Programm öffnest, werden die dafür nötigen Daten aus dem dauerhaften Speicher in den RAM geladen, weil die CPU von dort viel schneller lesen und schreiben kann.
+
+## Speichermedien: HDD und SSD
+
+Im Gegensatz zum RAM sind **HDD** (Hard Disk Drive, Festplatte) und **SSD** (Solid State Drive) **nicht-flüchtige** Speicher: Die Daten bleiben auch ohne Stromversorgung erhalten. Hier werden deine Dateien, installierten Programme und dein Betriebssystem dauerhaft gespeichert.
+
+- Eine **HDD** speichert Daten magnetisch auf sich drehenden Metallscheiben, die von einem beweglichen Schreib-/Lesekopf abgetastet werden – ähnlich einem kleinen Plattenspieler. Diese mechanischen Teile machen HDDs langsamer und empfindlicher gegenüber Stößen, aber meist günstiger pro Gigabyte.
+- Eine **SSD** hat keine beweglichen Teile und speichert Daten elektronisch in Flash-Speicherchips (derselben Technologie, die auch in USB-Sticks steckt). SSDs sind deutlich schneller als HDDs und robuster, aber pro Gigabyte meist teurer.
+
+::: {.callout-note}
+## Merkhilfe
+
+RAM = kurzfristig, schnell, verliert Inhalt beim Ausschalten. HDD/SSD = langfristig, langsamer als RAM, behält Inhalt dauerhaft. Ohne RAM würde dein Computer bei jedem Tastendruck auf die viel langsamere Festplatte/SSD zugreifen müssen – deshalb ist RAM für die Arbeitsgeschwindigkeit so wichtig.
+:::
+
+## Praktische Übung
+
+Finde heraus, welche Hardware in deinem Rechner verbaut ist – einmal unter Windows, einmal unter Ubuntu.
+
+**Windows:**
+
+1. Klicke auf Start und öffne "Einstellungen" → "System" → "Info" (oder suche direkt nach "Info zu diesem PC").
+2. Notiere: Prozessor (CPU), installierter Arbeitsspeicher (RAM).
+3. Öffne zusätzlich den "Task-Manager" (Rechtsklick auf die Taskleiste) und schaue auf den Tab "Leistung" – dort siehst du auch deine Grafikkarte (GPU) und deinen Datenträger (SSD/HDD).
+
+**Ubuntu:**
+
+1. Öffne die "Einstellungen" (Settings) über das Systemmenü und klicke auf "Über" (About) bzw. "System".
+2. Notiere: Prozessor und Arbeitsspeicher (Speicher).
+3. Öffne alternativ ein Terminal (siehe Kapitel 12) und tippe `lscpu` (Infos zur CPU) sowie `free -h` (Infos zum RAM, "h" steht für "human readable").
+
+Vergleiche: Stimmen die Angaben zu CPU und RAM zwischen den beiden Anzeigen überein, falls es sich um denselben Rechner (z. B. in einer virtuellen Maschine) handelt?
+
+## Verständnisfragen
+
+<details>
+<summary>Was ist der wichtigste Unterschied zwischen RAM und einer SSD/HDD?</summary>
+RAM ist flüchtig – die Daten gehen beim Ausschalten verloren. SSD/HDD sind nicht-flüchtig – die Daten bleiben dauerhaft gespeichert, auch ohne Strom.
+</details>
+
+<details>
+<summary>Warum ist eine GPU besonders gut darin, Bilder darzustellen?</summary>
+Weil eine GPU sehr viele einfache Rechenkerne hat, die dieselbe Berechnung gleichzeitig auf viele Pixel anwenden können – Bilddarstellung erfordert genau solche massiv parallelen, gleichartigen Berechnungen.
+</details>
+
+<details>
+<summary>Was bedeutet die Taktfrequenz einer CPU, z. B. 3 GHz?</summary>
+Sie gibt an, wie viele Taktzyklen (Rechenschritte) ein Kern der CPU pro Sekunde maximal ausführen kann – bei 3 GHz sind das bis zu 3 Milliarden pro Sekunde.
+</details>
+
+## Zusammenfassung
+
+- Die **CPU** führt die allgemeinen Berechnungen und Befehle eines Programms aus, meist über mehrere Kerne.
+- Die **GPU** ist auf massiv parallele, gleichartige Berechnungen spezialisiert – ursprünglich für Grafik, heute auch für KI-Anwendungen.
+- **RAM** ist schneller, aber flüchtiger Arbeitsspeicher – er verliert seinen Inhalt beim Ausschalten.
+- **HDD** (magnetisch, mechanisch) und **SSD** (elektronisch, ohne bewegliche Teile) sind nicht-flüchtige Speichermedien für dauerhafte Daten.
+
+## Ausblick
+
+Jetzt kennst du die "inneren Werte" eines Computers. Aber wie kommst du eigentlich mit ihm in Kontakt? Im nächsten Kapitel geht es um **Peripheriegeräte** – Tastatur, Maus, Bildschirm, Drucker, Mikrofon und Lautsprecher – also die Geräte, über die du Daten in den Computer eingibst und Ergebnisse wieder herausbekommst.

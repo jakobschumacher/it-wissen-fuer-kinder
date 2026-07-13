@@ -1,0 +1,70 @@
+---
+title: "IT-Wissen für Kinder"
+---
+
+## Worum geht es hier?
+
+Diese Website erklärt dir die Grundlagen der IT (Informationstechnik) – also alles rund um Computer, Smartphones, das Internet und die Programme, die du jeden Tag benutzt. Du brauchst kein Vorwissen, um hier einzusteigen.
+
+Die Kapitel bauen aufeinander auf: Am Anfang geht es um die Bausteine, aus denen ein Computer "denkt" (Bits und Bytes), dann um Hardware, Betriebssysteme, Dateien und Programme, und am Ende um Internet, Sicherheit und Datenschutz. Es lohnt sich also, ungefähr der Reihenfolge zu folgen.
+
+::: {.callout-note}
+## Windows und Ubuntu
+
+Du hast wahrscheinlich Zugriff auf Computer mit zwei unterschiedlichen Betriebssystemen: **Windows** und **Ubuntu** (eine Version von Linux). Überall dort, wo sich beide unterscheiden, zeigt dir diese Website **beides parallel** – damit du auf jedem Rechner zurechtkommst, den du in die Finger bekommst.
+:::
+
+Jedes Kapitel enthält:
+
+- eine kurze Erklärung der wichtigsten Begriffe,
+- mindestens ein konkretes Beispiel,
+- eine **praktische Übung**, die du direkt an deinem Computer ausprobieren kannst,
+- ein paar Verständnisfragen zum Selbsttest.
+
+## Alle Kapitel im Überblick
+
+### Grundlagen
+
+1. [Bits und Bytes: Wie ein Computer denkt](01-bits-und-bytes.qmd)
+2. [Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien](02-hardware-grundlagen.qmd)
+3. [Peripheriegeräte: Tastatur, Maus und Co.](03-peripheriegeraete.qmd)
+4. [Betriebssysteme auf PC und Smartphone](04-betriebssysteme.qmd)
+
+### Dateien und Ordner
+
+5. [Das Ordnersystem: Verzeichnisse und Pfade](05-ordnersystem.qmd)
+6. [Dateiarten und Dateiendungen](06-dateiarten-und-endungen.qmd)
+7. [Speichern, Umbenennen, Verschieben, Kopieren](07-dateien-verwalten.qmd)
+8. [Bilddateien: Pixel, Auflösung und Kompression](08-bilddateien.qmd)
+
+### Software und Kommandozeile
+
+9. [Apps und Software: Was ist ein Programm?](09-apps-und-software.qmd)
+10. [Typische Menüpunkte einer App](10-app-menues-und-einstellungen.qmd)
+11. [Apps installieren: exe, apt, APK und Stores](11-installation-von-apps.qmd)
+12. [Die Kommandozeile (CLI)](12-kommandozeile.qmd)
+13. [Programmiersprachen](13-programmiersprachen.qmd)
+
+### Internet und Netzwerke
+
+14. [Internet und Netzwerke: Die Grundlagen](14-internet-und-netzwerke.qmd)
+15. [Mobilfunk, WLAN, NFC und Bluetooth](15-mobilfunk-wlan-nfc-bluetooth.qmd)
+16. [Server, lokal und Cloud](16-server-und-cloud.qmd)
+17. [E-Mail](17-email.qmd)
+
+### Sicherheit und Datenschutz
+
+18. [Passwörter und Accounts](18-passwoerter-und-accounts.qmd)
+19. [IT-Sicherheit](19-it-sicherheit.qmd)
+20. [Datenschutz](20-datenschutz.qmd)
+21. [Updates und Backups](21-updates-und-backups.qmd)
+
+### Sonstiges
+
+22. [Wie Software finanziert wird](22-finanzierung-von-software.qmd)
+
+::: {.callout-tip}
+## Tipp
+
+Nutze die Navigation am linken Rand, um direkt zu einem Kapitel zu springen, oder klicke dich einfach von Kapitel 1 aus durch.
+:::

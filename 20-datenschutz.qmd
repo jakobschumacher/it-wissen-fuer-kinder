@@ -1,0 +1,85 @@
+---
+title: "20. Datenschutz"
+---
+
+## Warum das wichtig ist
+
+Kapitel 19 handelte von **IT-Sicherheit** – dem Schutz vor Angreifern, die dir unerlaubt schaden wollen. **Datenschutz** ist etwas anderes: Es geht um die Frage, welche Daten ganz offiziell arbeitende Unternehmen über dich sammeln dürfen, wie sie diese nutzen dürfen – und welche Rechte du dabei hast. In Kapitel 16 hast du bereits gesehen, dass Daten in der Cloud nicht mehr vollständig unter deiner eigenen Kontrolle liegen; hier vertiefen wir, was das konkret bedeutet.
+
+## Welche Daten sammeln Unternehmen?
+
+Wenn du eine App oder Website nutzt, fallen oft mehr Daten an, als auf den ersten Blick sichtbar ist, zum Beispiel:
+
+- Angaben, die du selbst eingibst (Name, E-Mail-Adresse, Geburtsdatum).
+- **Nutzungsverhalten:** welche Inhalte du dir ansiehst, wie lange, worauf du klickst.
+- Geräteinformationen (welches Gerät, welches Betriebssystem, siehe Kapitel 4).
+- Standortdaten, sofern die App darauf zugreifen darf.
+
+Unternehmen nutzen diese Daten unter anderem, um Werbung gezielter auszuspielen, Produkte zu verbessern oder ihre Inhalte zu personalisieren – all das ist, innerhalb bestimmter gesetzlicher Grenzen, legal, unterscheidet sich aber grundlegend von einem Hackerangriff.
+
+## Cookies
+
+**Cookies** sind kleine Textdateien, die eine Website in deinem Browser speichert, um sich beim nächsten Besuch etwas zu "merken". Es gibt grob zwei Kategorien:
+
+- **Technisch notwendige Cookies:** Sorgen z. B. dafür, dass du eingeloggt bleibst oder dass Artikel in deinem Warenkorb erhalten bleiben, wenn du die Seite wechselst.
+- **Tracking-/Marketing-Cookies:** Verfolgen dein Verhalten teils über mehrere Websites hinweg, um Werbeprofile zu erstellen und dir passende Werbung zu zeigen.
+
+Das ist der Grund, warum du auf vielen Websites beim ersten Besuch ein **Cookie-Banner** siehst, in dem du auswählen kannst, welche Cookie-Kategorien du erlaubst.
+
+## Die DSGVO – stark vereinfacht
+
+Die **DSGVO** (Datenschutz-Grundverordnung) ist ein EU-weites Gesetz, das regelt, wie Unternehmen mit personenbezogenen Daten umgehen dürfen. Ganz grob gibt sie dir unter anderem folgende Rechte:
+
+- **Recht auf Information:** Unternehmen müssen erklären, welche Daten sie sammeln und wofür.
+- **Einwilligung:** Für viele Arten der Datensammlung (z. B. Marketing-Cookies) muss ein Unternehmen vorher aktiv deine Zustimmung einholen – daher die Cookie-Banner.
+- **Auskunftsrecht:** Du darfst ein Unternehmen fragen, welche Daten es über dich gespeichert hat.
+- **Recht auf Löschung:** Unter bestimmten Voraussetzungen darfst du verlangen, dass deine Daten gelöscht werden.
+
+::: {.callout-note}
+## Vereinfachung, die du kennen solltest
+
+Die tatsächliche DSGVO ist ein umfangreiches, juristisch komplexes Gesetz mit vielen Ausnahmen und Detailregeln. Die oben genannten Punkte sind die Grundidee, keine vollständige juristische Zusammenfassung.
+:::
+
+## Privatsphäre-Einstellungen selbst steuern
+
+Sowohl Browser als auch Betriebssysteme bieten Einstellungen, mit denen du beeinflussen kannst, welche Daten preisgegeben werden:
+
+- Im **Browser** kannst du Cookie-Einstellungen anpassen (z. B. Drittanbieter-Cookies blockieren) oder einen privaten/Inkognito-Modus nutzen.
+- In den **App-Berechtigungen** von Windows, Ubuntu und Android kannst du einzelnen Apps den Zugriff auf Standort, Kamera oder Mikrofon erlauben oder verweigern (vergleiche die Systemeinstellungen aus Kapitel 10).
+
+## Praktische Übung
+
+1. Rufe eine beliebige Website auf, die ein Cookie-Banner anzeigt, und öffne dort statt "Alle akzeptieren" die detaillierten Einstellungen. Notiere, welche Cookie-Kategorien dir angeboten werden (z. B. notwendig, funktional, Marketing/Werbung).
+2. **Windows:** Öffne "Einstellungen" → "Datenschutz & Sicherheit" und schau dir an, welche Apps Zugriff auf Standort, Kamera oder Mikrofon haben.
+3. **Ubuntu:** Öffne "Einstellungen" → "Privatsphäre" (bzw. "Datenschutz") und prüfe die Berechtigungen für Standortdienste und Kamera.
+4. Falls vorhanden: Prüfe auf einem Smartphone unter Einstellungen → Apps → Berechtigungen, welche App auf welche sensiblen Daten zugreifen darf, und deaktiviere testweise eine nicht benötigte Berechtigung.
+
+## Verständnisfragen
+
+<details>
+<summary>Was ist der grundlegende Unterschied zwischen IT-Sicherheit (Kapitel 19) und Datenschutz?</summary>
+IT-Sicherheit schützt vor unerlaubten Angriffen (z. B. Schadsoftware, Phishing). Datenschutz regelt, welche Daten legitime, offiziell arbeitende Unternehmen über dich sammeln und nutzen dürfen, und welche Rechte du dabei hast.
+</details>
+
+<details>
+<summary>Was ist der Unterschied zwischen technisch notwendigen Cookies und Marketing-Cookies?</summary>
+Technisch notwendige Cookies sorgen für grundlegende Funktionen der Website (z. B. eingeloggt bleiben). Marketing-Cookies verfolgen dein Verhalten, oft über mehrere Websites hinweg, um Werbeprofile zu erstellen.
+</details>
+
+<details>
+<summary>Nenne ein Recht, das dir die DSGVO gegenüber Unternehmen gibt.</summary>
+Zum Beispiel: das Recht auf Information darüber, welche Daten gesammelt werden, das Auskunftsrecht über gespeicherte Daten, oder das Recht auf Löschung dieser Daten.
+</details>
+
+## Zusammenfassung
+
+- **Datenschutz** regelt den legitimen Umgang mit deinen Daten durch Unternehmen – im Unterschied zur **IT-Sicherheit**, die vor Angriffen schützt.
+- Unternehmen sammeln u. a. Nutzungsverhalten, Geräteinformationen und selbst eingegebene Daten.
+- **Cookies** merken sich Informationen zwischen Website-Besuchen – notwendige und Marketing-Cookies unterscheiden sich in ihrem Zweck.
+- Die **DSGVO** gibt dir Rechte wie Information, Einwilligung, Auskunft und Löschung.
+- Browser- und App-Berechtigungen erlauben dir, deine Privatsphäre aktiv zu steuern.
+
+## Ausblick
+
+Damit deine Daten geschützt bleiben und du weiterhin sicher arbeiten kannst, muss auch die Software selbst auf dem neuesten Stand gehalten werden. Im nächsten Kapitel geht es um **Updates und Backups** – warum sie wichtig sind und was ohne sie passieren kann.

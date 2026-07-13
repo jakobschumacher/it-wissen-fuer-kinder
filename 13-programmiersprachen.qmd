@@ -1,0 +1,91 @@
+---
+title: "13. Programmiersprachen"
+---
+
+## Warum das wichtig ist
+
+In Kapitel 12 hast du gelernt, wie du der Kommandozeile Befehle gibst. Genau diesen Weg nutzen wir jetzt, um ein eigenes kleines Programm auszuführen. Aber zuerst: Was ist eine Programmiersprache überhaupt, und wie wird aus Text ein laufendes Programm?
+
+## Was ist eine Programmiersprache?
+
+Eine **Programmiersprache** ist eine Sprache mit festen Regeln (Syntax), in der du Anweisungen für einen Computer formulierst. Ein Computer versteht letztlich nur Bitfolgen (Kapitel 1) – Programmiersprachen sind der Umweg, über den Menschen dem Computer trotzdem verständlich mitteilen können, was er tun soll, ohne selbst in Nullen und Einsen zu schreiben.
+
+Damit ein Computer den von dir geschriebenen Text (**Quellcode** oder **Source Code**) ausführen kann, muss dieser zunächst in eine Form übersetzt werden, die die CPU versteht. Dafür gibt es zwei grundsätzliche Wege:
+
+- **Compiler:** Übersetzt den gesamten Quellcode vorab einmal komplett in eine ausführbare Datei (z. B. eine `.exe`-Datei unter Windows), die danach direkt ausgeführt werden kann.
+- **Interpreter:** Liest den Quellcode Zeile für Zeile und führt ihn direkt aus, ohne vorher eine separate ausführbare Datei zu erzeugen. Das Programm muss dafür bei jeder Ausführung erneut vom Interpreter gelesen werden.
+
+## Zwei Beispiele: Python und JavaScript
+
+- **Python** ist eine Programmiersprache, die für ihre einfache, gut lesbare Syntax bekannt ist. Sie wird über einen **Interpreter** ausgeführt und ist vielseitig einsetzbar: für kleine Skripte, Datenanalyse, Automatisierung und künstliche Intelligenz. In diesem Kapitel schreibst du dein erstes eigenes Python-Programm.
+- **JavaScript** ist die Programmiersprache, die in praktisch jedem Webbrowser eingebaut ist und dafür sorgt, dass Websites interaktiv werden – z. B. wenn sich ein Menü beim Klicken öffnet oder ein Formular sofort prüft, ob du eine gültige E-Mail-Adresse eingegeben hast.
+
+Es gibt sehr viele weitere Programmiersprachen (z. B. C++, Java, Swift) für unterschiedliche Einsatzzwecke – Python und JavaScript sind hier zwei besonders verbreitete und für den Einstieg gut geeignete Beispiele.
+
+## Dein erstes Python-Programm
+
+Python ist auf Ubuntu meist schon vorinstalliert. Unter Windows musst du Python zunächst installieren, z. B. über den Microsoft Store (siehe Kapitel 11) oder von [python.org](https://www.python.org).
+
+Der klassische erste Programmierschritt ist die Ausgabe eines Textes:
+
+```python
+print("Hallo Welt")
+```
+
+Der Befehl `print(...)` gibt den Text in den Anführungszeichen auf dem Bildschirm aus. Python kann natürlich auch rechnen:
+
+```python
+print(3 + 4 * 2)
+```
+
+Dieses Programm gibt `11` aus – Python beachtet dabei wie im Mathematikunterricht "Punkt vor Strich": zuerst 4 × 2 = 8, dann 3 + 8 = 11.
+
+## Praktische Übung
+
+1. Öffne einen Texteditor (z. B. Editor/Notepad unter Windows, gedit oder den Standard-Texteditor unter Ubuntu) und schreibe folgende zwei Zeilen hinein:
+
+   ```python
+   print("Hallo Welt")
+   print(3 + 4 * 2)
+   ```
+
+2. Speichere die Datei als `rechner.py` in deinem Downloads-Ordner (denk an die Dateiendung `.py`, siehe Kapitel 6, und den Pfad, siehe Kapitel 5).
+3. Öffne ein Terminal und wechsle mit `cd` in deinen Downloads-Ordner (siehe Kapitel 12).
+4. Führe die Datei aus:
+   - **Windows:** `python rechner.py`
+   - **Ubuntu:** `python3 rechner.py`
+5. Du solltest jetzt "Hallo Welt" und die Zahl 11 im Terminal sehen. Verändere die Rechnung in der Datei, speichere erneut und führe das Programm noch einmal aus.
+
+::: {.callout-note}
+## Warum `python` und `python3`?
+
+Unter Ubuntu ist der Befehl `python3` üblich, weil Python in Version 2 und Version 3 existiert(e) und beide über getrennte Befehle ansprechbar sein sollten – Version 2 wird nicht mehr weiterentwickelt, weshalb heute praktisch ausschließlich Python 3 verwendet wird. Unter Windows installiert der offizielle Installer den Befehl meist schlicht als `python`.
+:::
+
+## Verständnisfragen
+
+<details>
+<summary>Was ist der Unterschied zwischen einem Compiler und einem Interpreter?</summary>
+Ein Compiler übersetzt den gesamten Quellcode vorab in eine eigenständige ausführbare Datei. Ein Interpreter liest und führt den Quellcode direkt, Zeile für Zeile, aus – ohne vorher eine separate ausführbare Datei zu erzeugen.
+</details>
+
+<details>
+<summary>Wofür wird JavaScript hauptsächlich eingesetzt?</summary>
+Für interaktive Elemente auf Websites, die im Browser laufen, z. B. Menüs, Formularprüfungen oder dynamische Inhalte.
+</details>
+
+<details>
+<summary>Was gibt folgendes Python-Programm aus: print(10 - 2 * 3)?</summary>
+4, denn zuerst wird 2 × 3 = 6 gerechnet, dann 10 − 6 = 4 ("Punkt vor Strich").
+</details>
+
+## Zusammenfassung
+
+- Eine **Programmiersprache** erlaubt es, Anweisungen für einen Computer in menschenlesbarer Form zu formulieren.
+- **Compiler** übersetzen Quellcode vorab vollständig, **Interpreter** führen ihn direkt Zeile für Zeile aus.
+- **Python** ist eine interpretierte, gut lesbare Sprache; **JavaScript** macht Websites interaktiv.
+- Ein Python-Programm lässt sich direkt über die in Kapitel 12 gelernte Kommandozeile ausführen.
+
+## Ausblick
+
+Damit dein Python-Programm über das Internet erreichbar wäre oder mit anderen Geräten kommunizieren könnte, braucht es ein Netzwerk. Im nächsten Kapitel geht es um die Grundlagen von **Internet und Netzwerken**: WLAN, LAN, Router und IP-Adressen.

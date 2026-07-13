@@ -1,0 +1,85 @@
+---
+title: "4. Betriebssysteme auf PC und Smartphone"
+---
+
+## Warum das wichtig ist
+
+In Kapitel 2 und 3 hast du Hardware kennengelernt: CPU, RAM, Speicher, Tastatur, Bildschirm und so weiter. Aber diese Bauteile müssen koordiniert werden – irgendetwas muss entscheiden, welches Programm gerade wie viel Rechenzeit von der CPU bekommt, wo im RAM welche Daten liegen, und was passiert, wenn du eine Taste drückst. Diese Koordination übernimmt das **Betriebssystem**.
+
+## Was ist ein Betriebssystem?
+
+Ein **Betriebssystem** (englisch: Operating System, kurz OS) ist die grundlegende Software, die zwischen der Hardware eines Geräts und den Programmen (Apps) vermittelt, die du benutzt. Ohne Betriebssystem könnte kein einziges Programm laufen, denn jedes Programm braucht Zugriff auf Hardware-Ressourcen wie CPU-Zeit, RAM oder den Bildschirm – und genau diesen Zugriff organisiert das Betriebssystem.
+
+Zu den Kernaufgaben eines Betriebssystems gehören:
+
+- **Prozessverwaltung:** Entscheiden, welches Programm wann wie viel CPU-Zeit bekommt, damit mehrere Programme gleichzeitig laufen können.
+- **Speicherverwaltung:** Jedem laufenden Programm einen eigenen Bereich im RAM zuweisen, damit sich Programme nicht gegenseitig stören.
+- **Dateiverwaltung:** Das Ordnersystem organisieren, in dem Dateien gespeichert werden (mehr dazu in Kapitel 5).
+- **Geräteverwaltung:** Über Treiber mit Peripheriegeräten kommunizieren (siehe Kapitel 3).
+- **Benutzeroberfläche:** Eine Möglichkeit bieten, mit dem Gerät zu interagieren – meist grafisch (Fenster, Symbole, Mauszeiger), teilweise auch über Text (siehe Kapitel 12, Kommandozeile).
+
+## Beispiele für Betriebssysteme
+
+**Auf klassischen Computern (PC/Laptop):**
+
+- **Windows** (von Microsoft) – das am weitesten verbreitete Desktop-Betriebssystem.
+- **macOS** (von Apple) – läuft ausschließlich auf Apple-Rechnern (Mac).
+- **Linux** – genau genommen der Kern (Kernel) eines Betriebssystems, um den herum verschiedene sogenannte **Distributionen** gebaut sind. **Ubuntu**, das du in diesem Kurs benutzt, ist eine dieser Linux-Distributionen.
+
+**Auf Smartphones und Tablets:**
+
+- **Android** (von Google) – basiert im Kern ebenfalls auf Linux, ist aber speziell für Touch-Geräte weiterentwickelt und hat eine eigene Oberfläche und eigene Apps.
+- **iOS** (von Apple) – läuft ausschließlich auf iPhones.
+
+::: {.callout-note}
+## Windows und Ubuntu im Vergleich
+
+Windows und Ubuntu erfüllen dieselben grundlegenden Aufgaben (Prozesse, Speicher, Dateien, Geräte, Oberfläche verwalten), unterscheiden sich aber in vielen Details: dem Aufbau des Dateisystems (Kapitel 5), der Art, wie Programme installiert werden (Kapitel 11), und den Befehlen auf der Kommandozeile (Kapitel 12). Ubuntu ist zudem **Open-Source-Software**: Der Quellcode ist frei einsehbar und veränderbar, während Windows **proprietäre** (closed-source) Software von Microsoft ist.
+:::
+
+Wichtig: Die konkreten Menüs und Einstellungen der einzelnen Betriebssysteme schauen wir uns hier noch nicht an – das kommt gebündelt in Kapitel 10, wenn du gleichzeitig auch Android-Einstellungen zum Vergleich siehst.
+
+## Praktische Übung
+
+Finde heraus, welches Betriebssystem (inklusive Version) auf deinen Geräten läuft.
+
+**Windows:**
+
+1. Öffne "Einstellungen" → "System" → "Info".
+2. Notiere die "Windows-Edition" (z. B. Windows 11 Home) und die "Version".
+
+**Ubuntu:**
+
+1. Öffne die "Einstellungen" → "Über" (About) und notiere "OS-Name" und "OS-Version".
+2. Alternativ: Öffne ein Terminal und tippe `cat /etc/os-release` – das zeigt dir Name und Version deiner Ubuntu-Installation als Text an.
+
+**Zusatz, falls vorhanden:** Schau bei einem Smartphone in den Einstellungen unter "Über das Telefon" nach, ob Android oder iOS installiert ist und welche Version.
+
+## Verständnisfragen
+
+<details>
+<summary>Welche drei Aufgaben übernimmt ein Betriebssystem?</summary>
+Zum Beispiel: Prozessverwaltung (CPU-Zeit verteilen), Speicherverwaltung (RAM zuteilen), Dateiverwaltung (Ordnersystem organisieren), Geräteverwaltung (Treiber für Peripheriegeräte) und Bereitstellung einer Benutzeroberfläche.
+</details>
+
+<details>
+<summary>Was ist der Zusammenhang zwischen Linux, Ubuntu und Android?</summary>
+Linux ist ein Betriebssystemkern, um den herum verschiedene Distributionen gebaut werden. Ubuntu ist eine dieser Linux-Distributionen für PCs. Android basiert ebenfalls auf dem Linux-Kernel, ist aber eine eigenständige Weiterentwicklung speziell für Touch-Geräte.
+</details>
+
+<details>
+<summary>Was bedeutet es, dass Ubuntu Open Source ist, im Gegensatz zu Windows?</summary>
+Bei Ubuntu ist der Quellcode öffentlich einsehbar und darf von jedem verändert und weiterverbreitet werden. Windows ist proprietär (closed-source) – der Quellcode gehört Microsoft und ist nicht öffentlich zugänglich.
+</details>
+
+## Zusammenfassung
+
+- Ein **Betriebssystem** vermittelt zwischen Hardware und Programmen und verwaltet Prozesse, Speicher, Dateien, Geräte und die Benutzeroberfläche.
+- Auf PCs sind **Windows**, **macOS** und **Linux**-Distributionen wie **Ubuntu** verbreitet.
+- Auf Smartphones dominieren **Android** und **iOS**.
+- Android basiert (wie Ubuntu) im Kern auf Linux, hat aber eine eigene Oberfläche für Touch-Geräte.
+- Die konkreten Menüs der Betriebssysteme folgen erst in Kapitel 10.
+
+## Ausblick
+
+Eine der zentralen Aufgaben eines Betriebssystems ist die Dateiverwaltung. Im nächsten Kapitel schauen wir uns genauer an, wie Dateien in einem **Ordnersystem** organisiert sind – und wie du den Speicherort einer Datei über einen **Pfad** eindeutig beschreibst.

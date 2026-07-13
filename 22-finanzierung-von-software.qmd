@@ -1,0 +1,73 @@
+---
+title: "22. Wie Software finanziert wird"
+---
+
+## Warum das wichtig ist
+
+Software zu entwickeln kostet Zeit und Geld – Entwicklerinnen und Entwickler wollen und müssen davon leben. Trotzdem nutzt du viele Apps, ohne dafür etwas zu bezahlen. Wie geht das zusammen? In diesem letzten Kapitel schauen wir uns die gängigsten Finanzierungsmodelle von Software an.
+
+## Einmalkauf
+
+Beim **Einmalkauf** zahlst du einmalig einen festen Preis und darfst die Software danach dauerhaft nutzen (meist mit gewissen Einschränkungen, z. B. nur auf einer bestimmten Anzahl von Geräten). Klassische Beispiele sind viele Computerspiele oder Programme, die du einmal kaufst und installierst.
+
+## Abo-Modell (Subscription)
+
+Bei einem **Abo-Modell** zahlst du regelmäßig (meist monatlich oder jährlich) einen Betrag, um die Software weiter nutzen zu können. Sobald du das Abo kündigst, verlierst du in der Regel den Zugriff. Beispiele: Streaming-Dienste, viele Cloud-Speicher-Anbieter (Kapitel 16), Office-Programme im Abo.
+
+## Freemium
+
+**Freemium** ist eine Kombination aus "free" (kostenlos) und "premium": Die Grundversion einer App ist kostenlos nutzbar, für zusätzliche Funktionen oder mehr Nutzungsumfang wird ein kostenpflichtiges Upgrade angeboten.
+
+## Werbefinanzierung
+
+Viele Apps und Websites sind für dich komplett kostenlos, finanzieren sich aber über **Werbung**, die dir während der Nutzung angezeigt wird. Der Anbieter verdient dabei nicht direkt an dir, sondern an werbetreibenden Unternehmen, die für die Anzeigenplätze bezahlen.
+
+## In-App-Käufe
+
+Besonders bei mobilen Spielen verbreitet sind **In-App-Käufe**: Die App selbst ist kostenlos, aber innerhalb der App kannst du für kleine (oder manchmal auch größere) Beträge virtuelle Gegenstände, zusätzliche Level oder das Entfernen von Werbung kaufen.
+
+## Open Source
+
+**Open-Source-Software** (siehe auch Kapitel 4 zu Ubuntu) ist Software, deren Quellcode öffentlich einsehbar ist und die häufig kostenlos genutzt werden darf. Die Finanzierung läuft hier anders als bei den bisherigen Modellen – oft über eine Mischung aus:
+
+- **Spenden** von Nutzerinnen und Nutzern,
+- **Sponsoring** durch Unternehmen, die an der Weiterentwicklung interessiert sind,
+- kostenpflichtigem **Support** oder Zusatzdienstleistungen rund um die kostenlose Software.
+
+::: {.callout-important}
+## Wenn ein Produkt kostenlos ist ...
+
+Wie du in Kapitel 20 (Datenschutz) gelernt hast, sammeln viele Anbieter Nutzungsdaten, um daraus zielgerichtete Werbung zu finanzieren. Bei werbefinanzierten und manchen Freemium-Angeboten gilt daher oft ein bekannter Grundsatz: **Wenn ein Produkt kostenlos ist, bezahlst du manchmal mit deinen Daten** statt mit Geld – deine Nutzungsdaten sind für den Anbieter wirtschaftlich wertvoll. Das ist nicht bei jedem kostenlosen Angebot gleichermaßen der Fall (Open-Source-Software zum Beispiel verfolgt meist andere Ziele), lohnt sich aber immer als Gedanke, wenn du dich fragst, warum ein Angebot "kostenlos" ist.
+:::
+
+## Praktische Übung
+
+1. Wähle drei Apps oder Programme aus, die du regelmäßig nutzt.
+2. Ordne jede davon einem der Modelle aus diesem Kapitel zu (Einmalkauf, Abo, Freemium, Werbefinanzierung, In-App-Käufe oder Open Source). Nutze dafür die Kontoeinstellungen (Kapitel 10) oder die Beschreibung im jeweiligen Store (Kapitel 11), falls du unsicher bist.
+3. Überlege bei jeder App: Woran erkennst du das Finanzierungsmodell (z. B. Werbeeinblendungen, ein Menüpunkt "Abo verwalten", ein Shop innerhalb der App)?
+
+## Verständnisfragen
+
+<details>
+<summary>Was ist der Unterschied zwischen einem Einmalkauf und einem Abo-Modell?</summary>
+Beim Einmalkauf zahlst du einmalig und nutzt die Software danach dauerhaft. Beim Abo-Modell zahlst du wiederkehrend, und der Zugriff endet in der Regel mit der Kündigung.
+</details>
+
+<details>
+<summary>Wie finanziert sich werbefinanzierte Software, wenn die Nutzung für dich kostenlos ist?</summary>
+Der Anbieter verdient nicht direkt an den Nutzerinnen und Nutzern, sondern an Unternehmen, die für angezeigte Werbung bezahlen.
+</details>
+
+<details>
+<summary>Nenne zwei Wege, wie sich Open-Source-Software finanzieren kann.</summary>
+Zum Beispiel: Spenden, Sponsoring durch Unternehmen, kostenpflichtiger Support oder Zusatzdienstleistungen.
+</details>
+
+## Zusammenfassung
+
+- Software wird u. a. finanziert über **Einmalkauf**, **Abo-Modelle**, **Freemium**, **Werbung**, **In-App-Käufe** oder bei **Open Source** über Spenden/Sponsoring/Support.
+- Kostenlose Angebote finanzieren sich häufig über deine Daten oder Werbung statt über direkte Bezahlung.
+
+## Rückblick auf den Kurs
+
+Damit endet dieser Kurs – von den kleinsten Bausteinen eines Computers (Bits und Bytes) über Hardware, Betriebssysteme, Dateien, Programme, Internet und Netzwerke bis hin zu Sicherheit, Datenschutz und der Finanzierung von Software. Du kennst jetzt sowohl unter Windows als auch unter Ubuntu die wichtigsten Grundlagen, um dich in der digitalen Welt sicher und informiert zu bewegen. Nutze die Übungen aus den einzelnen Kapiteln gerne weiter, um das Gelernte zu vertiefen – die beste Art, IT-Wissen zu behalten, ist es, es regelmäßig selbst anzuwenden.
