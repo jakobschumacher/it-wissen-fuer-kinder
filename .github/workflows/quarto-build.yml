@@ -1,12 +1,15 @@
-name: Quarto Build
+name: Quarto Build and Deploy
 
 on:
   push:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -15,5 +18,9 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render Quarto site
-        uses: quarto-dev/quarto-actions/render@v2
+      - name: Render and publish to GitHub Pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
