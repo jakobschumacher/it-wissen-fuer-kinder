@@ -4,12 +4,15 @@ project:
 website:
   title: "IT-Wissen für Kinder"
   description: "IT-Grundlagen für Jugendliche (12–14 Jahre) – verständlich erklärt für Windows und Ubuntu"
+  favicon: favicon.ico
   page-navigation: true
   back-to-top-navigation: true
   sidebar:
     style: "docked"
     search: true
     collapse-level: 1
+    logo: logo.svg
+    logo-alt: "Logo: IT-Wissen für Kinder"
     contents:
       - index.qmd
       - section: "Grundlagen"
