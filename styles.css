@@ -1,0 +1,22 @@
+/* Kleine Anpassungen für bessere Lesbarkeit */
+body {
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+details {
+  background-color: #f5f7fa;
+  border: 1px solid #dfe4ea;
+  border-radius: 6px;
+  padding: 0.6em 1em;
+  margin: 0.8em 0;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+details[open] summary {
+  margin-bottom: 0.5em;
+}

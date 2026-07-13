@@ -1,0 +1,2232 @@
+[
+  {
+    "objectID": "20-datenschutz.html",
+    "href": "20-datenschutz.html",
+    "title": "20. Datenschutz",
+    "section": "",
+    "text": "Kapitel 19 handelte von IT-Sicherheit – dem Schutz vor Angreifern, die dir unerlaubt schaden wollen. Datenschutz ist etwas anderes: Es geht um die Frage, welche Daten ganz offiziell arbeitende Unternehmen über dich sammeln dürfen, wie sie diese nutzen dürfen – und welche Rechte du dabei hast. In Kapitel 16 hast du bereits gesehen, dass Daten in der Cloud nicht mehr vollständig unter deiner eigenen Kontrolle liegen; hier vertiefen wir, was das konkret bedeutet.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "20. Datenschutz"
+    ]
+  },
+  {
+    "objectID": "20-datenschutz.html#warum-das-wichtig-ist",
+    "href": "20-datenschutz.html#warum-das-wichtig-ist",
+    "title": "20. Datenschutz",
+    "section": "",
+    "text": "Kapitel 19 handelte von IT-Sicherheit – dem Schutz vor Angreifern, die dir unerlaubt schaden wollen. Datenschutz ist etwas anderes: Es geht um die Frage, welche Daten ganz offiziell arbeitende Unternehmen über dich sammeln dürfen, wie sie diese nutzen dürfen – und welche Rechte du dabei hast. In Kapitel 16 hast du bereits gesehen, dass Daten in der Cloud nicht mehr vollständig unter deiner eigenen Kontrolle liegen; hier vertiefen wir, was das konkret bedeutet.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "20. Datenschutz"
+    ]
+  },
+  {
+    "objectID": "20-datenschutz.html#welche-daten-sammeln-unternehmen",
+    "href": "20-datenschutz.html#welche-daten-sammeln-unternehmen",
+    "title": "20. Datenschutz",
+    "section": "Welche Daten sammeln Unternehmen?",
+    "text": "Welche Daten sammeln Unternehmen?\nWenn du eine App oder Website nutzt, fallen oft mehr Daten an, als auf den ersten Blick sichtbar ist, zum Beispiel:\n\nAngaben, die du selbst eingibst (Name, E-Mail-Adresse, Geburtsdatum).\nNutzungsverhalten: welche Inhalte du dir ansiehst, wie lange, worauf du klickst.\nGeräteinformationen (welches Gerät, welches Betriebssystem, siehe Kapitel 4).\nStandortdaten, sofern die App darauf zugreifen darf.\n\nUnternehmen nutzen diese Daten unter anderem, um Werbung gezielter auszuspielen, Produkte zu verbessern oder ihre Inhalte zu personalisieren – all das ist, innerhalb bestimmter gesetzlicher Grenzen, legal, unterscheidet sich aber grundlegend von einem Hackerangriff.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "20. Datenschutz"
+    ]
+  },
+  {
+    "objectID": "20-datenschutz.html#cookies",
+    "href": "20-datenschutz.html#cookies",
+    "title": "20. Datenschutz",
+    "section": "Cookies",
+    "text": "Cookies\nCookies sind kleine Textdateien, die eine Website in deinem Browser speichert, um sich beim nächsten Besuch etwas zu “merken”. Es gibt grob zwei Kategorien:\n\nTechnisch notwendige Cookies: Sorgen z. B. dafür, dass du eingeloggt bleibst oder dass Artikel in deinem Warenkorb erhalten bleiben, wenn du die Seite wechselst.\nTracking-/Marketing-Cookies: Verfolgen dein Verhalten teils über mehrere Websites hinweg, um Werbeprofile zu erstellen und dir passende Werbung zu zeigen.\n\nDas ist der Grund, warum du auf vielen Websites beim ersten Besuch ein Cookie-Banner siehst, in dem du auswählen kannst, welche Cookie-Kategorien du erlaubst.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "20. Datenschutz"
+    ]
+  },
+  {
+    "objectID": "20-datenschutz.html#die-dsgvo-stark-vereinfacht",
+    "href": "20-datenschutz.html#die-dsgvo-stark-vereinfacht",
+    "title": "20. Datenschutz",
+    "section": "Die DSGVO – stark vereinfacht",
+    "text": "Die DSGVO – stark vereinfacht\nDie DSGVO (Datenschutz-Grundverordnung) ist ein EU-weites Gesetz, das regelt, wie Unternehmen mit personenbezogenen Daten umgehen dürfen. Ganz grob gibt sie dir unter anderem folgende Rechte:\n\nRecht auf Information: Unternehmen müssen erklären, welche Daten sie sammeln und wofür.\nEinwilligung: Für viele Arten der Datensammlung (z. B. Marketing-Cookies) muss ein Unternehmen vorher aktiv deine Zustimmung einholen – daher die Cookie-Banner.\nAuskunftsrecht: Du darfst ein Unternehmen fragen, welche Daten es über dich gespeichert hat.\nRecht auf Löschung: Unter bestimmten Voraussetzungen darfst du verlangen, dass deine Daten gelöscht werden.\n\n\n\n\n\n\n\nHinweisVereinfachung, die du kennen solltest\n\n\n\nDie tatsächliche DSGVO ist ein umfangreiches, juristisch komplexes Gesetz mit vielen Ausnahmen und Detailregeln. Die oben genannten Punkte sind die Grundidee, keine vollständige juristische Zusammenfassung.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "20. Datenschutz"
+    ]
+  },
+  {
+    "objectID": "20-datenschutz.html#privatsphäre-einstellungen-selbst-steuern",
+    "href": "20-datenschutz.html#privatsphäre-einstellungen-selbst-steuern",
+    "title": "20. Datenschutz",
+    "section": "Privatsphäre-Einstellungen selbst steuern",
+    "text": "Privatsphäre-Einstellungen selbst steuern\nSowohl Browser als auch Betriebssysteme bieten Einstellungen, mit denen du beeinflussen kannst, welche Daten preisgegeben werden:\n\nIm Browser kannst du Cookie-Einstellungen anpassen (z. B. Drittanbieter-Cookies blockieren) oder einen privaten/Inkognito-Modus nutzen.\nIn den App-Berechtigungen von Windows, Ubuntu und Android kannst du einzelnen Apps den Zugriff auf Standort, Kamera oder Mikrofon erlauben oder verweigern (vergleiche die Systemeinstellungen aus Kapitel 10).",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "20. Datenschutz"
+    ]
+  },
+  {
+    "objectID": "20-datenschutz.html#praktische-übung",
+    "href": "20-datenschutz.html#praktische-übung",
+    "title": "20. Datenschutz",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\n\nRufe eine beliebige Website auf, die ein Cookie-Banner anzeigt, und öffne dort statt “Alle akzeptieren” die detaillierten Einstellungen. Notiere, welche Cookie-Kategorien dir angeboten werden (z. B. notwendig, funktional, Marketing/Werbung).\nWindows: Öffne “Einstellungen” → “Datenschutz & Sicherheit” und schau dir an, welche Apps Zugriff auf Standort, Kamera oder Mikrofon haben.\nUbuntu: Öffne “Einstellungen” → “Privatsphäre” (bzw. “Datenschutz”) und prüfe die Berechtigungen für Standortdienste und Kamera.\nFalls vorhanden: Prüfe auf einem Smartphone unter Einstellungen → Apps → Berechtigungen, welche App auf welche sensiblen Daten zugreifen darf, und deaktiviere testweise eine nicht benötigte Berechtigung.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "20. Datenschutz"
+    ]
+  },
+  {
+    "objectID": "20-datenschutz.html#verständnisfragen",
+    "href": "20-datenschutz.html#verständnisfragen",
+    "title": "20. Datenschutz",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWas ist der grundlegende Unterschied zwischen IT-Sicherheit (Kapitel 19) und Datenschutz?\n\nIT-Sicherheit schützt vor unerlaubten Angriffen (z. B. Schadsoftware, Phishing). Datenschutz regelt, welche Daten legitime, offiziell arbeitende Unternehmen über dich sammeln und nutzen dürfen, und welche Rechte du dabei hast.\n\n\n\nWas ist der Unterschied zwischen technisch notwendigen Cookies und Marketing-Cookies?\n\nTechnisch notwendige Cookies sorgen für grundlegende Funktionen der Website (z. B. eingeloggt bleiben). Marketing-Cookies verfolgen dein Verhalten, oft über mehrere Websites hinweg, um Werbeprofile zu erstellen.\n\n\n\nNenne ein Recht, das dir die DSGVO gegenüber Unternehmen gibt.\n\nZum Beispiel: das Recht auf Information darüber, welche Daten gesammelt werden, das Auskunftsrecht über gespeicherte Daten, oder das Recht auf Löschung dieser Daten.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "20. Datenschutz"
+    ]
+  },
+  {
+    "objectID": "20-datenschutz.html#zusammenfassung",
+    "href": "20-datenschutz.html#zusammenfassung",
+    "title": "20. Datenschutz",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nDatenschutz regelt den legitimen Umgang mit deinen Daten durch Unternehmen – im Unterschied zur IT-Sicherheit, die vor Angriffen schützt.\nUnternehmen sammeln u. a. Nutzungsverhalten, Geräteinformationen und selbst eingegebene Daten.\nCookies merken sich Informationen zwischen Website-Besuchen – notwendige und Marketing-Cookies unterscheiden sich in ihrem Zweck.\nDie DSGVO gibt dir Rechte wie Information, Einwilligung, Auskunft und Löschung.\nBrowser- und App-Berechtigungen erlauben dir, deine Privatsphäre aktiv zu steuern.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "20. Datenschutz"
+    ]
+  },
+  {
+    "objectID": "20-datenschutz.html#ausblick",
+    "href": "20-datenschutz.html#ausblick",
+    "title": "20. Datenschutz",
+    "section": "Ausblick",
+    "text": "Ausblick\nDamit deine Daten geschützt bleiben und du weiterhin sicher arbeiten kannst, muss auch die Software selbst auf dem neuesten Stand gehalten werden. Im nächsten Kapitel geht es um Updates und Backups – warum sie wichtig sind und was ohne sie passieren kann.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "20. Datenschutz"
+    ]
+  },
+  {
+    "objectID": "08-bilddateien.html",
+    "href": "08-bilddateien.html",
+    "title": "8. Bilddateien: Pixel, Auflösung und Kompression",
+    "section": "",
+    "text": "In Kapitel 6 hast du Dateiendungen wie .jpg und .png als “Bilddateien” kennengelernt, ohne genauer hinzuschauen. Bilder sind aber ein guter Anlass, um zu zeigen, wie viele der bisherigen Konzepte – Bits (Kapitel 1), Speicherplatz, Dateiformate – in der Praxis zusammenspielen. Deshalb widmen wir Bilddateien ein eigenes, vertiefendes Kapitel.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "8. Bilddateien: Pixel, Auflösung und Kompression"
+    ]
+  },
+  {
+    "objectID": "08-bilddateien.html#warum-das-wichtig-ist",
+    "href": "08-bilddateien.html#warum-das-wichtig-ist",
+    "title": "8. Bilddateien: Pixel, Auflösung und Kompression",
+    "section": "",
+    "text": "In Kapitel 6 hast du Dateiendungen wie .jpg und .png als “Bilddateien” kennengelernt, ohne genauer hinzuschauen. Bilder sind aber ein guter Anlass, um zu zeigen, wie viele der bisherigen Konzepte – Bits (Kapitel 1), Speicherplatz, Dateiformate – in der Praxis zusammenspielen. Deshalb widmen wir Bilddateien ein eigenes, vertiefendes Kapitel.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "8. Bilddateien: Pixel, Auflösung und Kompression"
+    ]
+  },
+  {
+    "objectID": "08-bilddateien.html#pixel-und-auflösung",
+    "href": "08-bilddateien.html#pixel-und-auflösung",
+    "title": "8. Bilddateien: Pixel, Auflösung und Kompression",
+    "section": "Pixel und Auflösung",
+    "text": "Pixel und Auflösung\nDie meisten Bilder, die du auf einem Bildschirm siehst oder mit einer Kamera aufnimmst, sind Rastergrafiken: Sie bestehen aus einem Raster winziger Bildpunkte, den Pixeln (von englisch “picture element”). Jedes Pixel hat einen festen Farbwert.\nDie Auflösung eines Bildes gibt an, aus wie vielen Pixeln es in der Breite und Höhe besteht, z. B. 1920 × 1080 Pixel (eine gängige Bildschirmauflösung, oft “Full HD” genannt). Multipliziert man diese Zahlen, erhält man die Gesamtzahl der Pixel: 1920 × 1080 = 2.073.600 Pixel, umgangssprachlich rund 2 Megapixel.\nFür jedes einzelne Pixel muss sein Farbwert als Zahl gespeichert werden – wieder als Bits und Bytes (Kapitel 1). Je mehr unterschiedliche Farben ein Bild darstellen können soll, desto mehr Bits werden pro Pixel benötigt. Das erklärt, warum Bilder mit hoher Auflösung unkomprimiert sehr viel Speicherplatz brauchen würden.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "8. Bilddateien: Pixel, Auflösung und Kompression"
+    ]
+  },
+  {
+    "objectID": "08-bilddateien.html#rastergrafik-vs.-vektorgrafik",
+    "href": "08-bilddateien.html#rastergrafik-vs.-vektorgrafik",
+    "title": "8. Bilddateien: Pixel, Auflösung und Kompression",
+    "section": "Rastergrafik vs. Vektorgrafik",
+    "text": "Rastergrafik vs. Vektorgrafik\nEs gibt neben Rastergrafiken noch eine zweite, grundsätzlich andere Art, Bilder digital zu beschreiben:\n\nRastergrafik (z. B. .jpg, .png, .bmp): Das Bild ist eine feste Pixel-Tabelle. Vergrößerst du das Bild deutlich über seine ursprüngliche Auflösung hinaus, werden die einzelnen Pixel als Klötzchen sichtbar (“Pixeligkeit”).\nVektorgrafik (z. B. .svg): Das Bild wird nicht als Pixel-Raster, sondern durch mathematische Beschreibungen von Formen gespeichert – Linien, Kurven und Flächen mit exakten Koordinaten. Ein Kreis wird z. B. als “Mittelpunkt + Radius” gespeichert statt als Pixelhaufen. Dadurch lässt sich eine Vektorgrafik verlustfrei auf jede beliebige Größe skalieren, weil sie bei jeder Größe neu berechnet wird.\n\nFotos sind praktisch immer Rastergrafiken (eine Kamera nimmt Licht pixelweise auf), während Logos, Icons und technische Zeichnungen häufig als Vektorgrafik erstellt werden, damit sie in jeder Größe scharf bleiben.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "8. Bilddateien: Pixel, Auflösung und Kompression"
+    ]
+  },
+  {
+    "objectID": "08-bilddateien.html#kompression-jpeg-vs.-png",
+    "href": "08-bilddateien.html#kompression-jpeg-vs.-png",
+    "title": "8. Bilddateien: Pixel, Auflösung und Kompression",
+    "section": "Kompression: JPEG vs. PNG",
+    "text": "Kompression: JPEG vs. PNG\nUnkomprimierte Bilder wären riesig. Deshalb werden Bilddateien fast immer komprimiert – also so umgerechnet, dass sie weniger Speicherplatz brauchen. Dabei gibt es zwei grundsätzlich verschiedene Ansätze:\n\nVerlustfreie Kompression (lossless): Die Datei wird kleiner, aber beim Öffnen lässt sich das Bild wieder exakt, Pixel für Pixel, in seinen Originalzustand zurückverwandeln. Es geht keine Bildinformation verloren.\nVerlustbehaftete Kompression (lossy): Die Datei wird deutlich kleiner, weil bewusst Bildinformationen weggelassen werden, die für das menschliche Auge kaum auffallen. Das Originalbild lässt sich danach nicht mehr exakt wiederherstellen.\n\nPNG (Portable Network Graphics) verwendet verlustfreie Kompression und unterstützt zusätzlich Transparenz (durchsichtige Bildbereiche). Es eignet sich gut für Screenshots, Grafiken mit scharfen Kanten, Text oder wenigen Farben.\nJPEG/JPG (Joint Photographic Experts Group) verwendet verlustbehaftete Kompression, die speziell auf Fotos zugeschnitten ist. Dadurch erreicht JPEG bei Fotos deutlich kleinere Dateigrößen als PNG – auf Kosten einer (meist kaum sichtbaren) Bildqualitätseinbuße. Bei starker Kompression können allerdings sichtbare “Kompressionsartefakte” entstehen, z. B. blockartige Unschärfen an Kanten.\n\n\n\n\n\n\nTippFaustregel\n\n\n\nFür Fotos eignet sich JPEG meist besser (kleinere Datei, kaum sichtbarer Qualitätsverlust). Für Screenshots, Logos, Icons oder Bilder mit Transparenz eignet sich PNG besser (verlustfrei, unterstützt Transparenz).",
+    "crumbs": [
+      "Dateien und Ordner",
+      "8. Bilddateien: Pixel, Auflösung und Kompression"
+    ]
+  },
+  {
+    "objectID": "08-bilddateien.html#praktische-übung",
+    "href": "08-bilddateien.html#praktische-übung",
+    "title": "8. Bilddateien: Pixel, Auflösung und Kompression",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\nFinde die Auflösung und Dateigröße eines Bildes heraus:\n\nSuche im Downloads- oder Bilder-Ordner ein Foto oder lade eines herunter.\nWindows: Rechtsklick auf die Datei → “Eigenschaften” → Tab “Details”. Dort findest du “Abmessungen” (Breite × Höhe in Pixeln) und die Dateigröße.\nUbuntu: Rechtsklick auf die Datei → “Eigenschaften” (Properties). Dort werden bei Bilddateien ebenfalls die Bildabmessungen sowie die Dateigröße angezeigt.\nRechne die Anzahl der Pixel aus (Breite × Höhe) und vergleiche sie mit der Dateigröße. Speichere das Bild testweise einmal als PNG und einmal als JPEG (z. B. über ein Bildbearbeitungsprogramm oder einen Online-Bildbetrachter mit Exportfunktion) und vergleiche die Dateigrößen.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "8. Bilddateien: Pixel, Auflösung und Kompression"
+    ]
+  },
+  {
+    "objectID": "08-bilddateien.html#verständnisfragen",
+    "href": "08-bilddateien.html#verständnisfragen",
+    "title": "8. Bilddateien: Pixel, Auflösung und Kompression",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWas ist ein Pixel und was bedeutet “Auflösung”?\n\nEin Pixel ist der kleinste Bildpunkt einer Rastergrafik mit einem festen Farbwert. Die Auflösung gibt an, aus wie vielen Pixeln ein Bild in Breite und Höhe besteht.\n\n\n\nWarum bleibt eine Vektorgrafik beim Vergrößern scharf, eine Rastergrafik aber nicht?\n\nEine Vektorgrafik wird als mathematische Formelbeschreibung (Linien, Kurven, Koordinaten) gespeichert und bei jeder Größe neu berechnet. Eine Rastergrafik hat eine feste Anzahl an Pixeln – vergrößert man sie über die Originalgröße hinaus, werden die einzelnen Pixel sichtbar.\n\n\n\nWas ist der Unterschied zwischen verlustfreier und verlustbehafteter Kompression, und welches Format nutzt welche?\n\nVerlustfreie Kompression (z. B. PNG) verkleinert die Datei, ohne dass Bildinformationen verloren gehen – das Original lässt sich exakt wiederherstellen. Verlustbehaftete Kompression (z. B. JPEG) lässt bewusst kaum wahrnehmbare Bildinformationen weg, um eine deutlich kleinere Datei zu erreichen; das Original lässt sich danach nicht mehr exakt wiederherstellen.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "8. Bilddateien: Pixel, Auflösung und Kompression"
+    ]
+  },
+  {
+    "objectID": "08-bilddateien.html#zusammenfassung",
+    "href": "08-bilddateien.html#zusammenfassung",
+    "title": "8. Bilddateien: Pixel, Auflösung und Kompression",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nPixel sind die einzelnen Bildpunkte einer Rastergrafik, die Auflösung gibt ihre Anzahl in Breite × Höhe an.\nRastergrafiken (Pixel-Raster) und Vektorgrafiken (mathematische Formbeschreibung) sind zwei grundsätzlich verschiedene Bildarten.\nVerlustfreie Kompression (z. B. PNG) erhält alle Bildinformationen, verlustbehaftete Kompression (z. B. JPEG) verkleinert die Datei stärker, indem sie kaum sichtbare Details opfert.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "8. Bilddateien: Pixel, Auflösung und Kompression"
+    ]
+  },
+  {
+    "objectID": "08-bilddateien.html#ausblick",
+    "href": "08-bilddateien.html#ausblick",
+    "title": "8. Bilddateien: Pixel, Auflösung und Kompression",
+    "section": "Ausblick",
+    "text": "Ausblick\nBilddateien werden mit Programmen geöffnet und bearbeitet. Doch was genau ist eigentlich ein “Programm” – und was unterscheidet eine “App” von einer “Software”? Damit beschäftigt sich das nächste Kapitel.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "8. Bilddateien: Pixel, Auflösung und Kompression"
+    ]
+  },
+  {
+    "objectID": "04-betriebssysteme.html",
+    "href": "04-betriebssysteme.html",
+    "title": "4. Betriebssysteme auf PC und Smartphone",
+    "section": "",
+    "text": "In Kapitel 2 und 3 hast du Hardware kennengelernt: CPU, RAM, Speicher, Tastatur, Bildschirm und so weiter. Aber diese Bauteile müssen koordiniert werden – irgendetwas muss entscheiden, welches Programm gerade wie viel Rechenzeit von der CPU bekommt, wo im RAM welche Daten liegen, und was passiert, wenn du eine Taste drückst. Diese Koordination übernimmt das Betriebssystem.",
+    "crumbs": [
+      "Grundlagen",
+      "4. Betriebssysteme auf PC und Smartphone"
+    ]
+  },
+  {
+    "objectID": "04-betriebssysteme.html#warum-das-wichtig-ist",
+    "href": "04-betriebssysteme.html#warum-das-wichtig-ist",
+    "title": "4. Betriebssysteme auf PC und Smartphone",
+    "section": "",
+    "text": "In Kapitel 2 und 3 hast du Hardware kennengelernt: CPU, RAM, Speicher, Tastatur, Bildschirm und so weiter. Aber diese Bauteile müssen koordiniert werden – irgendetwas muss entscheiden, welches Programm gerade wie viel Rechenzeit von der CPU bekommt, wo im RAM welche Daten liegen, und was passiert, wenn du eine Taste drückst. Diese Koordination übernimmt das Betriebssystem.",
+    "crumbs": [
+      "Grundlagen",
+      "4. Betriebssysteme auf PC und Smartphone"
+    ]
+  },
+  {
+    "objectID": "04-betriebssysteme.html#was-ist-ein-betriebssystem",
+    "href": "04-betriebssysteme.html#was-ist-ein-betriebssystem",
+    "title": "4. Betriebssysteme auf PC und Smartphone",
+    "section": "Was ist ein Betriebssystem?",
+    "text": "Was ist ein Betriebssystem?\nEin Betriebssystem (englisch: Operating System, kurz OS) ist die grundlegende Software, die zwischen der Hardware eines Geräts und den Programmen (Apps) vermittelt, die du benutzt. Ohne Betriebssystem könnte kein einziges Programm laufen, denn jedes Programm braucht Zugriff auf Hardware-Ressourcen wie CPU-Zeit, RAM oder den Bildschirm – und genau diesen Zugriff organisiert das Betriebssystem.\nZu den Kernaufgaben eines Betriebssystems gehören:\n\nProzessverwaltung: Entscheiden, welches Programm wann wie viel CPU-Zeit bekommt, damit mehrere Programme gleichzeitig laufen können.\nSpeicherverwaltung: Jedem laufenden Programm einen eigenen Bereich im RAM zuweisen, damit sich Programme nicht gegenseitig stören.\nDateiverwaltung: Das Ordnersystem organisieren, in dem Dateien gespeichert werden (mehr dazu in Kapitel 5).\nGeräteverwaltung: Über Treiber mit Peripheriegeräten kommunizieren (siehe Kapitel 3).\nBenutzeroberfläche: Eine Möglichkeit bieten, mit dem Gerät zu interagieren – meist grafisch (Fenster, Symbole, Mauszeiger), teilweise auch über Text (siehe Kapitel 12, Kommandozeile).",
+    "crumbs": [
+      "Grundlagen",
+      "4. Betriebssysteme auf PC und Smartphone"
+    ]
+  },
+  {
+    "objectID": "04-betriebssysteme.html#beispiele-für-betriebssysteme",
+    "href": "04-betriebssysteme.html#beispiele-für-betriebssysteme",
+    "title": "4. Betriebssysteme auf PC und Smartphone",
+    "section": "Beispiele für Betriebssysteme",
+    "text": "Beispiele für Betriebssysteme\nAuf klassischen Computern (PC/Laptop):\n\nWindows (von Microsoft) – das am weitesten verbreitete Desktop-Betriebssystem.\nmacOS (von Apple) – läuft ausschließlich auf Apple-Rechnern (Mac).\nLinux – genau genommen der Kern (Kernel) eines Betriebssystems, um den herum verschiedene sogenannte Distributionen gebaut sind. Ubuntu, das du in diesem Kurs benutzt, ist eine dieser Linux-Distributionen.\n\nAuf Smartphones und Tablets:\n\nAndroid (von Google) – basiert im Kern ebenfalls auf Linux, ist aber speziell für Touch-Geräte weiterentwickelt und hat eine eigene Oberfläche und eigene Apps.\niOS (von Apple) – läuft ausschließlich auf iPhones.\n\n\n\n\n\n\n\nHinweisWindows und Ubuntu im Vergleich\n\n\n\nWindows und Ubuntu erfüllen dieselben grundlegenden Aufgaben (Prozesse, Speicher, Dateien, Geräte, Oberfläche verwalten), unterscheiden sich aber in vielen Details: dem Aufbau des Dateisystems (Kapitel 5), der Art, wie Programme installiert werden (Kapitel 11), und den Befehlen auf der Kommandozeile (Kapitel 12). Ubuntu ist zudem Open-Source-Software: Der Quellcode ist frei einsehbar und veränderbar, während Windows proprietäre (closed-source) Software von Microsoft ist.\n\n\nWichtig: Die konkreten Menüs und Einstellungen der einzelnen Betriebssysteme schauen wir uns hier noch nicht an – das kommt gebündelt in Kapitel 10, wenn du gleichzeitig auch Android-Einstellungen zum Vergleich siehst.",
+    "crumbs": [
+      "Grundlagen",
+      "4. Betriebssysteme auf PC und Smartphone"
+    ]
+  },
+  {
+    "objectID": "04-betriebssysteme.html#praktische-übung",
+    "href": "04-betriebssysteme.html#praktische-übung",
+    "title": "4. Betriebssysteme auf PC und Smartphone",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\nFinde heraus, welches Betriebssystem (inklusive Version) auf deinen Geräten läuft.\nWindows:\n\nÖffne “Einstellungen” → “System” → “Info”.\nNotiere die “Windows-Edition” (z. B. Windows 11 Home) und die “Version”.\n\nUbuntu:\n\nÖffne die “Einstellungen” → “Über” (About) und notiere “OS-Name” und “OS-Version”.\nAlternativ: Öffne ein Terminal und tippe cat /etc/os-release – das zeigt dir Name und Version deiner Ubuntu-Installation als Text an.\n\nZusatz, falls vorhanden: Schau bei einem Smartphone in den Einstellungen unter “Über das Telefon” nach, ob Android oder iOS installiert ist und welche Version.",
+    "crumbs": [
+      "Grundlagen",
+      "4. Betriebssysteme auf PC und Smartphone"
+    ]
+  },
+  {
+    "objectID": "04-betriebssysteme.html#verständnisfragen",
+    "href": "04-betriebssysteme.html#verständnisfragen",
+    "title": "4. Betriebssysteme auf PC und Smartphone",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWelche drei Aufgaben übernimmt ein Betriebssystem?\n\nZum Beispiel: Prozessverwaltung (CPU-Zeit verteilen), Speicherverwaltung (RAM zuteilen), Dateiverwaltung (Ordnersystem organisieren), Geräteverwaltung (Treiber für Peripheriegeräte) und Bereitstellung einer Benutzeroberfläche.\n\n\n\nWas ist der Zusammenhang zwischen Linux, Ubuntu und Android?\n\nLinux ist ein Betriebssystemkern, um den herum verschiedene Distributionen gebaut werden. Ubuntu ist eine dieser Linux-Distributionen für PCs. Android basiert ebenfalls auf dem Linux-Kernel, ist aber eine eigenständige Weiterentwicklung speziell für Touch-Geräte.\n\n\n\nWas bedeutet es, dass Ubuntu Open Source ist, im Gegensatz zu Windows?\n\nBei Ubuntu ist der Quellcode öffentlich einsehbar und darf von jedem verändert und weiterverbreitet werden. Windows ist proprietär (closed-source) – der Quellcode gehört Microsoft und ist nicht öffentlich zugänglich.",
+    "crumbs": [
+      "Grundlagen",
+      "4. Betriebssysteme auf PC und Smartphone"
+    ]
+  },
+  {
+    "objectID": "04-betriebssysteme.html#zusammenfassung",
+    "href": "04-betriebssysteme.html#zusammenfassung",
+    "title": "4. Betriebssysteme auf PC und Smartphone",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nEin Betriebssystem vermittelt zwischen Hardware und Programmen und verwaltet Prozesse, Speicher, Dateien, Geräte und die Benutzeroberfläche.\nAuf PCs sind Windows, macOS und Linux-Distributionen wie Ubuntu verbreitet.\nAuf Smartphones dominieren Android und iOS.\nAndroid basiert (wie Ubuntu) im Kern auf Linux, hat aber eine eigene Oberfläche für Touch-Geräte.\nDie konkreten Menüs der Betriebssysteme folgen erst in Kapitel 10.",
+    "crumbs": [
+      "Grundlagen",
+      "4. Betriebssysteme auf PC und Smartphone"
+    ]
+  },
+  {
+    "objectID": "04-betriebssysteme.html#ausblick",
+    "href": "04-betriebssysteme.html#ausblick",
+    "title": "4. Betriebssysteme auf PC und Smartphone",
+    "section": "Ausblick",
+    "text": "Ausblick\nEine der zentralen Aufgaben eines Betriebssystems ist die Dateiverwaltung. Im nächsten Kapitel schauen wir uns genauer an, wie Dateien in einem Ordnersystem organisiert sind – und wie du den Speicherort einer Datei über einen Pfad eindeutig beschreibst.",
+    "crumbs": [
+      "Grundlagen",
+      "4. Betriebssysteme auf PC und Smartphone"
+    ]
+  },
+  {
+    "objectID": "18-passwoerter-und-accounts.html",
+    "href": "18-passwoerter-und-accounts.html",
+    "title": "18. Passwörter und Accounts",
+    "section": "",
+    "text": "Ob E-Mail (Kapitel 17), Cloud-Speicher (Kapitel 16) oder eine beliebige App (Kapitel 9) – die meisten Online-Dienste erfordern ein eigenes Benutzerkonto. In diesem Kapitel geht es darum, wie du deine Accounts sinnvoll absicherst. Größere Gefahren wie Schadsoftware und Phishing behandeln wir erst im nächsten Kapitel – hier geht es um das, was du selbst direkt beeinflussen kannst.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "18. Passwörter und Accounts"
+    ]
+  },
+  {
+    "objectID": "18-passwoerter-und-accounts.html#warum-das-wichtig-ist",
+    "href": "18-passwoerter-und-accounts.html#warum-das-wichtig-ist",
+    "title": "18. Passwörter und Accounts",
+    "section": "",
+    "text": "Ob E-Mail (Kapitel 17), Cloud-Speicher (Kapitel 16) oder eine beliebige App (Kapitel 9) – die meisten Online-Dienste erfordern ein eigenes Benutzerkonto. In diesem Kapitel geht es darum, wie du deine Accounts sinnvoll absicherst. Größere Gefahren wie Schadsoftware und Phishing behandeln wir erst im nächsten Kapitel – hier geht es um das, was du selbst direkt beeinflussen kannst.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "18. Passwörter und Accounts"
+    ]
+  },
+  {
+    "objectID": "18-passwoerter-und-accounts.html#was-ist-ein-account",
+    "href": "18-passwoerter-und-accounts.html#was-ist-ein-account",
+    "title": "18. Passwörter und Accounts",
+    "section": "Was ist ein Account?",
+    "text": "Was ist ein Account?\nEin Account (Benutzerkonto) ist eine digitale Identität bei einem Dienst, meist bestehend aus einem Benutzernamen oder einer E-Mail-Adresse (siehe Kapitel 17) und einem Passwort. Über diese Kombination weist du gegenüber dem Server (Kapitel 16) nach, dass du wirklich die Person bist, der dieser Account gehört. Diesen Vorgang nennt man Authentifizierung.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "18. Passwörter und Accounts"
+    ]
+  },
+  {
+    "objectID": "18-passwoerter-und-accounts.html#was-macht-ein-gutes-passwort-aus",
+    "href": "18-passwoerter-und-accounts.html#was-macht-ein-gutes-passwort-aus",
+    "title": "18. Passwörter und Accounts",
+    "section": "Was macht ein gutes Passwort aus?",
+    "text": "Was macht ein gutes Passwort aus?\nEin gutes Passwort sollte vor allem drei Eigenschaften erfüllen:\n\nLang genug: Je länger ein Passwort ist, desto schwerer ist es, es durch systematisches Ausprobieren zu erraten. Aktuelle Empfehlungen (z. B. des Bundesamts für Sicherheit in der Informationstechnik, BSI) gehen eher in Richtung “möglichst lang” als “möglichst kompliziert” – ein langer, gut merkbarer Satz aus mehreren Wörtern (eine sogenannte Passphrase) kann sicherer sein als ein kurzes, aber kompliziertes Passwort.\nNicht erratbar: Keine offensichtlichen Informationen wie Geburtsdatum, Name von Haustieren oder das Wort “Passwort” selbst. Auch bekannte Muster wie “123456” oder Tastaturfolgen wie “qwertz” sind unsicher, weil sie in jeder Liste häufig geknackter Passwörter ganz oben stehen.\nEinzigartig pro Dienst: Jeder Account sollte ein eigenes, unterschiedliches Passwort haben. Wird ein Passwort bei einem Dienst gestohlen (z. B. durch ein Datenleck beim Anbieter), können Angreifer es sonst automatisch auch bei anderen Diensten ausprobieren.\n\n\n\n\n\n\n\nTippPasswort-Manager\n\n\n\nSich für jeden Dienst ein eigenes, langes Passwort zu merken, ist für Menschen kaum machbar. Ein Passwort-Manager ist ein Programm, das alle deine Passwörter verschlüsselt speichert – du musst dir nur noch ein einziges, starkes Hauptpasswort merken, mit dem du den Passwort-Manager selbst entsperrst. Sowohl Windows als auch Ubuntu bieten außerdem in ihren Browsern eine einfache, eingebaute Passwortverwaltung an.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "18. Passwörter und Accounts"
+    ]
+  },
+  {
+    "objectID": "18-passwoerter-und-accounts.html#zwei-faktor-authentifizierung-2fa",
+    "href": "18-passwoerter-und-accounts.html#zwei-faktor-authentifizierung-2fa",
+    "title": "18. Passwörter und Accounts",
+    "section": "Zwei-Faktor-Authentifizierung (2FA)",
+    "text": "Zwei-Faktor-Authentifizierung (2FA)\nSelbst ein gutes Passwort kann gestohlen werden, z. B. durch Phishing (mehr dazu in Kapitel 19). Die Zwei-Faktor-Authentifizierung (2FA) fügt eine zweite, unabhängige Sicherheitsstufe hinzu: Zusätzlich zum Passwort (“etwas, das du weißt”) brauchst du einen zweiten Faktor, meist “etwas, das du besitzt” – zum Beispiel:\n\neinen Code, der per App (z. B. einer Authenticator-App) auf deinem Smartphone erzeugt wird,\neinen Code, der per SMS an deine Handynummer geschickt wird,\noder einen physischen Sicherheitsschlüssel (z. B. einen USB-Stick, der zum Einloggen eingesteckt werden muss).\n\nSelbst wenn ein Angreifer dein Passwort kennt, kommt er ohne den zweiten Faktor in der Regel trotzdem nicht in deinen Account.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "18. Passwörter und Accounts"
+    ]
+  },
+  {
+    "objectID": "18-passwoerter-und-accounts.html#praktische-übung",
+    "href": "18-passwoerter-und-accounts.html#praktische-übung",
+    "title": "18. Passwörter und Accounts",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\n\nÜberlege dir (ohne sie irgendwo einzugeben) eine Passphrase aus vier zufälligen, für dich merkbaren Wörtern, z. B. “Regenschirm-Gitarre-Dienstag-Blau17”. Erkläre einem Elternteil oder einer Mitschülerin, warum diese Passphrase vermutlich sicherer ist als ein kurzes Passwort wie “Sonne23!”.\nÖffne bei einem Dienst, den du bereits nutzt (z. B. deinem Schul- oder E-Mail-Account, mit Erlaubnis), die Kontoeinstellungen und suche den Bereich “Sicherheit” oder “Anmeldung”. Prüfe, ob die Zwei-Faktor-Authentifizierung verfügbar ist, und aktiviere sie gegebenenfalls gemeinsam mit einem Erziehungsberechtigten.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "18. Passwörter und Accounts"
+    ]
+  },
+  {
+    "objectID": "18-passwoerter-und-accounts.html#verständnisfragen",
+    "href": "18-passwoerter-und-accounts.html#verständnisfragen",
+    "title": "18. Passwörter und Accounts",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWarum ist die Länge eines Passworts oft wichtiger als seine Kompliziertheit?\n\nEin langes Passwort ist für systematisches Ausprobieren (Brute-Force) deutlich aufwendiger zu erraten. Eine lange, gut merkbare Passphrase kann daher sicherer sein als ein kurzes, kompliziertes Passwort mit vielen Sonderzeichen.\n\n\n\nWarum sollte man für jeden Dienst ein eigenes Passwort verwenden?\n\nWird ein Passwort bei einem Dienst durch ein Datenleck gestohlen, könnten Angreifer es sonst automatisch auch bei anderen Diensten ausprobieren. Mit einzigartigen Passwörtern bleibt der Schaden auf den betroffenen Dienst begrenzt.\n\n\n\nWas bedeutet “Zwei-Faktor-Authentifizierung” und wovor schützt sie?\n\nNeben dem Passwort (“etwas, das du weißt”) ist ein zweiter, unabhängiger Faktor nötig, z. B. ein Code von deinem Smartphone (“etwas, das du besitzt”). Sie schützt davor, dass ein gestohlenes Passwort allein ausreicht, um sich in einen Account einzuloggen.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "18. Passwörter und Accounts"
+    ]
+  },
+  {
+    "objectID": "18-passwoerter-und-accounts.html#zusammenfassung",
+    "href": "18-passwoerter-und-accounts.html#zusammenfassung",
+    "title": "18. Passwörter und Accounts",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nEin Account identifiziert dich gegenüber einem Dienst, meist über Benutzername/E-Mail und Passwort.\nEin gutes Passwort ist lang, nicht erratbar und einzigartig pro Dienst.\nEin Passwort-Manager hilft dabei, viele einzigartige Passwörter zu verwalten.\nZwei-Faktor-Authentifizierung ergänzt das Passwort um einen zweiten, unabhängigen Sicherheitsfaktor.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "18. Passwörter und Accounts"
+    ]
+  },
+  {
+    "objectID": "18-passwoerter-und-accounts.html#ausblick",
+    "href": "18-passwoerter-und-accounts.html#ausblick",
+    "title": "18. Passwörter und Accounts",
+    "section": "Ausblick",
+    "text": "Ausblick\nPasswörter und Accounts sind ein Baustein deiner digitalen Sicherheit. Im nächsten Kapitel weiten wir den Blick: Welche Arten von Schadsoftware gibt es, wie erkennst du Phishing-Versuche, und worauf solltest du beim Herunterladen von Dateien achten?",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "18. Passwörter und Accounts"
+    ]
+  },
+  {
+    "objectID": "19-it-sicherheit.html",
+    "href": "19-it-sicherheit.html",
+    "title": "19. IT-Sicherheit",
+    "section": "",
+    "text": "In Kapitel 11 hast du kurz gehört, dass Software aus unbekannten Quellen ein Risiko birgt, und in Kapitel 17, dass nicht jede E-Mail vertrauenswürdig ist. In diesem Kapitel vertiefen wir beides: Welche Arten von Schadsoftware gibt es, wie erkennst du Phishing-Versuche, und wie verhältst du dich beim Herunterladen von Dateien sicherer?",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "19. IT-Sicherheit"
+    ]
+  },
+  {
+    "objectID": "19-it-sicherheit.html#warum-das-wichtig-ist",
+    "href": "19-it-sicherheit.html#warum-das-wichtig-ist",
+    "title": "19. IT-Sicherheit",
+    "section": "",
+    "text": "In Kapitel 11 hast du kurz gehört, dass Software aus unbekannten Quellen ein Risiko birgt, und in Kapitel 17, dass nicht jede E-Mail vertrauenswürdig ist. In diesem Kapitel vertiefen wir beides: Welche Arten von Schadsoftware gibt es, wie erkennst du Phishing-Versuche, und wie verhältst du dich beim Herunterladen von Dateien sicherer?",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "19. IT-Sicherheit"
+    ]
+  },
+  {
+    "objectID": "19-it-sicherheit.html#grundtypen-von-schadsoftware",
+    "href": "19-it-sicherheit.html#grundtypen-von-schadsoftware",
+    "title": "19. IT-Sicherheit",
+    "section": "Grundtypen von Schadsoftware",
+    "text": "Grundtypen von Schadsoftware\nSchadsoftware (auch Malware genannt) ist Software, die absichtlich Schaden anrichtet – z. B. Daten stiehlt, zerstört oder ein Gerät für Angreifer fernsteuerbar macht. Es gibt mehrere Grundtypen, die sich vor allem darin unterscheiden, wie sie sich verbreiten und was sie tun:\n\nVirus: Hängt sich an eine andere, eigentlich harmlose Datei oder ein Programm an und verbreitet sich, sobald diese infizierte Datei ausgeführt oder weitergegeben wird – ähnlich einem biologischen Virus, der einen Wirt braucht.\nWurm: Verbreitet sich selbstständig über Netzwerke, ohne dass eine infizierte Datei aktiv weitergegeben oder geöffnet werden muss.\nTrojaner (Trojanisches Pferd): Tarnt sich als nützliches, harmloses Programm, führt im Hintergrund aber schädliche Aktionen aus – benannt nach dem hölzernen Pferd aus der griechischen Sage.\nRansomware: Verschlüsselt die Dateien auf einem Gerät, sodass sie nicht mehr genutzt werden können, und fordert Lösegeld für die Entschlüsselung.\nSpyware: Sammelt heimlich Informationen über die Nutzung eines Geräts (z. B. Tastatureingaben oder besuchte Websites) und sendet sie an Dritte.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "19. IT-Sicherheit"
+    ]
+  },
+  {
+    "objectID": "19-it-sicherheit.html#phishing-erkennen",
+    "href": "19-it-sicherheit.html#phishing-erkennen",
+    "title": "19. IT-Sicherheit",
+    "section": "Phishing erkennen",
+    "text": "Phishing erkennen\nPhishing bezeichnet gefälschte Nachrichten (meist E-Mails, aber auch SMS oder Messenger-Nachrichten), die vorgeben, von einer vertrauenswürdigen Quelle zu stammen (z. B. deiner Bank, einem Online-Shop oder deiner Schule), um dich dazu zu bringen, Zugangsdaten preiszugeben oder auf einen schädlichen Link zu klicken.\nTypische Warnzeichen für Phishing:\n\nKünstlicher Druck: “Handle sofort, sonst wird dein Konto gesperrt” – echte Anbieter setzen dich selten unter derartigen Zeitdruck.\nUnpersönliche Anrede: “Sehr geehrter Kunde” statt deines echten Namens.\nAuffällige Absenderadresse: Die Domain (siehe Kapitel 17) passt nicht zum angeblichen Absender, z. B. service@paypal-sicherheit.com statt einer echten PayPal-Domain.\nAufforderung zur Preisgabe sensibler Daten: Seriöse Anbieter fragen praktisch nie per E-Mail nach deinem vollständigen Passwort.\nVerdächtige Links: Fährst du mit der Maus über einen Link (ohne zu klicken), zeigt dein Browser oder E-Mail-Programm meist die tatsächliche Ziel-Adresse an – diese sollte zur angeblichen Absenderseite passen.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "19. IT-Sicherheit"
+    ]
+  },
+  {
+    "objectID": "19-it-sicherheit.html#sicheres-verhalten-beim-download",
+    "href": "19-it-sicherheit.html#sicheres-verhalten-beim-download",
+    "title": "19. IT-Sicherheit",
+    "section": "Sicheres Verhalten beim Download",
+    "text": "Sicheres Verhalten beim Download\nIn Kapitel 11 hast du gelernt, dass Software aus geprüften Quellen (Microsoft Store, Ubuntu-Repositories, Google Play Store) grundsätzlich vertrauenswürdiger ist als Dateien von unbekannten Websites. Zusätzlich helfen folgende Grundregeln:\n\nLade Programme möglichst nur von der offiziellen Website des Herstellers oder aus einem offiziellen Store herunter.\nAchte auf Warnungen deines Betriebssystems oder Browsers vor potenziell unsicheren Dateien – ignoriere sie nicht einfach.\nHalte dein System aktuell (mehr dazu in Kapitel 21) – viele Schadsoftware-Angriffe nutzen bekannte Sicherheitslücken in veralteter Software aus.\n\n\n\n\n\n\n\nHinweisIst Ubuntu automatisch sicherer als Windows?\n\n\n\nWindows wird auf deutlich mehr Desktop-Computern weltweit eingesetzt als Linux-Distributionen wie Ubuntu. Da sich Schadsoftware-Angriffe meist auf möglichst viele mögliche Opfer richten, wird Windows-Schadsoftware häufiger entwickelt als Linux-Schadsoftware. Das bedeutet aber nicht, dass Ubuntu automatisch unangreifbar ist – Schadsoftware für Linux-Systeme existiert ebenfalls, sie ist im Alltag nur deutlich seltener anzutreffen. Vorsicht ist also auf beiden Systemen sinnvoll.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "19. IT-Sicherheit"
+    ]
+  },
+  {
+    "objectID": "19-it-sicherheit.html#praktische-übung",
+    "href": "19-it-sicherheit.html#praktische-übung",
+    "title": "19. IT-Sicherheit",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\n\nWindows: Öffne “Einstellungen” → “Datenschutz & Sicherheit” → “Windows-Sicherheit” → “Viren- & Bedrohungsschutz”. Prüfe, ob der Schutz aktiv ist und wann zuletzt ein Scan durchgeführt wurde.\nUbuntu: Öffne ein Terminal und prüfe mit sudo apt list --upgradable, ob es ausstehende Sicherheitsaktualisierungen für installierte Pakete gibt (mehr zu Updates in Kapitel 21).\nÖffne dein E-Mail-Postfach und suche (ohne auf Links zu klicken!) eine Werbe- oder unbekannte E-Mail. Prüfe anhand der oben genannten Warnzeichen, ob sie verdächtig wirkt, und identifiziere die tatsächliche Absender-Domain.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "19. IT-Sicherheit"
+    ]
+  },
+  {
+    "objectID": "19-it-sicherheit.html#verständnisfragen",
+    "href": "19-it-sicherheit.html#verständnisfragen",
+    "title": "19. IT-Sicherheit",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWas unterscheidet einen Virus von einem Wurm?\n\nEin Virus braucht eine Wirtsdatei/ein Wirtsprogramm und verbreitet sich, wenn diese infizierte Datei ausgeführt oder weitergegeben wird. Ein Wurm verbreitet sich selbstständig über Netzwerke, ohne dass eine infizierte Datei aktiv weitergegeben werden muss.\n\n\n\nNenne zwei typische Warnzeichen einer Phishing-E-Mail.\n\nZum Beispiel: künstlicher Zeitdruck, unpersönliche Anrede, eine zur angeblichen Absenderseite nicht passende Domain, oder die Aufforderung, vertrauliche Zugangsdaten preiszugeben.\n\n\n\nIst Ubuntu grundsätzlich unangreifbar durch Schadsoftware?\n\nNein. Schadsoftware für Linux/Ubuntu existiert, ist aber deutlich seltener als für Windows, unter anderem weil Windows aufgrund seiner größeren Verbreitung ein attraktiveres Angriffsziel darstellt. Vorsicht bleibt auf beiden Systemen sinnvoll.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "19. IT-Sicherheit"
+    ]
+  },
+  {
+    "objectID": "19-it-sicherheit.html#zusammenfassung",
+    "href": "19-it-sicherheit.html#zusammenfassung",
+    "title": "19. IT-Sicherheit",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nSchadsoftware umfasst u. a. Viren, Würmer, Trojaner, Ransomware und Spyware – sie unterscheiden sich in Verbreitungsweg und Wirkung.\nPhishing versucht, dich über gefälschte Nachrichten zur Preisgabe von Daten oder zum Klick auf schädliche Links zu bewegen – typische Warnzeichen sind Zeitdruck, falsche Absenderdomains und unpersönliche Anrede.\nDownloads aus offiziellen Quellen (Kapitel 11) und aktuelle Software (Kapitel 21) senken das Risiko deutlich.\nUbuntu ist seltener von Schadsoftware betroffen als Windows, aber nicht grundsätzlich unangreifbar.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "19. IT-Sicherheit"
+    ]
+  },
+  {
+    "objectID": "19-it-sicherheit.html#ausblick",
+    "href": "19-it-sicherheit.html#ausblick",
+    "title": "19. IT-Sicherheit",
+    "section": "Ausblick",
+    "text": "Ausblick\nIT-Sicherheit schützt dich vor Angriffen von außen. Im nächsten Kapitel geht es um ein verwandtes, aber eigenständiges Thema: Datenschutz – also die Frage, welche Daten Unternehmen ganz offiziell über dich sammeln, und wie du deine Privatsphäre schützt.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "19. IT-Sicherheit"
+    ]
+  },
+  {
+    "objectID": "11-installation-von-apps.html",
+    "href": "11-installation-von-apps.html",
+    "title": "11. Apps installieren: exe, apt, APK und Stores",
+    "section": "",
+    "text": "Im letzten Kapitel ging es um Menüs innerhalb bereits installierter Apps. Aber wie kommt eine App überhaupt erst auf ein Gerät? Windows, Ubuntu und Android gehen dabei unterschiedliche Wege – die du kennen solltest, bevor du selbst etwas installierst.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "11. Apps installieren: exe, apt, APK und Stores"
+    ]
+  },
+  {
+    "objectID": "11-installation-von-apps.html#warum-das-wichtig-ist",
+    "href": "11-installation-von-apps.html#warum-das-wichtig-ist",
+    "title": "11. Apps installieren: exe, apt, APK und Stores",
+    "section": "",
+    "text": "Im letzten Kapitel ging es um Menüs innerhalb bereits installierter Apps. Aber wie kommt eine App überhaupt erst auf ein Gerät? Windows, Ubuntu und Android gehen dabei unterschiedliche Wege – die du kennen solltest, bevor du selbst etwas installierst.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "11. Apps installieren: exe, apt, APK und Stores"
+    ]
+  },
+  {
+    "objectID": "11-installation-von-apps.html#windows-exe-dateien-und-microsoft-store",
+    "href": "11-installation-von-apps.html#windows-exe-dateien-und-microsoft-store",
+    "title": "11. Apps installieren: exe, apt, APK und Stores",
+    "section": "Windows: exe-Dateien und Microsoft Store",
+    "text": "Windows: exe-Dateien und Microsoft Store\nUnter Windows gibt es zwei gängige Installationswege:\n\n.exe-Installationsdateien: Du lädst eine Datei mit der Endung .exe (ausführbare Datei, siehe Kapitel 6) von der Website eines Herstellers herunter und startest sie per Doppelklick. Ein Installationsassistent führt dich dann durch die Einrichtung, kopiert die Programmdateien an ihren Zielort und legt Verknüpfungen an (z. B. auf dem Desktop oder im Startmenü).\nMicrosoft Store: Eine zentrale, von Microsoft betriebene App, in der Programme und Apps gesammelt und vor der Veröffentlichung geprüft werden. Installation und spätere Updates laufen automatisiert über den Store.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "11. Apps installieren: exe, apt, APK und Stores"
+    ]
+  },
+  {
+    "objectID": "11-installation-von-apps.html#ubuntu-paketverwaltung-.deb-dateien-und-software-center",
+    "href": "11-installation-von-apps.html#ubuntu-paketverwaltung-.deb-dateien-und-software-center",
+    "title": "11. Apps installieren: exe, apt, APK und Stores",
+    "section": "Ubuntu: Paketverwaltung, .deb-Dateien und Software-Center",
+    "text": "Ubuntu: Paketverwaltung, .deb-Dateien und Software-Center\nUbuntu organisiert Software über eine Paketverwaltung: Programme liegen als sogenannte Pakete in zentralen, von Ubuntu/Canonical betriebenen Online-Verzeichnissen (Repositories) und können von dort gezielt installiert, aktualisiert und wieder entfernt werden. Das zugrundeliegende Werkzeug heißt APT (Advanced Package Tool):\n\nÜber die Kommandozeile (Kapitel 12) installierst du ein Paket z. B. mit sudo apt install &lt;paketname&gt;.\nÜber die grafische App “Software” (Ubuntu Software Center) kannst du dieselben Pakete auch per Mausklick suchen und installieren.\n\nEin wichtiger Vorteil der Paketverwaltung: Sie kümmert sich automatisch um Abhängigkeiten – wenn ein Programm ein anderes Programm oder eine Bibliothek benötigt, installiert APT diese passend mit.\nZusätzlich gibt es, ähnlich wie die .exe-Datei unter Windows, einzelne Installationsdateien mit der Endung .deb, die du manuell herunterladen und installieren kannst, wenn ein Programm nicht über die Standard-Repositories verfügbar ist.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "11. Apps installieren: exe, apt, APK und Stores"
+    ]
+  },
+  {
+    "objectID": "11-installation-von-apps.html#android-apk-dateien-und-play-store",
+    "href": "11-installation-von-apps.html#android-apk-dateien-und-play-store",
+    "title": "11. Apps installieren: exe, apt, APK und Stores",
+    "section": "Android: APK-Dateien und Play Store",
+    "text": "Android: APK-Dateien und Play Store\nAuf Android-Geräten heißt das Installationsdateiformat APK (Android Package). Die meisten Nutzerinnen und Nutzer installieren Apps über den Google Play Store, der die Apps zentral bereitstellt und vor der Veröffentlichung prüft. Es ist aber auch möglich, eine .apk-Datei manuell von anderswo herunterzuladen und direkt zu installieren – das nennt man Sideloading.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "11. Apps installieren: exe, apt, APK und Stores"
+    ]
+  },
+  {
+    "objectID": "11-installation-von-apps.html#die-drei-wege-im-vergleich",
+    "href": "11-installation-von-apps.html#die-drei-wege-im-vergleich",
+    "title": "11. Apps installieren: exe, apt, APK und Stores",
+    "section": "Die drei Wege im Vergleich",
+    "text": "Die drei Wege im Vergleich\n\n\n\n\n\n\n\n\nSystem\nInstallationsdatei\nZentraler Store\n\n\n\n\nWindows\n.exe\nMicrosoft Store\n\n\nUbuntu\n.deb (einzeln) oder Paket über APT\nSoftware (Ubuntu Software Center)\n\n\nAndroid\n.apk\nGoogle Play Store\n\n\n\n\n\n\n\n\n\nWichtigKurzer Sicherheitshinweis\n\n\n\nSoftware aus einem geprüften Store (Microsoft Store, Ubuntu-Repositories, Google Play Store) wurde vor der Veröffentlichung zumindest grob kontrolliert. Wenn du dagegen eine .exe-, .deb- oder .apk-Datei von einer beliebigen, dir unbekannten Website herunterlädst, umgehst du diese Kontrolle – das erhöht das Risiko, versehentlich Schadsoftware zu installieren. Dieses Thema vertiefen wir ausführlich in Kapitel 19 (IT-Sicherheit); hier reicht es, das Risiko zu kennen.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "11. Apps installieren: exe, apt, APK und Stores"
+    ]
+  },
+  {
+    "objectID": "11-installation-von-apps.html#praktische-übung",
+    "href": "11-installation-von-apps.html#praktische-übung",
+    "title": "11. Apps installieren: exe, apt, APK und Stores",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\n\nWindows: Öffne den Microsoft Store und suche nach einer dir bekannten App. Schau dir die Angaben zum Herausgeber und die Bewertungen an, bevor du (falls gewünscht) installierst.\nUbuntu: Öffne die App “Software”, suche ebenfalls nach einem Programm und schau dir die Beschreibung an. Öffne zusätzlich ein Terminal und tippe apt list --installed | wc -l – das zeigt dir, wie viele Pakete aktuell über APT installiert sind.\nVergleiche: Welche Informationen (Bewertungen, Herausgeber, Berechtigungen) zeigen dir beide Stores vor der Installation an?",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "11. Apps installieren: exe, apt, APK und Stores"
+    ]
+  },
+  {
+    "objectID": "11-installation-von-apps.html#verständnisfragen",
+    "href": "11-installation-von-apps.html#verständnisfragen",
+    "title": "11. Apps installieren: exe, apt, APK und Stores",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWelches Installationsdateiformat gehört zu welchem System: Windows, Ubuntu, Android?\n\nWindows: .exe. Ubuntu: .deb (bzw. Pakete über APT). Android: .apk.\n\n\n\nWas ist ein Vorteil der Paketverwaltung (APT) unter Ubuntu gegenüber dem manuellen Herunterladen einzelner Installationsdateien?\n\nAPT kümmert sich automatisch um Abhängigkeiten (benötigte weitere Programme/Bibliotheken werden automatisch mitinstalliert) und erleichtert zentrale Updates aller installierten Pakete.\n\n\n\nWas bedeutet “Sideloading” bei Android und warum ist es riskanter als der Play Store?\n\nSideloading bedeutet, eine APK-Datei manuell von einer anderen Quelle als dem Play Store zu installieren. Es ist riskanter, weil diese App die Prüfung durch den Play Store umgeht und somit potenziell ungeprüfte oder schädliche Inhalte enthalten könnte.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "11. Apps installieren: exe, apt, APK und Stores"
+    ]
+  },
+  {
+    "objectID": "11-installation-von-apps.html#zusammenfassung",
+    "href": "11-installation-von-apps.html#zusammenfassung",
+    "title": "11. Apps installieren: exe, apt, APK und Stores",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nWindows installiert Software über .exe-Dateien oder den Microsoft Store.\nUbuntu nutzt die Paketverwaltung (APT) mit zentralen Repositories, alternativ einzelne .deb-Dateien.\nAndroid installiert Apps meist über den Google Play Store, alternativ per Sideloading von .apk-Dateien.\nSoftware aus geprüften Stores ist grundsätzlich vertrauenswürdiger als Dateien von unbekannten Websites – mehr dazu in Kapitel 19.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "11. Apps installieren: exe, apt, APK und Stores"
+    ]
+  },
+  {
+    "objectID": "11-installation-von-apps.html#ausblick",
+    "href": "11-installation-von-apps.html#ausblick",
+    "title": "11. Apps installieren: exe, apt, APK und Stores",
+    "section": "Ausblick",
+    "text": "Ausblick\nDie Paketverwaltung hast du gerade über die Kommandozeile kennengelernt (apt install ...). Im nächsten Kapitel schauen wir uns die Kommandozeile selbst genauer an: Was unterscheidet sie von der grafischen Oberfläche, und welche Grundbefehle solltest du auf Windows und Ubuntu kennen?",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "11. Apps installieren: exe, apt, APK und Stores"
+    ]
+  },
+  {
+    "objectID": "07-dateien-verwalten.html",
+    "href": "07-dateien-verwalten.html",
+    "title": "7. Speichern, Umbenennen, Verschieben, Kopieren",
+    "section": "",
+    "text": "Du kennst jetzt das Ordnersystem mit Pfaden (Kapitel 5) und Dateiendungen (Kapitel 6). Jetzt geht es darum, wie du im Alltag praktisch mit Dateien umgehst: speichern, umbenennen, verschieben und kopieren. Diese vier Handgriffe brauchst du ständig, egal welches Programm du benutzt.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "7. Speichern, Umbenennen, Verschieben, Kopieren"
+    ]
+  },
+  {
+    "objectID": "07-dateien-verwalten.html#warum-das-wichtig-ist",
+    "href": "07-dateien-verwalten.html#warum-das-wichtig-ist",
+    "title": "7. Speichern, Umbenennen, Verschieben, Kopieren",
+    "section": "",
+    "text": "Du kennst jetzt das Ordnersystem mit Pfaden (Kapitel 5) und Dateiendungen (Kapitel 6). Jetzt geht es darum, wie du im Alltag praktisch mit Dateien umgehst: speichern, umbenennen, verschieben und kopieren. Diese vier Handgriffe brauchst du ständig, egal welches Programm du benutzt.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "7. Speichern, Umbenennen, Verschieben, Kopieren"
+    ]
+  },
+  {
+    "objectID": "07-dateien-verwalten.html#speichern",
+    "href": "07-dateien-verwalten.html#speichern",
+    "title": "7. Speichern, Umbenennen, Verschieben, Kopieren",
+    "section": "Speichern",
+    "text": "Speichern\nWenn du in einem Programm (z. B. einem Textprogramm) etwas erstellst, existiert es zunächst nur im RAM (siehe Kapitel 2) – also nur, solange das Programm läuft. Erst durch Speichern wird der Inhalt dauerhaft als Datei auf einem Speichermedium (HDD/SSD) abgelegt.\nBeim ersten Speichern fragt dich das Programm meist nach zwei Dingen, die du inzwischen einordnen kannst:\n\nWo die Datei liegen soll – also nach dem Pfad/Ordner (Kapitel 5).\nWie die Datei heißen soll, inklusive Dateiendung (Kapitel 6), die meist automatisch vom Programm vorgegeben wird.\n\nDer Menüpunkt “Speichern unter” (Save As) erlaubt es dir, eine bereits gespeicherte Datei erneut unter einem neuen Namen oder an einem neuen Ort zu speichern – die ursprüngliche Datei bleibt dabei unverändert erhalten. Der normale Menüpunkt “Speichern” (Save) überschreibt dagegen die bestehende Datei mit dem aktuellen Stand.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "7. Speichern, Umbenennen, Verschieben, Kopieren"
+    ]
+  },
+  {
+    "objectID": "07-dateien-verwalten.html#umbenennen-verschieben-kopieren",
+    "href": "07-dateien-verwalten.html#umbenennen-verschieben-kopieren",
+    "title": "7. Speichern, Umbenennen, Verschieben, Kopieren",
+    "section": "Umbenennen, Verschieben, Kopieren",
+    "text": "Umbenennen, Verschieben, Kopieren\nDiese drei Aktionen funktionieren im Windows-Explorer und im Ubuntu-Dateimanager (Nautilus/“Dateien”) sehr ähnlich:\n\n\n\n\n\n\n\n\nAktion\nWindows-Explorer\nUbuntu-Dateimanager\n\n\n\n\nUmbenennen\nDatei markieren, Taste F2 drücken, neuen Namen eingeben\nDatei markieren, Taste F2 drücken, neuen Namen eingeben\n\n\nKopieren\nDatei markieren, Strg+C, im Zielordner Strg+V\nDatei markieren, Strg+C, im Zielordner Strg+V\n\n\nVerschieben (ausschneiden)\nDatei markieren, Strg+X, im Zielordner Strg+V\nDatei markieren, Strg+X, im Zielordner Strg+V\n\n\nVerschieben (Drag & Drop)\nDatei mit gedrückter Maustaste in den Zielordner ziehen\nDatei mit gedrückter Maustaste in den Zielordner ziehen\n\n\n\nDer wichtige begriffliche Unterschied zwischen Kopieren und Verschieben: Beim Kopieren entsteht eine zweite, unabhängige Version der Datei – die Originaldatei bleibt am alten Ort erhalten. Beim Verschieben gibt es die Datei am Ende nur noch am neuen Ort, am alten Ort ist sie verschwunden.\n\n\n\n\n\n\nHinweisAchtung bei der Umbenennung\n\n\n\nWenn unter Windows die Dateiendung sichtbar ist (siehe Kapitel 6), gehört sie beim Umbenennen mit zum markierten Text. Wenn du aus Versehen die Endung mit veränderst oder löschst (z. B. aus foto.jpg wird foto), kann das Betriebssystem nicht mehr automatisch erkennen, mit welchem Programm die Datei geöffnet werden soll.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "7. Speichern, Umbenennen, Verschieben, Kopieren"
+    ]
+  },
+  {
+    "objectID": "07-dateien-verwalten.html#praktische-übung",
+    "href": "07-dateien-verwalten.html#praktische-übung",
+    "title": "7. Speichern, Umbenennen, Verschieben, Kopieren",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\nÜbe alle vier Aktionen einmal im Windows-Explorer und einmal im Ubuntu-Dateimanager:\n\nErstelle in deinem Downloads-Ordner eine neue Textdatei.\nUmbenennen: Benenne sie in notiz.txt um.\nKopieren: Kopiere sie in deinen Dokumente-Ordner (die Originaldatei soll danach an beiden Orten existieren).\nVerschieben: Verschiebe die Kopie im Dokumente-Ordner zusätzlich auf den Desktop (per Ausschneiden/Einfügen oder Drag & Drop).\nKontrolliere am Ende: Liegt die Datei jetzt in Downloads und auf dem Desktop, aber nicht mehr in Dokumente?",
+    "crumbs": [
+      "Dateien und Ordner",
+      "7. Speichern, Umbenennen, Verschieben, Kopieren"
+    ]
+  },
+  {
+    "objectID": "07-dateien-verwalten.html#verständnisfragen",
+    "href": "07-dateien-verwalten.html#verständnisfragen",
+    "title": "7. Speichern, Umbenennen, Verschieben, Kopieren",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWas ist der Unterschied zwischen “Speichern” und “Speichern unter”?\n\n“Speichern” überschreibt die bestehende Datei mit dem aktuellen Stand. “Speichern unter” legt eine neue Datei (mit neuem Namen und/oder neuem Ort) an, ohne die ursprüngliche Datei zu verändern.\n\n\n\nWas passiert mit der Originaldatei, wenn du eine Datei kopierst statt verschiebst?\n\nBeim Kopieren bleibt die Originaldatei am alten Ort erhalten, zusätzlich entsteht eine unabhängige Kopie am neuen Ort. Beim Verschieben existiert die Datei danach nur noch am neuen Ort.\n\n\n\nWarum sollte man beim Umbenennen einer Datei die Dateiendung nicht versehentlich verändern?\n\nWeil das Betriebssystem anhand der Endung erkennt, mit welchem Programm die Datei geöffnet werden soll. Eine falsche oder fehlende Endung kann dazu führen, dass die Datei nicht mehr richtig geöffnet werden kann.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "7. Speichern, Umbenennen, Verschieben, Kopieren"
+    ]
+  },
+  {
+    "objectID": "07-dateien-verwalten.html#zusammenfassung",
+    "href": "07-dateien-verwalten.html#zusammenfassung",
+    "title": "7. Speichern, Umbenennen, Verschieben, Kopieren",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nSpeichern legt den aktuellen Stand einer Datei dauerhaft ab, Speichern unter legt eine neue Datei an.\nUmbenennen, Kopieren und Verschieben funktionieren im Windows-Explorer und im Ubuntu-Dateimanager mit denselben Tastenkombinationen (F2, Strg+C, Strg+X, Strg+V).\nBeim Kopieren bleibt die Originaldatei erhalten, beim Verschieben nicht.\nBeim Umbenennen sollte die Dateiendung erhalten bleiben.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "7. Speichern, Umbenennen, Verschieben, Kopieren"
+    ]
+  },
+  {
+    "objectID": "07-dateien-verwalten.html#ausblick",
+    "href": "07-dateien-verwalten.html#ausblick",
+    "title": "7. Speichern, Umbenennen, Verschieben, Kopieren",
+    "section": "Ausblick",
+    "text": "Ausblick\nBisher hast du Bilddateien nur als eine von vielen Dateiendungen kennengelernt (.jpg, .png). Im nächsten Kapitel schauen wir uns genauer an, was eigentlich in einer Bilddatei steckt: Pixel, Auflösung und Kompression.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "7. Speichern, Umbenennen, Verschieben, Kopieren"
+    ]
+  },
+  {
+    "objectID": "17-email.html",
+    "href": "17-email.html",
+    "title": "17. E-Mail",
+    "section": "",
+    "text": "E-Mail ist einer der ältesten Dienste, die über das Internet laufen – älter als das World Wide Web selbst – und bis heute der Standardweg für offizielle digitale Kommunikation, z. B. mit Schulen, Behörden oder Unternehmen. Dein E-Mail-Postfach liegt dabei, wie in Kapitel 16 beschrieben, auf einem Server deines E-Mail-Anbieters.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "17. E-Mail"
+    ]
+  },
+  {
+    "objectID": "17-email.html#warum-das-wichtig-ist",
+    "href": "17-email.html#warum-das-wichtig-ist",
+    "title": "17. E-Mail",
+    "section": "",
+    "text": "E-Mail ist einer der ältesten Dienste, die über das Internet laufen – älter als das World Wide Web selbst – und bis heute der Standardweg für offizielle digitale Kommunikation, z. B. mit Schulen, Behörden oder Unternehmen. Dein E-Mail-Postfach liegt dabei, wie in Kapitel 16 beschrieben, auf einem Server deines E-Mail-Anbieters.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "17. E-Mail"
+    ]
+  },
+  {
+    "objectID": "17-email.html#aufbau-einer-e-mail-adresse",
+    "href": "17-email.html#aufbau-einer-e-mail-adresse",
+    "title": "17. E-Mail",
+    "section": "Aufbau einer E-Mail-Adresse",
+    "text": "Aufbau einer E-Mail-Adresse\nEine E-Mail-Adresse besteht immer aus zwei Teilen, getrennt durch das @-Zeichen:\nlokaler-teil@domain\nBeispiel: anna.mueller@web.de\n\nDer lokale Teil (anna.mueller) identifiziert das konkrete Postfach bei diesem Anbieter – vergleichbar mit einem Namen auf einem Briefkasten.\nDie Domain (web.de) identifiziert den E-Mail-Anbieter, also den Server, auf dem das Postfach liegt – vergleichbar mit der Adresse des Hauses, in dem sich der Briefkasten befindet.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "17. E-Mail"
+    ]
+  },
+  {
+    "objectID": "17-email.html#e-mail-vs.-messenger-nachrichten",
+    "href": "17-email.html#e-mail-vs.-messenger-nachrichten",
+    "title": "17. E-Mail",
+    "section": "E-Mail vs. Messenger-Nachrichten",
+    "text": "E-Mail vs. Messenger-Nachrichten\nE-Mail und Messenger-Apps (wie WhatsApp, Signal oder Telegram) dienen beide der digitalen Kommunikation, funktionieren aber grundlegend unterschiedlich:\n\nE-Mail folgt einem offenen, gemeinsamen Standard. Das bedeutet: Eine E-Mail von einem Gmail-Postfach kann problemlos bei einem Web.de- oder Outlook-Postfach ankommen, weil sich alle E-Mail-Anbieter an dieselben grundlegenden Regeln halten. Anbieter-übergreifende Kommunikation ist der Normalfall.\nMessenger-Apps sind meist geschlossene Systeme. Um jemandem über WhatsApp zu schreiben, müssen beide Seiten WhatsApp installiert haben – eine Nachricht von WhatsApp direkt an ein Signal-Konto zu schicken, ist normalerweise nicht möglich.\n\nAuch im Ton unterscheiden sich beide oft: E-Mails werden häufiger für formellere, längere Nachrichten genutzt (z. B. mit Anrede und Grußformel), Messenger-Nachrichten eher für kurze, informelle und direkte Kommunikation in Echtzeit.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "17. E-Mail"
+    ]
+  },
+  {
+    "objectID": "17-email.html#anhänge",
+    "href": "17-email.html#anhänge",
+    "title": "17. E-Mail",
+    "section": "Anhänge",
+    "text": "Anhänge\nEine E-Mail besteht nicht nur aus Text – du kannst zusätzlich Dateien als Anhang (Attachment) mitschicken, z. B. ein Dokument, ein Foto oder ein PDF (siehe Kapitel 6 zu Dateiendungen). Die angehängte Datei wird dabei zusammen mit der Nachricht zum Server des Empfängers übertragen und kann dort heruntergeladen werden.\n\n\n\n\n\n\nWichtigKurzer Hinweis: Spam\n\n\n\nNicht jede E-Mail in deinem Postfach ist erwünscht. Spam bezeichnet unerwünschte Massen-E-Mails, oft Werbung. Ein Teil davon ist nur lästig, ein anderer Teil ist gezielt darauf ausgelegt, dich zu täuschen (z. B. sogenanntes Phishing, bei dem Absender versuchen, an deine Zugangsdaten zu gelangen) oder schädliche Anhänge zu verbreiten. Wie du solche gefährlichen Nachrichten erkennst, behandeln wir ausführlich in Kapitel 19 (IT-Sicherheit) – hier reicht es zu wissen, dass nicht jede E-Mail automatisch vertrauenswürdig ist, nur weil sie in deinem Postfach liegt.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "17. E-Mail"
+    ]
+  },
+  {
+    "objectID": "17-email.html#praktische-übung",
+    "href": "17-email.html#praktische-übung",
+    "title": "17. E-Mail",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\n\nÖffne dein E-Mail-Postfach (im Browser oder über eine E-Mail-App).\nSchreibe eine neue E-Mail an dich selbst oder – mit Erlaubnis – an eine Lehrkraft oder ein Elternteil.\nHänge eine Datei an (z. B. das Textdokument aus Kapitel 7 oder das Bild aus Kapitel 8) und verschicke die E-Mail.\nÖffne die empfangene E-Mail und identifiziere: den lokalen Teil und die Domain der Absenderadresse, sowie den Anhang.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "17. E-Mail"
+    ]
+  },
+  {
+    "objectID": "17-email.html#verständnisfragen",
+    "href": "17-email.html#verständnisfragen",
+    "title": "17. E-Mail",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nAus welchen zwei Teilen besteht eine E-Mail-Adresse, getrennt durch welches Zeichen?\n\nAus dem lokalen Teil (identifiziert das Postfach) und der Domain (identifiziert den Anbieter/Server), getrennt durch das @-Zeichen.\n\n\n\nWarum kannst du von einem Gmail-Postfach problemlos an ein Web.de-Postfach schreiben, aber nicht ohne Weiteres von WhatsApp an Signal?\n\nE-Mail folgt einem offenen, gemeinsamen Standard, an den sich alle Anbieter halten, wodurch Anbieter-übergreifende Kommunikation funktioniert. Messenger-Apps sind meist geschlossene Systeme, bei denen beide Seiten dieselbe App nutzen müssen.\n\n\n\nWas ist Spam, und warum ist nicht jede Spam-Mail nur lästig?\n\nSpam sind unerwünschte Massen-E-Mails. Ein Teil ist nur störende Werbung, ein anderer Teil versucht gezielt, dich zu täuschen (Phishing) oder schädliche Anhänge zu verbreiten – daher ist Vorsicht beim Umgang mit unbekannten E-Mails wichtig.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "17. E-Mail"
+    ]
+  },
+  {
+    "objectID": "17-email.html#zusammenfassung",
+    "href": "17-email.html#zusammenfassung",
+    "title": "17. E-Mail",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nEine E-Mail-Adresse besteht aus lokalem Teil@Domain.\nE-Mail folgt einem offenen Standard und funktioniert anbieterübergreifend, Messenger-Apps sind meist geschlossene Systeme.\nE-Mails können Anhänge (Dateien) enthalten.\nSpam kann von harmloser Werbung bis zu gefährlichem Phishing reichen – mehr dazu in Kapitel 19.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "17. E-Mail"
+    ]
+  },
+  {
+    "objectID": "17-email.html#ausblick",
+    "href": "17-email.html#ausblick",
+    "title": "17. E-Mail",
+    "section": "Ausblick",
+    "text": "Ausblick\nUm dein E-Mail-Postfach zu nutzen, brauchst du ein Benutzerkonto mit Passwort. Im nächsten Kapitel geht es um Passwörter und Accounts: was einen Account ausmacht, was ein gutes Passwort auszeichnet, und was Zwei-Faktor-Authentifizierung ist.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "17. E-Mail"
+    ]
+  },
+  {
+    "objectID": "05-ordnersystem.html",
+    "href": "05-ordnersystem.html",
+    "title": "5. Das Ordnersystem: Verzeichnisse und Pfade",
+    "section": "",
+    "text": "Das Betriebssystem organisiert alle deine Dateien in einem Ordnersystem (auch Dateisystem genannt). Wenn du verstehst, wie dieses System aufgebaut ist, findest du deine Dateien leichter wieder – und du legst die Grundlage für Kapitel 12, in dem du Ordner nicht mehr nur per Mausklick, sondern über die Kommandozeile ansteuerst.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "5. Das Ordnersystem: Verzeichnisse und Pfade"
+    ]
+  },
+  {
+    "objectID": "05-ordnersystem.html#warum-das-wichtig-ist",
+    "href": "05-ordnersystem.html#warum-das-wichtig-ist",
+    "title": "5. Das Ordnersystem: Verzeichnisse und Pfade",
+    "section": "",
+    "text": "Das Betriebssystem organisiert alle deine Dateien in einem Ordnersystem (auch Dateisystem genannt). Wenn du verstehst, wie dieses System aufgebaut ist, findest du deine Dateien leichter wieder – und du legst die Grundlage für Kapitel 12, in dem du Ordner nicht mehr nur per Mausklick, sondern über die Kommandozeile ansteuerst.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "5. Das Ordnersystem: Verzeichnisse und Pfade"
+    ]
+  },
+  {
+    "objectID": "05-ordnersystem.html#der-verzeichnisbaum",
+    "href": "05-ordnersystem.html#der-verzeichnisbaum",
+    "title": "5. Das Ordnersystem: Verzeichnisse und Pfade",
+    "section": "Der Verzeichnisbaum",
+    "text": "Der Verzeichnisbaum\nOrdner (auch Verzeichnisse genannt) können weitere Ordner enthalten, die wiederum weitere Ordner enthalten können – und so weiter. Diese Struktur nennt man einen Verzeichnisbaum, weil sie sich, ähnlich wie bei einem Baum, von einer Wurzel aus verzweigt. Ganz oben steht immer ein Wurzelverzeichnis (Root), von dem aus sich alle anderen Ordner ableiten.\nWindows und Ubuntu bauen ihren Verzeichnisbaum unterschiedlich auf:\n\nWindows hat für jedes Speichermedium ein eigenes Wurzelverzeichnis, benannt mit einem Laufwerksbuchstaben, z. B. C:\\ für die interne Festplatte/SSD. Ein zweites Speichermedium würde z. B. als D:\\ erscheinen.\nUbuntu (wie alle Linux- und Unix-Systeme) hat nur ein Wurzelverzeichnis für das gesamte System, geschrieben als /. Auch zusätzliche Speichermedien werden in diesen einen Baum eingehängt, statt einen eigenen Buchstaben zu bekommen.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "5. Das Ordnersystem: Verzeichnisse und Pfade"
+    ]
+  },
+  {
+    "objectID": "05-ordnersystem.html#was-ist-ein-pfad",
+    "href": "05-ordnersystem.html#was-ist-ein-pfad",
+    "title": "5. Das Ordnersystem: Verzeichnisse und Pfade",
+    "section": "Was ist ein Pfad?",
+    "text": "Was ist ein Pfad?\nEin Pfad beschreibt, wo genau sich eine Datei oder ein Ordner im Verzeichnisbaum befindet – vergleichbar mit einer Postanschrift. Ein Pfad listet alle Ordner auf, die man vom Wurzelverzeichnis aus nacheinander öffnen muss, um zur gewünschten Datei zu gelangen, getrennt durch ein Trennzeichen.\n\n\n\n\nWindows\nUbuntu\n\n\n\n\nTrennzeichen\nBackslash \\\nSchrägstrich /\n\n\nWurzelverzeichnis\nLaufwerksbuchstabe, z. B. C:\\\n/\n\n\nBeispielpfad\nC:\\Users\\Anna\\Downloads\n/home/anna/Downloads\n\n\n\nDer Beispielpfad C:\\Users\\Anna\\Downloads bedeutet: Gehe ins Laufwerk C:, dann in den Ordner Users, dann in den Ordner Anna, dann in den Ordner Downloads. Der Ubuntu-Pfad /home/anna/Downloads funktioniert nach demselben Prinzip, nur mit anderem Trennzeichen und anderen Ordnernamen auf dem Weg dorthin.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "5. Das Ordnersystem: Verzeichnisse und Pfade"
+    ]
+  },
+  {
+    "objectID": "05-ordnersystem.html#das-persönliche-standardverzeichnis",
+    "href": "05-ordnersystem.html#das-persönliche-standardverzeichnis",
+    "title": "5. Das Ordnersystem: Verzeichnisse und Pfade",
+    "section": "Das persönliche Standardverzeichnis",
+    "text": "Das persönliche Standardverzeichnis\nBeide Systeme legen für jeden Benutzer bzw. jede Benutzerin ein eigenes Home-Verzeichnis an, in dem persönliche Dateien standardmäßig liegen:\n\nWindows: C:\\Users\\&lt;Benutzername&gt;\\ mit Unterordnern wie Desktop, Documents (Dokumente), Downloads, Pictures (Bilder), Music (Musik), Videos.\nUbuntu: /home/&lt;Benutzername&gt;/ mit Unterordnern wie Desktop, Documents, Downloads, Pictures, Music, Videos – die Ordnernamen sind je nach Spracheinstellung teils auf Deutsch (z. B. Dokumente, Bilder).\n\n\n\n\n\n\n\nTippAbkürzung für das Home-Verzeichnis\n\n\n\nUnter Ubuntu wird das eigene Home-Verzeichnis oft mit der Tilde ~ abgekürzt. ~/Downloads bedeutet also dasselbe wie /home/&lt;dein Benutzername&gt;/Downloads. Diese Abkürzung wirst du in Kapitel 12 auf der Kommandozeile wiedersehen.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "5. Das Ordnersystem: Verzeichnisse und Pfade"
+    ]
+  },
+  {
+    "objectID": "05-ordnersystem.html#praktische-übung",
+    "href": "05-ordnersystem.html#praktische-übung",
+    "title": "5. Das Ordnersystem: Verzeichnisse und Pfade",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\n\nWindows: Öffne den Datei-Explorer und navigiere zu deinem Downloads-Ordner. Klicke einmal in die Adressleiste oben – dort erscheint jetzt der vollständige Pfad als Text (z. B. C:\\Users\\DeinName\\Downloads). Schreibe ihn dir auf.\nUbuntu: Öffne den Dateimanager (z. B. Nautilus/“Dateien”) und navigiere zu deinem Downloads-Ordner. Drücke Strg + L (bzw. Ctrl+L), um die Adressleiste als Text einzublenden, und lies den Pfad ab (z. B. /home/deinname/Downloads). Schreibe ihn dir ebenfalls auf.\nVergleiche die beiden Pfade: Was ist gleich (Grundstruktur), was ist unterschiedlich (Trennzeichen, Wurzelverzeichnis, Ordnernamen)?",
+    "crumbs": [
+      "Dateien und Ordner",
+      "5. Das Ordnersystem: Verzeichnisse und Pfade"
+    ]
+  },
+  {
+    "objectID": "05-ordnersystem.html#verständnisfragen",
+    "href": "05-ordnersystem.html#verständnisfragen",
+    "title": "5. Das Ordnersystem: Verzeichnisse und Pfade",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWas ist der Unterschied zwischen dem Wurzelverzeichnis unter Windows und unter Ubuntu?\n\nWindows hat für jedes Speichermedium ein eigenes Wurzelverzeichnis mit Laufwerksbuchstaben (z. B. C:). Ubuntu hat nur ein einziges Wurzelverzeichnis für das gesamte System, geschrieben als /, in das auch zusätzliche Speichermedien eingehängt werden.\n\n\n\nWas bedeutet der Pfad /home/tom/Documents?\n\nEr beschreibt: Ausgehend vom Wurzelverzeichnis / geht es in den Ordner home, darin in den Ordner tom (das Home-Verzeichnis von Tom), darin in den Ordner Documents.\n\n\n\nWelches Zeichen trennt Ordnernamen in einem Pfad unter Windows, welches unter Ubuntu?\n\nWindows verwendet den Backslash , Ubuntu (wie andere Linux-Systeme) verwendet den Schrägstrich /.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "5. Das Ordnersystem: Verzeichnisse und Pfade"
+    ]
+  },
+  {
+    "objectID": "05-ordnersystem.html#zusammenfassung",
+    "href": "05-ordnersystem.html#zusammenfassung",
+    "title": "5. Das Ordnersystem: Verzeichnisse und Pfade",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nOrdner werden in einem Verzeichnisbaum organisiert, der von einem Wurzelverzeichnis ausgeht.\nWindows nutzt Laufwerksbuchstaben (C:\\) als Wurzelverzeichnisse, Ubuntu nutzt ein einziges /.\nEin Pfad beschreibt den genauen Ort einer Datei im Verzeichnisbaum – unter Windows mit \\ getrennt, unter Ubuntu mit /.\nJeder Benutzer hat ein eigenes Home-Verzeichnis mit Standardordnern wie Downloads, Documents, Pictures.\nUnter Ubuntu steht ~ als Abkürzung für das eigene Home-Verzeichnis.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "5. Das Ordnersystem: Verzeichnisse und Pfade"
+    ]
+  },
+  {
+    "objectID": "05-ordnersystem.html#ausblick",
+    "href": "05-ordnersystem.html#ausblick",
+    "title": "5. Das Ordnersystem: Verzeichnisse und Pfade",
+    "section": "Ausblick",
+    "text": "Ausblick\nJetzt weißt du, wo Dateien liegen. Im nächsten Kapitel geht es darum, was eigentlich in einer Datei steckt – genauer gesagt, wie du an der Dateiendung erkennst, um welche Art von Datei es sich handelt.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "5. Das Ordnersystem: Verzeichnisse und Pfade"
+    ]
+  },
+  {
+    "objectID": "01-bits-und-bytes.html",
+    "href": "01-bits-und-bytes.html",
+    "title": "1. Bits und Bytes: Wie ein Computer denkt",
+    "section": "",
+    "text": "Ein Computer kann weder lesen noch sehen noch hören – zumindest nicht so, wie du es kannst. Alles, was ein Computer verarbeitet – Texte, Fotos, Musik, Videos, ganze Programme – wird am Ende auf eine einzige Sache heruntergebrochen: Strom an oder Strom aus. Wenn du in den folgenden Kapiteln lernst, wie Arbeitsspeicher (RAM) oder Festplatten funktionieren, wie groß eine Datei ist oder warum ein Prozessor “rechnet”, steckt überall dieses Prinzip dahinter. Deshalb starten wir genau hier.",
+    "crumbs": [
+      "Grundlagen",
+      "1. Bits und Bytes: Wie ein Computer denkt"
+    ]
+  },
+  {
+    "objectID": "01-bits-und-bytes.html#warum-das-wichtig-ist",
+    "href": "01-bits-und-bytes.html#warum-das-wichtig-ist",
+    "title": "1. Bits und Bytes: Wie ein Computer denkt",
+    "section": "",
+    "text": "Ein Computer kann weder lesen noch sehen noch hören – zumindest nicht so, wie du es kannst. Alles, was ein Computer verarbeitet – Texte, Fotos, Musik, Videos, ganze Programme – wird am Ende auf eine einzige Sache heruntergebrochen: Strom an oder Strom aus. Wenn du in den folgenden Kapiteln lernst, wie Arbeitsspeicher (RAM) oder Festplatten funktionieren, wie groß eine Datei ist oder warum ein Prozessor “rechnet”, steckt überall dieses Prinzip dahinter. Deshalb starten wir genau hier.",
+    "crumbs": [
+      "Grundlagen",
+      "1. Bits und Bytes: Wie ein Computer denkt"
+    ]
+  },
+  {
+    "objectID": "01-bits-und-bytes.html#das-kernkonzept-bits",
+    "href": "01-bits-und-bytes.html#das-kernkonzept-bits",
+    "title": "1. Bits und Bytes: Wie ein Computer denkt",
+    "section": "Das Kernkonzept: Bits",
+    "text": "Das Kernkonzept: Bits\nEin Bit ist die kleinste Informationseinheit, die ein Computer kennt. Ein Bit kann genau zwei Zustände annehmen:\n\n0 (kein Strom / Schalter aus)\n1 (Strom / Schalter an)\n\nDas nennt man das Binärsystem oder Dualsystem – ein Zahlensystem, das nur aus den Ziffern 0 und 1 besteht. Wir Menschen rechnen normalerweise im Dezimalsystem (Basis 10, Ziffern 0–9). Computer rechnen im Binärsystem (Basis 2), weil sich zwei Zustände (Strom an/aus) mit einfacher Elektronik sehr zuverlässig umsetzen lassen.\n\nVom Dezimalsystem zum Binärsystem\nIm Dezimalsystem hat jede Stelle einer Zahl einen Wert, der von rechts nach links um das Zehnfache steigt (1er, 10er, 100er, …). Im Binärsystem steigt der Wert jeder Stelle von rechts nach links um das Zweifache:\n\n\n\nStelle\n128\n64\n32\n16\n8\n4\n2\n1\n\n\n\n\nBit-Wert\n2⁷\n2⁶\n2⁵\n2⁴\n2³\n2²\n2¹\n2⁰\n\n\n\nUm eine Binärzahl in eine Dezimalzahl umzurechnen, addierst du die Stellenwerte, an denen eine 1 steht. Ein Beispiel:\nBinär:    0  1  0  0  0  0  0  1\nStelle: 128 64 32 16  8  4  2  1\nHier steht eine 1 bei 64 und bei 1. Also: 64 + 1 = 65.\n\n\nEin Bit reicht nicht – deshalb gibt es Bytes\nMit einem einzelnen Bit kannst du nur zwei Zustände unterscheiden – viel zu wenig, um z. B. einen Buchstaben darzustellen. Deshalb fassen Computer immer 8 Bit zu 1 Byte zusammen. Mit 8 Bit lassen sich 2⁸ = 256 unterschiedliche Werte darstellen (die Werte 0 bis 255).",
+    "crumbs": [
+      "Grundlagen",
+      "1. Bits und Bytes: Wie ein Computer denkt"
+    ]
+  },
+  {
+    "objectID": "01-bits-und-bytes.html#ein-konkretes-beispiel-ein-buchstabe-als-byte",
+    "href": "01-bits-und-bytes.html#ein-konkretes-beispiel-ein-buchstabe-als-byte",
+    "title": "1. Bits und Bytes: Wie ein Computer denkt",
+    "section": "Ein konkretes Beispiel: Ein Buchstabe als Byte",
+    "text": "Ein konkretes Beispiel: Ein Buchstabe als Byte\nComputer brauchen eine Vereinbarung, welche Zahl welchem Zeichen entspricht. Eine der ältesten und bis heute gültigen Vereinbarungen dafür ist der ASCII-Standard (American Standard Code for Information Interchange). Darin ist zum Beispiel festgelegt:\n\nDer Großbuchstabe A entspricht der Dezimalzahl 65.\n\nDie Binärzahl von oben – 01000001 – ist also genau der Code, mit dem ein Computer den Buchstaben “A” speichert. Du kannst das selbst nachprüfen: Öffne auf einem beliebigen Rechner ein Terminal bzw. eine Eingabeaufforderung mit Python (siehe Kapitel 12 und 13) und tippe print(ord(\"A\")) – das Ergebnis ist 65.\n\n\n\n\n\n\nWichtigVertiefung: Warum zeigt der Explorer andere Werte an als erwartet?\n\n\n\nFür größere Mengen an Bytes werden Vorsilben wie Kilo, Mega und Giga verwendet – aber hier gibt es eine Falle, die viele nicht kennen:\n\nIm Dezimalsystem (offizielle SI-Einheit) gilt: 1 Kilobyte (KB) = 1.000 Byte, 1 Megabyte (MB) = 1.000.000 Byte.\nComputer rechnen aber intern binär, und dort liegt es näher, mit Zweierpotenzen zu arbeiten: 1 Kibibyte (KiB) = 1.024 Byte, 1 Mebibyte (MiB) = 1.024 × 1.024 Byte.\n\nViele Betriebssysteme – auch Windows – zeigen dir bis heute eigentlich Kibi-/Mebi-/Gibi-Werte an, beschriften sie aber (technisch nicht ganz korrekt) mit “KB”, “MB”, “GB”. Festplatten- und USB-Stick-Hersteller rechnen dagegen mit den korrekten Dezimal-Werten. Das ist der Grund, warum eine als “512 GB” verkaufte SSD im Windows-Explorer oder im Ubuntu-Dateimanager nur rund 477 GB anzeigt: Es ist dieselbe Menge an Bytes, nur unterschiedlich umgerechnet – kein Fehler und kein Betrug, sondern zwei verschiedene Rechenwege.",
+    "crumbs": [
+      "Grundlagen",
+      "1. Bits und Bytes: Wie ein Computer denkt"
+    ]
+  },
+  {
+    "objectID": "01-bits-und-bytes.html#praktische-übung",
+    "href": "01-bits-und-bytes.html#praktische-übung",
+    "title": "1. Bits und Bytes: Wie ein Computer denkt",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\n\nÖffne den Taschenrechner in beiden Systemen im Programmierer-Modus:\n\nWindows: Öffne “Rechner” (Suche in der Taskleiste nach “Rechner”), klicke auf das Menü-Symbol oben links und wähle “Programmierer”.\nUbuntu: Öffne die App “Taschenrechner” (gnome-calculator), öffne über das Menü (☰) die Ansicht “Programmierer” bzw. “Programming”.\n\nGib dein Alter als Dezimalzahl ein (z. B. 13) und lies die Binärdarstellung ab.\nRechne per Hand nach, ob die angezeigte Binärzahl stimmt, indem du die Stellenwerte (128, 64, 32, 16, 8, 4, 2, 1) addierst, an denen eine 1 steht.",
+    "crumbs": [
+      "Grundlagen",
+      "1. Bits und Bytes: Wie ein Computer denkt"
+    ]
+  },
+  {
+    "objectID": "01-bits-und-bytes.html#verständnisfragen",
+    "href": "01-bits-und-bytes.html#verständnisfragen",
+    "title": "1. Bits und Bytes: Wie ein Computer denkt",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWas ist der Unterschied zwischen einem Bit und einem Byte?\n\nEin Bit ist die kleinste Informationseinheit und kann nur 0 oder 1 sein. Ein Byte besteht aus 8 Bit und kann dadurch 256 unterschiedliche Werte (0–255) darstellen.\n\n\n\nWarum verwenden Computer das Binärsystem und nicht das Dezimalsystem?\n\nWeil sich zwei elektrische Zustände (Strom an/aus) mit einfacher, zuverlässiger Elektronik technisch leicht umsetzen lassen. Zehn unterschiedliche Spannungsstufen zuverlässig zu unterscheiden wäre viel aufwendiger und fehleranfälliger.\n\n\n\nDie Binärzahl 00001010 – welche Dezimalzahl steckt dahinter?\n\nDie Einsen stehen bei den Stellenwerten 8 und 2. Also: 8 + 2 = 10.",
+    "crumbs": [
+      "Grundlagen",
+      "1. Bits und Bytes: Wie ein Computer denkt"
+    ]
+  },
+  {
+    "objectID": "01-bits-und-bytes.html#zusammenfassung",
+    "href": "01-bits-und-bytes.html#zusammenfassung",
+    "title": "1. Bits und Bytes: Wie ein Computer denkt",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nEin Bit ist die kleinste Informationseinheit eines Computers und kann nur 0 oder 1 sein.\nEin Byte besteht aus 8 Bit und kann 256 verschiedene Werte darstellen.\nComputer arbeiten im Binärsystem (Basis 2), weil sich zwei elektrische Zustände technisch einfach umsetzen lassen.\nZeichen wie Buchstaben werden über Standards wie ASCII einer Zahl (und damit einer Bitfolge) zugeordnet.\nBei Speichergrößen gibt es einen Unterschied zwischen dezimalen Einheiten (KB, MB = Vielfache von 1.000) und binären Einheiten (KiB, MiB = Vielfache von 1.024) – das erklärt scheinbare “fehlende” Speicherkapazität.",
+    "crumbs": [
+      "Grundlagen",
+      "1. Bits und Bytes: Wie ein Computer denkt"
+    ]
+  },
+  {
+    "objectID": "01-bits-und-bytes.html#ausblick",
+    "href": "01-bits-und-bytes.html#ausblick",
+    "title": "1. Bits und Bytes: Wie ein Computer denkt",
+    "section": "Ausblick",
+    "text": "Ausblick\nBits und Bytes sind die Bausteine, mit denen dein Computer arbeitet – aber wo passiert das eigentlich physisch? Im nächsten Kapitel schauen wir uns die Hardware an: den Prozessor (CPU), der die Bits verarbeitet, die Grafikkarte (GPU), den Arbeitsspeicher (RAM), in dem Bits kurzzeitig “geparkt” werden, und Speichermedien wie SSDs und Festplatten, auf denen Bytes dauerhaft gespeichert bleiben.",
+    "crumbs": [
+      "Grundlagen",
+      "1. Bits und Bytes: Wie ein Computer denkt"
+    ]
+  },
+  {
+    "objectID": "14-internet-und-netzwerke.html",
+    "href": "14-internet-und-netzwerke.html",
+    "title": "14. Internet und Netzwerke: Die Grundlagen",
+    "section": "",
+    "text": "Bisher ging es vor allem um einen einzelnen Computer. Aber die meisten Geräte, die du nutzt, sind mit anderen Geräten verbunden – über ein Netzwerk. In diesem Kapitel klären wir die Grundbegriffe LAN, WLAN, Router, IP-Adresse und den Unterschied zwischen “Internet” und “World Wide Web”. Technische Details wie einzelne Übertragungsprotokolle sparen wir hier bewusst aus – die reichen für ein solides Grundverständnis noch nicht nötig aus.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "14. Internet und Netzwerke: Die Grundlagen"
+    ]
+  },
+  {
+    "objectID": "14-internet-und-netzwerke.html#warum-das-wichtig-ist",
+    "href": "14-internet-und-netzwerke.html#warum-das-wichtig-ist",
+    "title": "14. Internet und Netzwerke: Die Grundlagen",
+    "section": "",
+    "text": "Bisher ging es vor allem um einen einzelnen Computer. Aber die meisten Geräte, die du nutzt, sind mit anderen Geräten verbunden – über ein Netzwerk. In diesem Kapitel klären wir die Grundbegriffe LAN, WLAN, Router, IP-Adresse und den Unterschied zwischen “Internet” und “World Wide Web”. Technische Details wie einzelne Übertragungsprotokolle sparen wir hier bewusst aus – die reichen für ein solides Grundverständnis noch nicht nötig aus.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "14. Internet und Netzwerke: Die Grundlagen"
+    ]
+  },
+  {
+    "objectID": "14-internet-und-netzwerke.html#lan-und-wlan-lokale-netzwerke",
+    "href": "14-internet-und-netzwerke.html#lan-und-wlan-lokale-netzwerke",
+    "title": "14. Internet und Netzwerke: Die Grundlagen",
+    "section": "LAN und WLAN: lokale Netzwerke",
+    "text": "LAN und WLAN: lokale Netzwerke\nEin Netzwerk verbindet mehrere Geräte miteinander, damit sie Daten austauschen können.\n\nLAN (Local Area Network, lokales Netzwerk) bezeichnet ein Netzwerk, das auf einen begrenzten Bereich beschränkt ist, z. B. eine Wohnung, ein Haus oder eine Schule – klassischerweise über Kabel (Ethernet) verbunden.\nWLAN (Wireless LAN, drahtloses lokales Netzwerk) ist die kabellose Variante desselben Prinzips: Geräte verbinden sich per Funk statt per Kabel. Umgangssprachlich wird WLAN oft einfach “das Internet” genannt, was aber nicht ganz korrekt ist – WLAN ist nur die Funktechnik, die deinen lokalen Netzwerkzugang herstellt (mehr Technisches zu WLAN als Funktechnologie in Kapitel 15).",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "14. Internet und Netzwerke: Die Grundlagen"
+    ]
+  },
+  {
+    "objectID": "14-internet-und-netzwerke.html#der-router-verbindung-zur-außenwelt",
+    "href": "14-internet-und-netzwerke.html#der-router-verbindung-zur-außenwelt",
+    "title": "14. Internet und Netzwerke: Die Grundlagen",
+    "section": "Der Router: Verbindung zur Außenwelt",
+    "text": "Der Router: Verbindung zur Außenwelt\nEin Router ist das Gerät, das dein lokales Netzwerk (LAN/WLAN) mit dem Internet verbindet und den Datenverkehr zwischen den Geräten in deinem Zuhause und dem restlichen Internet lenkt. Die meisten Router kombinieren dabei mehrere Funktionen: WLAN-Zugangspunkt, Netzwerk-Verteiler für kabelgebundene Geräte und Verbindungsstelle zum Internetanbieter.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "14. Internet und Netzwerke: Die Grundlagen"
+    ]
+  },
+  {
+    "objectID": "14-internet-und-netzwerke.html#ip-adressen-die-anschrift-eines-geräts",
+    "href": "14-internet-und-netzwerke.html#ip-adressen-die-anschrift-eines-geräts",
+    "title": "14. Internet und Netzwerke: Die Grundlagen",
+    "section": "IP-Adressen: die Anschrift eines Geräts",
+    "text": "IP-Adressen: die Anschrift eines Geräts\nDamit Daten im Netzwerk beim richtigen Gerät ankommen, braucht jedes Gerät eine eindeutige IP-Adresse – vergleichbar mit einer Postanschrift. Eine IP-Adresse besteht (in der bis heute verbreitetsten Version) aus vier durch Punkte getrennten Zahlen zwischen 0 und 255, z. B. 192.168.1.23. Geräte in deinem Heimnetzwerk bekommen dabei meist automatisch vom Router eine solche Adresse zugewiesen.\n\n\n\n\n\n\nHinweisVereinfachung, die du kennen solltest\n\n\n\nEs gibt tatsächlich zwei Arten von IP-Adressen: eine private IP-Adresse, die dein Gerät nur innerhalb deines Heimnetzwerks eindeutig identifiziert (z. B. 192.168.1.23), und eine öffentliche IP-Adresse, unter der dein gesamter Router im weltweiten Internet erreichbar ist. Die genauen Regeln dazu (z. B. warum 192.168.x.x-Adressen nur lokal gelten) gehen über den Rahmen dieses Kapitels hinaus – wichtig ist hier nur die Grundidee: jedes Gerät braucht eine eindeutige Adresse, damit Daten es finden.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "14. Internet und Netzwerke: Die Grundlagen"
+    ]
+  },
+  {
+    "objectID": "14-internet-und-netzwerke.html#internet-vs.-world-wide-web-www",
+    "href": "14-internet-und-netzwerke.html#internet-vs.-world-wide-web-www",
+    "title": "14. Internet und Netzwerke: Die Grundlagen",
+    "section": "Internet vs. World Wide Web (WWW)",
+    "text": "Internet vs. World Wide Web (WWW)\nEin weit verbreitetes Missverständnis: “Internet” und “Websurfen im Browser” werden oft gleichgesetzt, sind aber nicht dasselbe.\n\nDas Internet ist die technische Infrastruktur selbst: ein riesiges, weltweites Netzwerk aus unzähligen miteinander verbundenen einzelnen Netzwerken (daher manchmal “Netzwerk der Netzwerke” genannt).\nDas World Wide Web (WWW) ist einer von mehreren Diensten, die über das Internet laufen: verlinkte Webseiten, die du über einen Browser aufrufst. Andere Dienste, die ebenfalls über das Internet laufen, aber nicht Teil des WWW sind, sind z. B. E-Mail (Kapitel 17) oder Messenger-Apps.\n\nDas Internet ist also die Straße, das WWW ist eine von mehreren Anwendungen, die diese Straße nutzen.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "14. Internet und Netzwerke: Die Grundlagen"
+    ]
+  },
+  {
+    "objectID": "14-internet-und-netzwerke.html#praktische-übung",
+    "href": "14-internet-und-netzwerke.html#praktische-übung",
+    "title": "14. Internet und Netzwerke: Die Grundlagen",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\nFinde die (private) IP-Adresse deines eigenen Geräts heraus.\nWindows:\n\nÖffne die Eingabeaufforderung (Kapitel 12) und tippe ipconfig.\nSuche in der Ausgabe nach “IPv4-Adresse” – das ist deine private IP-Adresse im aktuellen Netzwerk.\n\nUbuntu:\n\nÖffne das Terminal und tippe hostname -I (Großbuchstabe I).\nDie ausgegebene Zahl ist deine private IP-Adresse.\n\nVergleiche: Beginnen beide Adressen mit denselben ersten Zahlen (z. B. 192.168.)? Das würde bedeuten, dass beide Geräte im selben lokalen Netzwerk sind.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "14. Internet und Netzwerke: Die Grundlagen"
+    ]
+  },
+  {
+    "objectID": "14-internet-und-netzwerke.html#verständnisfragen",
+    "href": "14-internet-und-netzwerke.html#verständnisfragen",
+    "title": "14. Internet und Netzwerke: Die Grundlagen",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWas ist der Unterschied zwischen LAN und WLAN?\n\nBeide bezeichnen ein lokal begrenztes Netzwerk. LAN verbindet Geräte über Kabel, WLAN verbindet sie kabellos per Funk.\n\n\n\nWelche Aufgabe hat ein Router?\n\nEr verbindet das lokale Netzwerk (LAN/WLAN) mit dem Internet und lenkt den Datenverkehr zwischen den Geräten im Netzwerk und dem restlichen Internet.\n\n\n\nIst “Internet” dasselbe wie “World Wide Web”? Begründe.\n\nNein. Das Internet ist die zugrundeliegende technische Netzwerk-Infrastruktur. Das World Wide Web ist ein Dienst, der über das Internet läuft und aus verlinkten, über einen Browser aufrufbaren Webseiten besteht. Weitere Dienste wie E-Mail laufen ebenfalls über das Internet, gehören aber nicht zum WWW.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "14. Internet und Netzwerke: Die Grundlagen"
+    ]
+  },
+  {
+    "objectID": "14-internet-und-netzwerke.html#zusammenfassung",
+    "href": "14-internet-und-netzwerke.html#zusammenfassung",
+    "title": "14. Internet und Netzwerke: Die Grundlagen",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nEin Netzwerk verbindet mehrere Geräte zum Datenaustausch; LAN (kabelgebunden) und WLAN (kabellos) sind lokal begrenzte Netzwerke.\nEin Router verbindet das lokale Netzwerk mit dem Internet.\nJedes Gerät im Netzwerk braucht eine eindeutige IP-Adresse, damit Daten es erreichen können.\nDas Internet ist die technische Infrastruktur, das WWW ist nur einer von mehreren Diensten, die darüber laufen.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "14. Internet und Netzwerke: Die Grundlagen"
+    ]
+  },
+  {
+    "objectID": "14-internet-und-netzwerke.html#ausblick",
+    "href": "14-internet-und-netzwerke.html#ausblick",
+    "title": "14. Internet und Netzwerke: Die Grundlagen",
+    "section": "Ausblick",
+    "text": "Ausblick\nWLAN ist nur eine von mehreren Funktechnologien, die du täglich nutzt. Im nächsten Kapitel schauen wir uns Mobilfunk (3G/4G/5G), NFC und Bluetooth an – und wie sie sich von WLAN unterscheiden.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "14. Internet und Netzwerke: Die Grundlagen"
+    ]
+  },
+  {
+    "objectID": "22-finanzierung-von-software.html",
+    "href": "22-finanzierung-von-software.html",
+    "title": "22. Wie Software finanziert wird",
+    "section": "",
+    "text": "Software zu entwickeln kostet Zeit und Geld – Entwicklerinnen und Entwickler wollen und müssen davon leben. Trotzdem nutzt du viele Apps, ohne dafür etwas zu bezahlen. Wie geht das zusammen? In diesem letzten Kapitel schauen wir uns die gängigsten Finanzierungsmodelle von Software an.",
+    "crumbs": [
+      "Sonstiges",
+      "22. Wie Software finanziert wird"
+    ]
+  },
+  {
+    "objectID": "22-finanzierung-von-software.html#warum-das-wichtig-ist",
+    "href": "22-finanzierung-von-software.html#warum-das-wichtig-ist",
+    "title": "22. Wie Software finanziert wird",
+    "section": "",
+    "text": "Software zu entwickeln kostet Zeit und Geld – Entwicklerinnen und Entwickler wollen und müssen davon leben. Trotzdem nutzt du viele Apps, ohne dafür etwas zu bezahlen. Wie geht das zusammen? In diesem letzten Kapitel schauen wir uns die gängigsten Finanzierungsmodelle von Software an.",
+    "crumbs": [
+      "Sonstiges",
+      "22. Wie Software finanziert wird"
+    ]
+  },
+  {
+    "objectID": "22-finanzierung-von-software.html#einmalkauf",
+    "href": "22-finanzierung-von-software.html#einmalkauf",
+    "title": "22. Wie Software finanziert wird",
+    "section": "Einmalkauf",
+    "text": "Einmalkauf\nBeim Einmalkauf zahlst du einmalig einen festen Preis und darfst die Software danach dauerhaft nutzen (meist mit gewissen Einschränkungen, z. B. nur auf einer bestimmten Anzahl von Geräten). Klassische Beispiele sind viele Computerspiele oder Programme, die du einmal kaufst und installierst.",
+    "crumbs": [
+      "Sonstiges",
+      "22. Wie Software finanziert wird"
+    ]
+  },
+  {
+    "objectID": "22-finanzierung-von-software.html#abo-modell-subscription",
+    "href": "22-finanzierung-von-software.html#abo-modell-subscription",
+    "title": "22. Wie Software finanziert wird",
+    "section": "Abo-Modell (Subscription)",
+    "text": "Abo-Modell (Subscription)\nBei einem Abo-Modell zahlst du regelmäßig (meist monatlich oder jährlich) einen Betrag, um die Software weiter nutzen zu können. Sobald du das Abo kündigst, verlierst du in der Regel den Zugriff. Beispiele: Streaming-Dienste, viele Cloud-Speicher-Anbieter (Kapitel 16), Office-Programme im Abo.",
+    "crumbs": [
+      "Sonstiges",
+      "22. Wie Software finanziert wird"
+    ]
+  },
+  {
+    "objectID": "22-finanzierung-von-software.html#freemium",
+    "href": "22-finanzierung-von-software.html#freemium",
+    "title": "22. Wie Software finanziert wird",
+    "section": "Freemium",
+    "text": "Freemium\nFreemium ist eine Kombination aus “free” (kostenlos) und “premium”: Die Grundversion einer App ist kostenlos nutzbar, für zusätzliche Funktionen oder mehr Nutzungsumfang wird ein kostenpflichtiges Upgrade angeboten.",
+    "crumbs": [
+      "Sonstiges",
+      "22. Wie Software finanziert wird"
+    ]
+  },
+  {
+    "objectID": "22-finanzierung-von-software.html#werbefinanzierung",
+    "href": "22-finanzierung-von-software.html#werbefinanzierung",
+    "title": "22. Wie Software finanziert wird",
+    "section": "Werbefinanzierung",
+    "text": "Werbefinanzierung\nViele Apps und Websites sind für dich komplett kostenlos, finanzieren sich aber über Werbung, die dir während der Nutzung angezeigt wird. Der Anbieter verdient dabei nicht direkt an dir, sondern an werbetreibenden Unternehmen, die für die Anzeigenplätze bezahlen.",
+    "crumbs": [
+      "Sonstiges",
+      "22. Wie Software finanziert wird"
+    ]
+  },
+  {
+    "objectID": "22-finanzierung-von-software.html#in-app-käufe",
+    "href": "22-finanzierung-von-software.html#in-app-käufe",
+    "title": "22. Wie Software finanziert wird",
+    "section": "In-App-Käufe",
+    "text": "In-App-Käufe\nBesonders bei mobilen Spielen verbreitet sind In-App-Käufe: Die App selbst ist kostenlos, aber innerhalb der App kannst du für kleine (oder manchmal auch größere) Beträge virtuelle Gegenstände, zusätzliche Level oder das Entfernen von Werbung kaufen.",
+    "crumbs": [
+      "Sonstiges",
+      "22. Wie Software finanziert wird"
+    ]
+  },
+  {
+    "objectID": "22-finanzierung-von-software.html#open-source",
+    "href": "22-finanzierung-von-software.html#open-source",
+    "title": "22. Wie Software finanziert wird",
+    "section": "Open Source",
+    "text": "Open Source\nOpen-Source-Software (siehe auch Kapitel 4 zu Ubuntu) ist Software, deren Quellcode öffentlich einsehbar ist und die häufig kostenlos genutzt werden darf. Die Finanzierung läuft hier anders als bei den bisherigen Modellen – oft über eine Mischung aus:\n\nSpenden von Nutzerinnen und Nutzern,\nSponsoring durch Unternehmen, die an der Weiterentwicklung interessiert sind,\nkostenpflichtigem Support oder Zusatzdienstleistungen rund um die kostenlose Software.\n\n\n\n\n\n\n\nWichtigWenn ein Produkt kostenlos ist …\n\n\n\nWie du in Kapitel 20 (Datenschutz) gelernt hast, sammeln viele Anbieter Nutzungsdaten, um daraus zielgerichtete Werbung zu finanzieren. Bei werbefinanzierten und manchen Freemium-Angeboten gilt daher oft ein bekannter Grundsatz: Wenn ein Produkt kostenlos ist, bezahlst du manchmal mit deinen Daten statt mit Geld – deine Nutzungsdaten sind für den Anbieter wirtschaftlich wertvoll. Das ist nicht bei jedem kostenlosen Angebot gleichermaßen der Fall (Open-Source-Software zum Beispiel verfolgt meist andere Ziele), lohnt sich aber immer als Gedanke, wenn du dich fragst, warum ein Angebot “kostenlos” ist.",
+    "crumbs": [
+      "Sonstiges",
+      "22. Wie Software finanziert wird"
+    ]
+  },
+  {
+    "objectID": "22-finanzierung-von-software.html#praktische-übung",
+    "href": "22-finanzierung-von-software.html#praktische-übung",
+    "title": "22. Wie Software finanziert wird",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\n\nWähle drei Apps oder Programme aus, die du regelmäßig nutzt.\nOrdne jede davon einem der Modelle aus diesem Kapitel zu (Einmalkauf, Abo, Freemium, Werbefinanzierung, In-App-Käufe oder Open Source). Nutze dafür die Kontoeinstellungen (Kapitel 10) oder die Beschreibung im jeweiligen Store (Kapitel 11), falls du unsicher bist.\nÜberlege bei jeder App: Woran erkennst du das Finanzierungsmodell (z. B. Werbeeinblendungen, ein Menüpunkt “Abo verwalten”, ein Shop innerhalb der App)?",
+    "crumbs": [
+      "Sonstiges",
+      "22. Wie Software finanziert wird"
+    ]
+  },
+  {
+    "objectID": "22-finanzierung-von-software.html#verständnisfragen",
+    "href": "22-finanzierung-von-software.html#verständnisfragen",
+    "title": "22. Wie Software finanziert wird",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWas ist der Unterschied zwischen einem Einmalkauf und einem Abo-Modell?\n\nBeim Einmalkauf zahlst du einmalig und nutzt die Software danach dauerhaft. Beim Abo-Modell zahlst du wiederkehrend, und der Zugriff endet in der Regel mit der Kündigung.\n\n\n\nWie finanziert sich werbefinanzierte Software, wenn die Nutzung für dich kostenlos ist?\n\nDer Anbieter verdient nicht direkt an den Nutzerinnen und Nutzern, sondern an Unternehmen, die für angezeigte Werbung bezahlen.\n\n\n\nNenne zwei Wege, wie sich Open-Source-Software finanzieren kann.\n\nZum Beispiel: Spenden, Sponsoring durch Unternehmen, kostenpflichtiger Support oder Zusatzdienstleistungen.",
+    "crumbs": [
+      "Sonstiges",
+      "22. Wie Software finanziert wird"
+    ]
+  },
+  {
+    "objectID": "22-finanzierung-von-software.html#zusammenfassung",
+    "href": "22-finanzierung-von-software.html#zusammenfassung",
+    "title": "22. Wie Software finanziert wird",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nSoftware wird u. a. finanziert über Einmalkauf, Abo-Modelle, Freemium, Werbung, In-App-Käufe oder bei Open Source über Spenden/Sponsoring/Support.\nKostenlose Angebote finanzieren sich häufig über deine Daten oder Werbung statt über direkte Bezahlung.",
+    "crumbs": [
+      "Sonstiges",
+      "22. Wie Software finanziert wird"
+    ]
+  },
+  {
+    "objectID": "22-finanzierung-von-software.html#rückblick-auf-den-kurs",
+    "href": "22-finanzierung-von-software.html#rückblick-auf-den-kurs",
+    "title": "22. Wie Software finanziert wird",
+    "section": "Rückblick auf den Kurs",
+    "text": "Rückblick auf den Kurs\nDamit endet dieser Kurs – von den kleinsten Bausteinen eines Computers (Bits und Bytes) über Hardware, Betriebssysteme, Dateien, Programme, Internet und Netzwerke bis hin zu Sicherheit, Datenschutz und der Finanzierung von Software. Du kennst jetzt sowohl unter Windows als auch unter Ubuntu die wichtigsten Grundlagen, um dich in der digitalen Welt sicher und informiert zu bewegen. Nutze die Übungen aus den einzelnen Kapiteln gerne weiter, um das Gelernte zu vertiefen – die beste Art, IT-Wissen zu behalten, ist es, es regelmäßig selbst anzuwenden.",
+    "crumbs": [
+      "Sonstiges",
+      "22. Wie Software finanziert wird"
+    ]
+  },
+  {
+    "objectID": "12-kommandozeile.html",
+    "href": "12-kommandozeile.html",
+    "title": "12. Die Kommandozeile (CLI)",
+    "section": "",
+    "text": "Bisher hast du Computer über Fenster, Symbole und Mausklicks bedient. Das nennt man GUI (Graphical User Interface, grafische Benutzeroberfläche). Es gibt aber noch eine zweite, ältere Art der Bedienung: die Kommandozeile. In Kapitel 5 hast du bereits Pfade kennengelernt – genau die brauchst du jetzt, um dich über die Kommandozeile durch das Ordnersystem zu bewegen.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "12. Die Kommandozeile (CLI)"
+    ]
+  },
+  {
+    "objectID": "12-kommandozeile.html#warum-das-wichtig-ist",
+    "href": "12-kommandozeile.html#warum-das-wichtig-ist",
+    "title": "12. Die Kommandozeile (CLI)",
+    "section": "",
+    "text": "Bisher hast du Computer über Fenster, Symbole und Mausklicks bedient. Das nennt man GUI (Graphical User Interface, grafische Benutzeroberfläche). Es gibt aber noch eine zweite, ältere Art der Bedienung: die Kommandozeile. In Kapitel 5 hast du bereits Pfade kennengelernt – genau die brauchst du jetzt, um dich über die Kommandozeile durch das Ordnersystem zu bewegen.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "12. Die Kommandozeile (CLI)"
+    ]
+  },
+  {
+    "objectID": "12-kommandozeile.html#gui-vs.-cli",
+    "href": "12-kommandozeile.html#gui-vs.-cli",
+    "title": "12. Die Kommandozeile (CLI)",
+    "section": "GUI vs. CLI",
+    "text": "GUI vs. CLI\n\nGUI: Du klickst mit der Maus auf Symbole, Menüs und Fenster. Sehr anschaulich, aber jede Aktion braucht mehrere Klicks.\nCLI (Command Line Interface, Kommandozeilen-Schnittstelle): Du gibst Befehle als Text ein, die der Computer direkt ausführt. Das wirkt zunächst weniger anschaulich, ist aber oft schneller und lässt sich – anders als Mausklicks – auch automatisieren (mehrere Befehle nacheinander in einem Skript speichern und auf Knopfdruck ausführen).\n\nDas Programm, in dem du CLI-Befehle eingibst, nennt man Terminal (manchmal auch Konsole). Im Terminal läuft ein Programm namens Shell, das deine eingetippten Befehle entgegennimmt, interpretiert und ausführt.\n\nUnter Windows heißt das klassische Terminalprogramm “Eingabeaufforderung” (cmd.exe); zusätzlich gibt es die modernere PowerShell. In diesem Kapitel nutzen wir die klassischen cmd-Befehle.\nUnter Ubuntu heißt das Terminalprogramm einfach “Terminal”, die darin laufende Shell heißt meist Bash.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "12. Die Kommandozeile (CLI)"
+    ]
+  },
+  {
+    "objectID": "12-kommandozeile.html#grundbefehle-im-vergleich",
+    "href": "12-kommandozeile.html#grundbefehle-im-vergleich",
+    "title": "12. Die Kommandozeile (CLI)",
+    "section": "Grundbefehle im Vergleich",
+    "text": "Grundbefehle im Vergleich\nDa Windows und Ubuntu unterschiedliche Shells verwenden, unterscheiden sich auch viele Befehle. Hier die wichtigsten Grundbefehle:\n\n\n\nAktion\nWindows (Eingabeaufforderung)\nUbuntu (Bash)\n\n\n\n\nAktuelles Verzeichnis anzeigen\ncd (ohne weitere Angabe)\npwd\n\n\nVerzeichnisinhalt auflisten\ndir\nls\n\n\nVerzeichnis wechseln\ncd &lt;Pfad&gt;\ncd &lt;Pfad&gt;\n\n\nNeuen Ordner anlegen\nmkdir &lt;Name&gt;\nmkdir &lt;Name&gt;\n\n\n\ncd steht in beiden Systemen für “change directory” (Verzeichnis wechseln) und funktioniert nach demselben Prinzip – nur dass unter Windows cd ohne Zusatzangabe das aktuelle Verzeichnis anzeigt, während du unter Ubuntu dafür den eigenen Befehl pwd (“print working directory”) brauchst.\nEin Beispiel, das den Pfad-Begriff aus Kapitel 5 wieder aufgreift: Um von der Kommandozeile aus in den Downloads-Ordner zu wechseln, tippst du\n\nunter Windows: cd C:\\Users\\Anna\\Downloads\nunter Ubuntu: cd /home/anna/Downloads\n\n\n\n\n\n\n\nTippAbkürzungen, die das Leben leichter machen\n\n\n\nUnter Ubuntu kannst du statt des vollen Pfads auch die Tilde nutzen (siehe Kapitel 5): cd ~/Downloads bringt dich direkt in dein persönliches Downloads-Verzeichnis, egal wie dein Benutzername lautet. Tippst du nur cd ohne weitere Angabe, springt Bash automatisch ins Home-Verzeichnis.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "12. Die Kommandozeile (CLI)"
+    ]
+  },
+  {
+    "objectID": "12-kommandozeile.html#praktische-übung",
+    "href": "12-kommandozeile.html#praktische-übung",
+    "title": "12. Die Kommandozeile (CLI)",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\n\nWindows: Öffne die “Eingabeaufforderung” (Suche in der Taskleiste nach “cmd”). Tippe cd, um dein aktuelles Verzeichnis zu sehen. Tippe dir, um den Inhalt aufzulisten. Wechsle dann mit cd Downloads (falls du bereits in deinem Benutzerordner stehst) oder mit dem vollständigen Pfad aus Kapitel 5 in deinen Downloads-Ordner und tippe erneut dir.\nUbuntu: Öffne das “Terminal” (z. B. über die Tastenkombination Strg+Alt+T). Tippe pwd, um dein aktuelles Verzeichnis zu sehen. Tippe ls, um den Inhalt aufzulisten. Wechsle dann mit cd ~/Downloads in deinen Downloads-Ordner und tippe erneut ls.\nLege in beiden Terminals mit mkdir testordner einen neuen Ordner an und kontrolliere im jeweiligen Dateimanager, ob er dort erscheint.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "12. Die Kommandozeile (CLI)"
+    ]
+  },
+  {
+    "objectID": "12-kommandozeile.html#verständnisfragen",
+    "href": "12-kommandozeile.html#verständnisfragen",
+    "title": "12. Die Kommandozeile (CLI)",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWas ist der Unterschied zwischen GUI und CLI?\n\nBei einer GUI bedienst du den Computer über grafische Elemente (Fenster, Symbole, Maus). Bei einer CLI gibst du Textbefehle in ein Terminal ein, die direkt ausgeführt werden.\n\n\n\nMit welchem Befehl listest du unter Ubuntu den Inhalt des aktuellen Verzeichnisses auf, mit welchem unter Windows?\n\nUnter Ubuntu: ls. Unter Windows: dir.\n\n\n\nWas macht der Befehl cd ~/Downloads unter Ubuntu?\n\nEr wechselt in den Downloads-Ordner im Home-Verzeichnis des aktuell angemeldeten Benutzers, unabhängig vom konkreten Benutzernamen, da ~ als Abkürzung für das eigene Home-Verzeichnis steht.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "12. Die Kommandozeile (CLI)"
+    ]
+  },
+  {
+    "objectID": "12-kommandozeile.html#zusammenfassung",
+    "href": "12-kommandozeile.html#zusammenfassung",
+    "title": "12. Die Kommandozeile (CLI)",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nDie CLI (Kommandozeile) ist eine textbasierte Alternative zur grafischen Bedienung (GUI) und läuft in einem Terminal.\nWindows nutzt die Eingabeaufforderung (cmd) oder PowerShell, Ubuntu nutzt meist Bash.\nWichtige Grundbefehle unterscheiden sich: dir (Windows) vs. ls (Ubuntu) zum Auflisten, cd (beide) zum Wechseln des Verzeichnisses.\nDer Pfad-Begriff aus Kapitel 5 ist die Grundlage, um sich auf der Kommandozeile zu bewegen.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "12. Die Kommandozeile (CLI)"
+    ]
+  },
+  {
+    "objectID": "12-kommandozeile.html#ausblick",
+    "href": "12-kommandozeile.html#ausblick",
+    "title": "12. Die Kommandozeile (CLI)",
+    "section": "Ausblick",
+    "text": "Ausblick\nMit der Kommandozeile kannst du nicht nur durch Ordner navigieren, sondern auch Programme starten – zum Beispiel ein selbst geschriebenes Programm. Im nächsten Kapitel schauen wir uns Programmiersprachen an und schreiben ein kleines Python-Programm, das du direkt über die Kommandozeile ausführst.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "12. Die Kommandozeile (CLI)"
+    ]
+  },
+  {
+    "objectID": "21-updates-und-backups.html",
+    "href": "21-updates-und-backups.html",
+    "title": "21. Updates und Backups",
+    "section": "",
+    "text": "In Kapitel 19 hast du gelernt, dass viele Schadsoftware-Angriffe bekannte Sicherheitslücken in veralteter Software ausnutzen. In Kapitel 16 hast du gesehen, dass Daten entweder lokal oder auf einem Server/in der Cloud liegen können. Dieses Kapitel verbindet beides: Warum regelmäßige Updates und Backups zu den wichtigsten Gewohnheiten in der digitalen Welt gehören.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "21. Updates und Backups"
+    ]
+  },
+  {
+    "objectID": "21-updates-und-backups.html#warum-das-wichtig-ist",
+    "href": "21-updates-und-backups.html#warum-das-wichtig-ist",
+    "title": "21. Updates und Backups",
+    "section": "",
+    "text": "In Kapitel 19 hast du gelernt, dass viele Schadsoftware-Angriffe bekannte Sicherheitslücken in veralteter Software ausnutzen. In Kapitel 16 hast du gesehen, dass Daten entweder lokal oder auf einem Server/in der Cloud liegen können. Dieses Kapitel verbindet beides: Warum regelmäßige Updates und Backups zu den wichtigsten Gewohnheiten in der digitalen Welt gehören.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "21. Updates und Backups"
+    ]
+  },
+  {
+    "objectID": "21-updates-und-backups.html#warum-updates-wichtig-sind",
+    "href": "21-updates-und-backups.html#warum-updates-wichtig-sind",
+    "title": "21. Updates und Backups",
+    "section": "Warum Updates wichtig sind",
+    "text": "Warum Updates wichtig sind\nEin Update ist eine Aktualisierung von Software – entweder des Betriebssystems selbst (Kapitel 4) oder einzelner Apps/Programme (Kapitel 9). Updates erfüllen meist mehrere Zwecke gleichzeitig:\n\nSicherheitslücken schließen: Sobald eine Schwachstelle in einer Software bekannt wird, entwickeln Angreifer oft gezielt Wege, sie auszunutzen (Kapitel 19). Ein Sicherheitsupdate schließt diese Lücke.\nFehler beheben: Programme enthalten selten von Anfang an fehlerfreien Code – Updates korrigieren solche Fehler (Bugs).\nNeue Funktionen bringen: Manche Updates fügen zusätzliche Funktionen hinzu.\n\nOhne regelmäßige Updates bleibt ein Gerät verwundbar gegenüber Angriffsmethoden, die längst öffentlich bekannt sind und gegen die es bereits eine Lösung gäbe – man lässt eine bekannte “Tür” quasi absichtlich offen.\n\nUpdates in Windows und Ubuntu\n\nWindows: Updates werden über “Windows Update” verwaltet (Einstellungen → Windows Update). Betriebssystem-Updates laufen meist automatisch im Hintergrund; einzelne Apps aktualisieren sich zusätzlich über den Microsoft Store (Kapitel 11).\nUbuntu: System- und Paket-Updates laufen über die Paketverwaltung (Kapitel 11), grafisch über die App “Software-Aktualisierung” oder über die Kommandozeile (Kapitel 12) mit den Befehlen sudo apt update (prüft, welche Updates verfügbar sind) und sudo apt upgrade (installiert die verfügbaren Updates).",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "21. Updates und Backups"
+    ]
+  },
+  {
+    "objectID": "21-updates-und-backups.html#warum-backups-wichtig-sind",
+    "href": "21-updates-und-backups.html#warum-backups-wichtig-sind",
+    "title": "21. Updates und Backups",
+    "section": "Warum Backups wichtig sind",
+    "text": "Warum Backups wichtig sind\nEin Backup (Sicherungskopie) ist eine zusätzliche Kopie deiner Daten, die getrennt vom Original aufbewahrt wird. Ohne Backup sind deine Daten nur so sicher wie das eine Gerät, auf dem sie liegen. Ein Backup schützt dich unter anderem vor:\n\neinem technischen Defekt der Festplatte/SSD (Kapitel 2),\nVerlust oder Diebstahl des Geräts,\nversehentlichem Löschen einer wichtigen Datei,\nRansomware (Kapitel 19), die deine Originaldateien verschlüsselt – mit einem separaten, nicht betroffenen Backup kannst du deine Daten trotzdem wiederherstellen.\n\nWichtig dabei: Ein Backup muss an einem anderen Ort liegen als das Original. Eine zweite Kopie auf derselben Festplatte hilft z. B. nicht, wenn genau diese Festplatte kaputtgeht.\n\n\n\n\n\n\nTippDie 3-2-1-Regel\n\n\n\nEine bewährte Faustregel für Backups lautet: 3 Kopien deiner Daten (Original + 2 Sicherungen), auf 2 unterschiedlichen Speicherarten (z. B. interne SSD und externe Festplatte), davon 1 Kopie an einem anderen physischen Ort (z. B. in der Cloud, siehe Kapitel 16, oder bei Verwandten). So bist du selbst dann noch abgesichert, wenn ein ganzer Wohnort z. B. durch einen Wasserschaden betroffen wäre.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "21. Updates und Backups"
+    ]
+  },
+  {
+    "objectID": "21-updates-und-backups.html#praktische-übung",
+    "href": "21-updates-und-backups.html#praktische-übung",
+    "title": "21. Updates und Backups",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\n\nWindows: Öffne “Einstellungen” → “Windows Update” und prüfe, ob automatische Updates aktiviert sind und ob ausstehende Updates vorliegen.\nUbuntu: Öffne ein Terminal und tippe sudo apt update, um zu prüfen, ob Updates verfügbar sind (bei Bedarf mit sudo apt upgrade installieren).\nErstelle ein einfaches Backup: Kopiere (siehe Kapitel 7) einen wichtigen Ordner mit Übungsdateien aus diesem Kurs auf einen externen USB-Stick oder in einen Cloud-Speicher (Kapitel 16). Kontrolliere anschließend, ob die Kopie am neuen Ort vollständig und unabhängig vom Original vorhanden ist.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "21. Updates und Backups"
+    ]
+  },
+  {
+    "objectID": "21-updates-und-backups.html#verständnisfragen",
+    "href": "21-updates-und-backups.html#verständnisfragen",
+    "title": "21. Updates und Backups",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nNenne zwei Gründe, warum Updates wichtig sind.\n\nZum Beispiel: Schließen bekannter Sicherheitslücken, Beheben von Programmfehlern, Hinzufügen neuer Funktionen.\n\n\n\nWarum reicht eine zweite Kopie einer Datei auf derselben Festplatte nicht als Backup aus?\n\nWeil ein Backup vor dem Ausfall des Speichermediums selbst schützen soll. Liegen Original und Kopie auf derselben Festplatte, sind bei einem Defekt der Festplatte beide Kopien gleichzeitig verloren.\n\n\n\nErkläre die 3-2-1-Regel für Backups in eigenen Worten.\n\n3 Kopien der Daten insgesamt, auf 2 unterschiedlichen Speicherarten, davon 1 Kopie an einem anderen physischen Ort als die restlichen Kopien.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "21. Updates und Backups"
+    ]
+  },
+  {
+    "objectID": "21-updates-und-backups.html#zusammenfassung",
+    "href": "21-updates-und-backups.html#zusammenfassung",
+    "title": "21. Updates und Backups",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nUpdates schließen Sicherheitslücken, beheben Fehler und bringen manchmal neue Funktionen.\nWindows nutzt Windows Update, Ubuntu die Paketverwaltung (apt update / apt upgrade).\nEin Backup ist eine an einem anderen Ort gespeicherte Kopie deiner Daten und schützt vor Defekten, Verlust, Diebstahl und Ransomware.\nDie 3-2-1-Regel ist eine bewährte Faustregel für zuverlässige Backups.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "21. Updates und Backups"
+    ]
+  },
+  {
+    "objectID": "21-updates-und-backups.html#ausblick",
+    "href": "21-updates-und-backups.html#ausblick",
+    "title": "21. Updates und Backups",
+    "section": "Ausblick",
+    "text": "Ausblick\nIm letzten Kapitel dieses Kurses schauen wir uns an, wie die Software, die du täglich nutzt, eigentlich finanziert wird – von kostenlosen Apps über Abos bis hin zu Open Source.",
+    "crumbs": [
+      "Sicherheit und Datenschutz",
+      "21. Updates und Backups"
+    ]
+  },
+  {
+    "objectID": "02-hardware-grundlagen.html",
+    "href": "02-hardware-grundlagen.html",
+    "title": "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien",
+    "section": "",
+    "text": "Im letzten Kapitel hast du gelernt, dass ein Computer alles in Bits und Bytes speichert und verarbeitet. Aber wo passiert das eigentlich? Ein Computer besteht aus mehreren Bauteilen, die zusammenarbeiten, um Daten zu verarbeiten und zu speichern. In diesem Kapitel lernst du die vier wichtigsten kennen: CPU, GPU, RAM und Speichermedien (HDD/SSD).",
+    "crumbs": [
+      "Grundlagen",
+      "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien"
+    ]
+  },
+  {
+    "objectID": "02-hardware-grundlagen.html#warum-das-wichtig-ist",
+    "href": "02-hardware-grundlagen.html#warum-das-wichtig-ist",
+    "title": "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien",
+    "section": "",
+    "text": "Im letzten Kapitel hast du gelernt, dass ein Computer alles in Bits und Bytes speichert und verarbeitet. Aber wo passiert das eigentlich? Ein Computer besteht aus mehreren Bauteilen, die zusammenarbeiten, um Daten zu verarbeiten und zu speichern. In diesem Kapitel lernst du die vier wichtigsten kennen: CPU, GPU, RAM und Speichermedien (HDD/SSD).",
+    "crumbs": [
+      "Grundlagen",
+      "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien"
+    ]
+  },
+  {
+    "objectID": "02-hardware-grundlagen.html#cpu-der-prozessor",
+    "href": "02-hardware-grundlagen.html#cpu-der-prozessor",
+    "title": "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien",
+    "section": "CPU: Der Prozessor",
+    "text": "CPU: Der Prozessor\nDie CPU (Central Processing Unit, “zentrale Verarbeitungseinheit”) ist das Bauteil, das die eigentlichen Berechnungen und Befehle eines Programms ausführt. Man nennt sie manchmal das “Gehirn” des Computers – diese Analogie ist vereinfacht, trifft aber die Rolle ganz gut: Jede Aktion, die dein Computer ausführt (eine Taste drücken, ein Fenster öffnen, eine Formel berechnen), läuft über Befehle, die letztlich von der CPU abgearbeitet werden.\nEine moderne CPU hat mehrere Kerne (Cores), die unabhängig voneinander Aufgaben bearbeiten können – ähnlich wie mehrere Personen, die gleichzeitig an unterschiedlichen Aufgaben arbeiten. Die Taktfrequenz (angegeben in GHz, Gigahertz) gibt an, wie viele Rechenschritte ein Kern pro Sekunde grundsätzlich ausführen kann – ein Kern mit 3 GHz führt bis zu 3 Milliarden Taktzyklen pro Sekunde aus. Wie schnell ein Computer sich tatsächlich “anfühlt”, hängt aber von vielen weiteren Faktoren ab, nicht nur von der Taktfrequenz allein.",
+    "crumbs": [
+      "Grundlagen",
+      "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien"
+    ]
+  },
+  {
+    "objectID": "02-hardware-grundlagen.html#gpu-die-grafikkarte",
+    "href": "02-hardware-grundlagen.html#gpu-die-grafikkarte",
+    "title": "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien",
+    "section": "GPU: Die Grafikkarte",
+    "text": "GPU: Die Grafikkarte\nDie GPU (Graphics Processing Unit) ist auf eine andere Art von Arbeit spezialisiert als die CPU. Während eine CPU wenige, aber sehr leistungsfähige Kerne hat, die gut darin sind, komplexe Einzelaufgaben nacheinander (und mit vielen Verzweigungen/Entscheidungen) abzuarbeiten, besitzt eine GPU sehr viele, einfachere Kerne, die dieselbe Art von Rechenoperation gleichzeitig auf riesige Datenmengen anwenden können.\nDas passt gut zur ursprünglichen Aufgabe: Um ein Bild auf dem Bildschirm darzustellen, muss für jedes einzelne Pixel (mehr dazu in Kapitel 8) eine ähnliche Berechnung durchgeführt werden – und das für Millionen Pixel gleichzeitig, oft mehrfach pro Sekunde bei Spielen oder Videos. Diese Fähigkeit zur massiven Parallelverarbeitung wird heute auch für andere Zwecke genutzt, etwa beim Training von KI-Modellen.",
+    "crumbs": [
+      "Grundlagen",
+      "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien"
+    ]
+  },
+  {
+    "objectID": "02-hardware-grundlagen.html#ram-der-arbeitsspeicher",
+    "href": "02-hardware-grundlagen.html#ram-der-arbeitsspeicher",
+    "title": "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien",
+    "section": "RAM: Der Arbeitsspeicher",
+    "text": "RAM: Der Arbeitsspeicher\nDer RAM (Random Access Memory, Arbeitsspeicher) ist ein sehr schneller, aber flüchtiger Speicher. Flüchtig bedeutet: Sobald der Computer keinen Strom mehr bekommt, gehen alle Daten im RAM verloren. Der RAM dient als kurzfristiger Arbeitsbereich – wenn du ein Programm öffnest, werden die dafür nötigen Daten aus dem dauerhaften Speicher in den RAM geladen, weil die CPU von dort viel schneller lesen und schreiben kann.",
+    "crumbs": [
+      "Grundlagen",
+      "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien"
+    ]
+  },
+  {
+    "objectID": "02-hardware-grundlagen.html#speichermedien-hdd-und-ssd",
+    "href": "02-hardware-grundlagen.html#speichermedien-hdd-und-ssd",
+    "title": "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien",
+    "section": "Speichermedien: HDD und SSD",
+    "text": "Speichermedien: HDD und SSD\nIm Gegensatz zum RAM sind HDD (Hard Disk Drive, Festplatte) und SSD (Solid State Drive) nicht-flüchtige Speicher: Die Daten bleiben auch ohne Stromversorgung erhalten. Hier werden deine Dateien, installierten Programme und dein Betriebssystem dauerhaft gespeichert.\n\nEine HDD speichert Daten magnetisch auf sich drehenden Metallscheiben, die von einem beweglichen Schreib-/Lesekopf abgetastet werden – ähnlich einem kleinen Plattenspieler. Diese mechanischen Teile machen HDDs langsamer und empfindlicher gegenüber Stößen, aber meist günstiger pro Gigabyte.\nEine SSD hat keine beweglichen Teile und speichert Daten elektronisch in Flash-Speicherchips (derselben Technologie, die auch in USB-Sticks steckt). SSDs sind deutlich schneller als HDDs und robuster, aber pro Gigabyte meist teurer.\n\n\n\n\n\n\n\nHinweisMerkhilfe\n\n\n\nRAM = kurzfristig, schnell, verliert Inhalt beim Ausschalten. HDD/SSD = langfristig, langsamer als RAM, behält Inhalt dauerhaft. Ohne RAM würde dein Computer bei jedem Tastendruck auf die viel langsamere Festplatte/SSD zugreifen müssen – deshalb ist RAM für die Arbeitsgeschwindigkeit so wichtig.",
+    "crumbs": [
+      "Grundlagen",
+      "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien"
+    ]
+  },
+  {
+    "objectID": "02-hardware-grundlagen.html#praktische-übung",
+    "href": "02-hardware-grundlagen.html#praktische-übung",
+    "title": "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\nFinde heraus, welche Hardware in deinem Rechner verbaut ist – einmal unter Windows, einmal unter Ubuntu.\nWindows:\n\nKlicke auf Start und öffne “Einstellungen” → “System” → “Info” (oder suche direkt nach “Info zu diesem PC”).\nNotiere: Prozessor (CPU), installierter Arbeitsspeicher (RAM).\nÖffne zusätzlich den “Task-Manager” (Rechtsklick auf die Taskleiste) und schaue auf den Tab “Leistung” – dort siehst du auch deine Grafikkarte (GPU) und deinen Datenträger (SSD/HDD).\n\nUbuntu:\n\nÖffne die “Einstellungen” (Settings) über das Systemmenü und klicke auf “Über” (About) bzw. “System”.\nNotiere: Prozessor und Arbeitsspeicher (Speicher).\nÖffne alternativ ein Terminal (siehe Kapitel 12) und tippe lscpu (Infos zur CPU) sowie free -h (Infos zum RAM, “h” steht für “human readable”).\n\nVergleiche: Stimmen die Angaben zu CPU und RAM zwischen den beiden Anzeigen überein, falls es sich um denselben Rechner (z. B. in einer virtuellen Maschine) handelt?",
+    "crumbs": [
+      "Grundlagen",
+      "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien"
+    ]
+  },
+  {
+    "objectID": "02-hardware-grundlagen.html#verständnisfragen",
+    "href": "02-hardware-grundlagen.html#verständnisfragen",
+    "title": "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWas ist der wichtigste Unterschied zwischen RAM und einer SSD/HDD?\n\nRAM ist flüchtig – die Daten gehen beim Ausschalten verloren. SSD/HDD sind nicht-flüchtig – die Daten bleiben dauerhaft gespeichert, auch ohne Strom.\n\n\n\nWarum ist eine GPU besonders gut darin, Bilder darzustellen?\n\nWeil eine GPU sehr viele einfache Rechenkerne hat, die dieselbe Berechnung gleichzeitig auf viele Pixel anwenden können – Bilddarstellung erfordert genau solche massiv parallelen, gleichartigen Berechnungen.\n\n\n\nWas bedeutet die Taktfrequenz einer CPU, z. B. 3 GHz?\n\nSie gibt an, wie viele Taktzyklen (Rechenschritte) ein Kern der CPU pro Sekunde maximal ausführen kann – bei 3 GHz sind das bis zu 3 Milliarden pro Sekunde.",
+    "crumbs": [
+      "Grundlagen",
+      "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien"
+    ]
+  },
+  {
+    "objectID": "02-hardware-grundlagen.html#zusammenfassung",
+    "href": "02-hardware-grundlagen.html#zusammenfassung",
+    "title": "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nDie CPU führt die allgemeinen Berechnungen und Befehle eines Programms aus, meist über mehrere Kerne.\nDie GPU ist auf massiv parallele, gleichartige Berechnungen spezialisiert – ursprünglich für Grafik, heute auch für KI-Anwendungen.\nRAM ist schneller, aber flüchtiger Arbeitsspeicher – er verliert seinen Inhalt beim Ausschalten.\nHDD (magnetisch, mechanisch) und SSD (elektronisch, ohne bewegliche Teile) sind nicht-flüchtige Speichermedien für dauerhafte Daten.",
+    "crumbs": [
+      "Grundlagen",
+      "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien"
+    ]
+  },
+  {
+    "objectID": "02-hardware-grundlagen.html#ausblick",
+    "href": "02-hardware-grundlagen.html#ausblick",
+    "title": "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien",
+    "section": "Ausblick",
+    "text": "Ausblick\nJetzt kennst du die “inneren Werte” eines Computers. Aber wie kommst du eigentlich mit ihm in Kontakt? Im nächsten Kapitel geht es um Peripheriegeräte – Tastatur, Maus, Bildschirm, Drucker, Mikrofon und Lautsprecher – also die Geräte, über die du Daten in den Computer eingibst und Ergebnisse wieder herausbekommst.",
+    "crumbs": [
+      "Grundlagen",
+      "2. Hardware-Grundlagen: CPU, GPU, RAM und Speichermedien"
+    ]
+  },
+  {
+    "objectID": "10-app-menues-und-einstellungen.html",
+    "href": "10-app-menues-und-einstellungen.html",
+    "title": "10. Typische Menüpunkte einer App",
+    "section": "",
+    "text": "Egal welche App oder welches Programm du öffnest – viele Menüs tauchen immer wieder in ähnlicher Form auf. Wenn du diese Muster einmal verstanden hast, findest du dich in jeder neuen App schneller zurecht. Zusätzlich schauen wir uns in diesem Kapitel an, wo du die wichtigsten Systemeinstellungen findest – nachgeholt aus Kapitel 4, wo wir bewusst nur die Grundidee eines Betriebssystems behandelt, aber noch keine konkreten Menüs gezeigt haben.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "10. Typische Menüpunkte einer App"
+    ]
+  },
+  {
+    "objectID": "10-app-menues-und-einstellungen.html#warum-das-wichtig-ist",
+    "href": "10-app-menues-und-einstellungen.html#warum-das-wichtig-ist",
+    "title": "10. Typische Menüpunkte einer App",
+    "section": "",
+    "text": "Egal welche App oder welches Programm du öffnest – viele Menüs tauchen immer wieder in ähnlicher Form auf. Wenn du diese Muster einmal verstanden hast, findest du dich in jeder neuen App schneller zurecht. Zusätzlich schauen wir uns in diesem Kapitel an, wo du die wichtigsten Systemeinstellungen findest – nachgeholt aus Kapitel 4, wo wir bewusst nur die Grundidee eines Betriebssystems behandelt, aber noch keine konkreten Menüs gezeigt haben.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "10. Typische Menüpunkte einer App"
+    ]
+  },
+  {
+    "objectID": "10-app-menues-und-einstellungen.html#typische-menüpunkte-innerhalb-einer-app",
+    "href": "10-app-menues-und-einstellungen.html#typische-menüpunkte-innerhalb-einer-app",
+    "title": "10. Typische Menüpunkte einer App",
+    "section": "Typische Menüpunkte innerhalb einer App",
+    "text": "Typische Menüpunkte innerhalb einer App\nFast jede App, die mit einem Benutzerkonto arbeitet oder mit dem Internet verbunden ist, bietet ähnliche Bereiche an:\n\nKonto/Profil: Hier siehst und änderst du Angaben zu deinem Benutzerkonto – Name, E-Mail-Adresse, Profilbild, manchmal auch Abo-Einstellungen.\nBenachrichtigungen: Hier stellst du ein, worüber dich die App informieren darf (z. B. per Pop-up, Ton oder Symbol) und worüber nicht.\nDesign/Theme: Hier kannst du oft zwischen einem hellen und einem dunklen Erscheinungsbild (“Light Mode”/“Dark Mode”) wählen.\nHilfe/Info: Hier findest du Bedienungshinweise, den Kontakt zum Support und oft die genaue Versionsnummer der App.\n\nDiese Bereiche liegen meist hinter einem Zahnrad-Symbol (⚙), drei Punkten (⋮) oder einem Menü mit dem Profilbild.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "10. Typische Menüpunkte einer App"
+    ]
+  },
+  {
+    "objectID": "10-app-menues-und-einstellungen.html#systemeinstellungen-im-vergleich-windows-ubuntu-android",
+    "href": "10-app-menues-und-einstellungen.html#systemeinstellungen-im-vergleich-windows-ubuntu-android",
+    "title": "10. Typische Menüpunkte einer App",
+    "section": "Systemeinstellungen im Vergleich: Windows, Ubuntu, Android",
+    "text": "Systemeinstellungen im Vergleich: Windows, Ubuntu, Android\nNeben den Einstellungen einzelner Apps hat jedes Betriebssystem eigene, zentrale Systemeinstellungen, die für das ganze Gerät gelten. Hier die drei wichtigsten Beispiele im Vergleich:\n\n\n\n\n\n\n\n\n\nEinstellung\nWindows\nUbuntu\nAndroid\n\n\n\n\nWLAN an/aus\nEinstellungen → Netzwerk & Internet → WLAN, oder Schnelleinstellungen (Symbol unten rechts in der Taskleiste)\nSchnelleinstellungen (oben rechts im Bildschirm) oder Einstellungen → Wi-Fi\nSchnelleinstellungen (von oben herunterwischen) oder Einstellungen → Netzwerk & Internet\n\n\nBildschirmhelligkeit\nEinstellungen → System → Bildschirm, oder Schnelleinstellungen\nSchnelleinstellungen (oben rechts, Regler direkt sichtbar)\nSchnelleinstellungen (Regler direkt sichtbar)\n\n\nBenachrichtigungen\nEinstellungen → System → Benachrichtigungen\nEinstellungen → Benachrichtigungen\nEinstellungen → Apps → (App auswählen) → Benachrichtigungen, oder Einstellungen → Benachrichtigungen\n\n\n\n\n\n\n\n\n\nHinweisGleiche Idee, andere Wege\n\n\n\nAuffällig ist: Alle drei Systeme bieten dieselben grundlegenden Funktionen (WLAN, Helligkeit, Benachrichtigungen steuern), aber jedes über eigene Menüpfade und eigene Bezeichnungen. Das liegt daran, dass jedes Betriebssystem seine Oberfläche unabhängig entwickelt hat – auch wenn sie, wie in Kapitel 4 erklärt, im Kern ähnliche Aufgaben lösen.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "10. Typische Menüpunkte einer App"
+    ]
+  },
+  {
+    "objectID": "10-app-menues-und-einstellungen.html#praktische-übung",
+    "href": "10-app-menues-und-einstellungen.html#praktische-übung",
+    "title": "10. Typische Menüpunkte einer App",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\n\nÖffne auf einem Windows-Rechner die Schnelleinstellungen (unten rechts in der Taskleiste) und schalte probeweise das WLAN aus und wieder an.\nMache dasselbe auf einem Ubuntu-Rechner über die Schnelleinstellungen oben rechts.\nFalls du ein Smartphone zur Hand hast: Wische von oben über den Bildschirm, um die Schnelleinstellungen zu öffnen, und passe die Bildschirmhelligkeit mit dem Regler an.\nÖffne in einer beliebigen App (z. B. einem Messenger oder Browser) die Einstellungen und suche den Bereich “Benachrichtigungen”. Schalte eine Benachrichtigungsart testweise aus.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "10. Typische Menüpunkte einer App"
+    ]
+  },
+  {
+    "objectID": "10-app-menues-und-einstellungen.html#verständnisfragen",
+    "href": "10-app-menues-und-einstellungen.html#verständnisfragen",
+    "title": "10. Typische Menüpunkte einer App",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nNenne drei Menüpunkte, die in vielen Apps ähnlich vorkommen.\n\nZum Beispiel: Konto/Profil, Benachrichtigungen, Design/Theme, Hilfe/Info.\n\n\n\nWarum unterscheiden sich die Menüpfade für dieselbe Funktion (z. B. WLAN an/aus) zwischen Windows, Ubuntu und Android?\n\nWeil jedes Betriebssystem seine eigene Benutzeroberfläche unabhängig entwickelt hat. Die grundlegende Funktion ist gleich, aber Bezeichnung, Anordnung und Bedienweg unterscheiden sich.\n\n\n\nWo findest du unter Android die Benachrichtigungseinstellungen für eine einzelne App?\n\nÜber Einstellungen → Apps → die jeweilige App auswählen → Benachrichtigungen (oder über Einstellungen → Benachrichtigungen, je nach Android-Version).",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "10. Typische Menüpunkte einer App"
+    ]
+  },
+  {
+    "objectID": "10-app-menues-und-einstellungen.html#zusammenfassung",
+    "href": "10-app-menues-und-einstellungen.html#zusammenfassung",
+    "title": "10. Typische Menüpunkte einer App",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nViele Apps teilen typische Menübereiche: Konto/Profil, Benachrichtigungen, Design/Theme, Hilfe/Info.\nZusätzlich zu App-internen Einstellungen gibt es geräteweite Systemeinstellungen (WLAN, Helligkeit, Benachrichtigungen).\nWindows, Ubuntu und Android bieten dieselben grundlegenden Systemfunktionen, aber über unterschiedliche Menüs und Bezeichnungen.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "10. Typische Menüpunkte einer App"
+    ]
+  },
+  {
+    "objectID": "10-app-menues-und-einstellungen.html#ausblick",
+    "href": "10-app-menues-und-einstellungen.html#ausblick",
+    "title": "10. Typische Menüpunkte einer App",
+    "section": "Ausblick",
+    "text": "Ausblick\nDamit eine App überhaupt Einstellungen haben kann, muss sie erst einmal auf dem Gerät installiert sein. Im nächsten Kapitel schauen wir uns an, wie die Installation auf Windows, Ubuntu und Android jeweils funktioniert – über .exe-Dateien, die Paketverwaltung oder App-Stores.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "10. Typische Menüpunkte einer App"
+    ]
+  },
+  {
+    "objectID": "09-apps-und-software.html",
+    "href": "09-apps-und-software.html",
+    "title": "9. Apps und Software: Was ist ein Programm?",
+    "section": "",
+    "text": "In Kapitel 4 hast du das Betriebssystem kennengelernt – die grundlegende Software, die Hardware verwaltet und anderen Programmen erst die Ausführung ermöglicht. In diesem Kapitel geht es um genau diese anderen Programme: die Anwendungssoftware, mit der du tatsächlich arbeitest – Browser, Textprogramme, Spiele, Messenger.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "9. Apps und Software: Was ist ein Programm?"
+    ]
+  },
+  {
+    "objectID": "09-apps-und-software.html#warum-das-wichtig-ist",
+    "href": "09-apps-und-software.html#warum-das-wichtig-ist",
+    "title": "9. Apps und Software: Was ist ein Programm?",
+    "section": "",
+    "text": "In Kapitel 4 hast du das Betriebssystem kennengelernt – die grundlegende Software, die Hardware verwaltet und anderen Programmen erst die Ausführung ermöglicht. In diesem Kapitel geht es um genau diese anderen Programme: die Anwendungssoftware, mit der du tatsächlich arbeitest – Browser, Textprogramme, Spiele, Messenger.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "9. Apps und Software: Was ist ein Programm?"
+    ]
+  },
+  {
+    "objectID": "09-apps-und-software.html#was-ist-software",
+    "href": "09-apps-und-software.html#was-ist-software",
+    "title": "9. Apps und Software: Was ist ein Programm?",
+    "section": "Was ist Software?",
+    "text": "Was ist Software?\nSoftware ist der Sammelbegriff für alle Programme und Daten, die auf einem Computer oder Smartphone ausgeführt werden – im Gegensatz zur Hardware, den physisch anfassbaren Bauteilen wie CPU, RAM oder Bildschirm (Kapitel 2). Software besteht letztlich aus Befehlen, die von der CPU verarbeitet werden – geschrieben in einer Programmiersprache (Kapitel 13) und übersetzt in eine Form, die der Computer ausführen kann.\nMan unterscheidet grob zwei Arten von Software:\n\nSystemsoftware: Das Betriebssystem selbst sowie Treiber – die Grundlage, auf der alles andere aufbaut (siehe Kapitel 4).\nAnwendungssoftware (Applikationen): Programme, die eine konkrete Aufgabe für dich erledigen, z. B. ein Browser zum Surfen, ein Textprogramm zum Schreiben oder ein Spiel. Um diese Kategorie geht es in diesem Kapitel.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "9. Apps und Software: Was ist ein Programm?"
+    ]
+  },
+  {
+    "objectID": "09-apps-und-software.html#app-oder-programm-ist-das-dasselbe",
+    "href": "09-apps-und-software.html#app-oder-programm-ist-das-dasselbe",
+    "title": "9. Apps und Software: Was ist ein Programm?",
+    "section": "“App” oder “Programm” – ist das dasselbe?",
+    "text": "“App” oder “Programm” – ist das dasselbe?\nTechnisch gesehen ja: App ist einfach die Kurzform von Application (englisch für Anwendung) und bezeichnet dasselbe wie “Anwendungssoftware” oder “Programm”. Im alltäglichen Sprachgebrauch hat sich allerdings eine Gewohnheit eingebürgert:\n\nFür Software auf Smartphones/Tablets (Android, iOS) sagt man fast immer “App”.\nFür Software auf Desktop-Computern (Windows, macOS, Ubuntu) sagt man häufiger “Programm”, auch wenn zunehmend ebenfalls von “Apps” die Rede ist (z. B. in den Windows-Einstellungen unter “Apps”).\n\nDiese Unterscheidung ist rein sprachlich, nicht technisch. Ein gutes Beispiel: Der Browser Firefox gibt es sowohl als “Programm” für Windows/Ubuntu als auch als “App” für Android – es handelt sich um dieselbe Art von Software (mit jeweils leicht angepasstem Programmcode für die jeweilige Plattform), nur der Sprachgebrauch unterscheidet sich je nach Gerät.\n\n\n\n\n\n\nHinweisAbgrenzung zu Kapitel 4\n\n\n\nIn Kapitel 4 ging es um das Betriebssystem als Systemsoftware, die Hardware verwaltet. In diesem Kapitel geht es um Anwendungssoftware – die Programme, die auf dem Betriebssystem laufen und konkrete Aufgaben für dich übernehmen. Wie so eine Anwendung installiert wird, erfährst du in Kapitel 11; ihre typischen Menüpunkte in Kapitel 10.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "9. Apps und Software: Was ist ein Programm?"
+    ]
+  },
+  {
+    "objectID": "09-apps-und-software.html#praktische-übung",
+    "href": "09-apps-und-software.html#praktische-übung",
+    "title": "9. Apps und Software: Was ist ein Programm?",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\nVerschaffe dir einen Überblick über installierte Software auf deinen Geräten.\nWindows:\n\nÖffne “Einstellungen” → “Apps” → “Installierte Apps”.\nSchau dir die Liste an: Findest du Programme, die du täglich nutzt?\n\nUbuntu:\n\nÖffne die App “Software” (Ubuntu Software Center) und klicke auf den Tab “Installiert”.\nAlternativ: Öffne ein Terminal und tippe apt list --installed – das listet alle über die Paketverwaltung installierten Programme auf (mehr zur Kommandozeile in Kapitel 12, mehr zur Paketverwaltung in Kapitel 11).\n\nZusatz: Schau bei einem Smartphone in den App-Übersicht nach – zähle, wie viele Apps installiert sind, und überlege, welche davon es auch als Desktop-Programm gibt.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "9. Apps und Software: Was ist ein Programm?"
+    ]
+  },
+  {
+    "objectID": "09-apps-und-software.html#verständnisfragen",
+    "href": "09-apps-und-software.html#verständnisfragen",
+    "title": "9. Apps und Software: Was ist ein Programm?",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWas ist der Unterschied zwischen Software und Hardware?\n\nHardware sind die physischen Bauteile eines Geräts (CPU, RAM, Bildschirm usw.). Software sind die Programme und Daten, die auf dieser Hardware ausgeführt werden.\n\n\n\nIst “App” technisch etwas anderes als “Programm”?\n\nNein. “App” ist die Kurzform von “Application” und bedeutet dasselbe wie “Programm” bzw. “Anwendungssoftware”. Der Unterschied im Sprachgebrauch (App für Smartphones, Programm für Desktop) ist rein umgangssprachlich, keine technische Unterscheidung.\n\n\n\nWas ist der Unterschied zwischen Systemsoftware und Anwendungssoftware?\n\nSystemsoftware (z. B. das Betriebssystem, Treiber) bildet die Grundlage, auf der alles andere läuft und verwaltet die Hardware. Anwendungssoftware (Apps/Programme) läuft auf dieser Grundlage und erledigt konkrete Aufgaben für die Nutzerin oder den Nutzer.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "9. Apps und Software: Was ist ein Programm?"
+    ]
+  },
+  {
+    "objectID": "09-apps-und-software.html#zusammenfassung",
+    "href": "09-apps-und-software.html#zusammenfassung",
+    "title": "9. Apps und Software: Was ist ein Programm?",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nSoftware ist der Sammelbegriff für Programme und Daten, im Gegensatz zur physischen Hardware.\nMan unterscheidet Systemsoftware (Betriebssystem, Treiber) und Anwendungssoftware (Programme/Apps für konkrete Aufgaben).\n“App” und “Programm” meinen technisch dasselbe – der Unterschied ist reiner Sprachgebrauch (App eher mobil, Programm eher Desktop).",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "9. Apps und Software: Was ist ein Programm?"
+    ]
+  },
+  {
+    "objectID": "09-apps-und-software.html#ausblick",
+    "href": "09-apps-und-software.html#ausblick",
+    "title": "9. Apps und Software: Was ist ein Programm?",
+    "section": "Ausblick",
+    "text": "Ausblick\nFast jede App und jedes Programm hat ähnliche Menüpunkte – ein Konto-Bereich, Benachrichtigungseinstellungen, ein Hilfe-Menü. Im nächsten Kapitel schauen wir uns diese typischen Menüpunkte an – und vergleichen sie mit den Systemeinstellungen von Windows, Ubuntu und Android.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "9. Apps und Software: Was ist ein Programm?"
+    ]
+  },
+  {
+    "objectID": "03-peripheriegeraete.html",
+    "href": "03-peripheriegeraete.html",
+    "title": "3. Peripheriegeräte: Tastatur, Maus und Co.",
+    "section": "",
+    "text": "CPU, GPU, RAM und Speicher (Kapitel 2) sind die “inneren Werte” eines Computers – aber ohne eine Möglichkeit, mit ihnen zu kommunizieren, wären sie nutzlos. Die Geräte, mit denen du Daten in den Computer eingibst oder Ergebnisse ausgegeben bekommst, heißen Peripheriegeräte (von griechisch “peripherie” = das, was am Rand liegt). In diesem Kapitel geht es ausschließlich um Ein- und Ausgabegeräte – nicht um externe Speichermedien wie USB-Sticks, die eine eigene Kategorie sind.",
+    "crumbs": [
+      "Grundlagen",
+      "3. Peripheriegeräte: Tastatur, Maus und Co."
+    ]
+  },
+  {
+    "objectID": "03-peripheriegeraete.html#warum-das-wichtig-ist",
+    "href": "03-peripheriegeraete.html#warum-das-wichtig-ist",
+    "title": "3. Peripheriegeräte: Tastatur, Maus und Co.",
+    "section": "",
+    "text": "CPU, GPU, RAM und Speicher (Kapitel 2) sind die “inneren Werte” eines Computers – aber ohne eine Möglichkeit, mit ihnen zu kommunizieren, wären sie nutzlos. Die Geräte, mit denen du Daten in den Computer eingibst oder Ergebnisse ausgegeben bekommst, heißen Peripheriegeräte (von griechisch “peripherie” = das, was am Rand liegt). In diesem Kapitel geht es ausschließlich um Ein- und Ausgabegeräte – nicht um externe Speichermedien wie USB-Sticks, die eine eigene Kategorie sind.",
+    "crumbs": [
+      "Grundlagen",
+      "3. Peripheriegeräte: Tastatur, Maus und Co."
+    ]
+  },
+  {
+    "objectID": "03-peripheriegeraete.html#eingabegeräte",
+    "href": "03-peripheriegeraete.html#eingabegeräte",
+    "title": "3. Peripheriegeräte: Tastatur, Maus und Co.",
+    "section": "Eingabegeräte",
+    "text": "Eingabegeräte\nEingabegeräte wandeln eine Handlung von dir in Daten um, die der Computer verarbeiten kann.\n\nTastatur: Jeder Tastendruck erzeugt ein elektrisches Signal, das der Computer einem bestimmten Zeichen zuordnet – so wie in Kapitel 1 beschrieben, letztlich als Bitfolge (z. B. über den ASCII-Standard).\nMaus: Erkennt Bewegung (heute meist optisch über einen kleinen Sensor, der die Unterlage abtastet) und wandelt sie in Bewegungsdaten für den Mauszeiger um. Klicks werden als separate Signale übertragen.\nMikrofon: Wandelt Schallwellen (Luftdruckschwankungen) über eine Membran in ein elektrisches Signal um, das anschließend in digitale Daten (Bits) umgewandelt wird – diesen Vorgang nennt man Analog-Digital-Wandlung.",
+    "crumbs": [
+      "Grundlagen",
+      "3. Peripheriegeräte: Tastatur, Maus und Co."
+    ]
+  },
+  {
+    "objectID": "03-peripheriegeraete.html#ausgabegeräte",
+    "href": "03-peripheriegeraete.html#ausgabegeräte",
+    "title": "3. Peripheriegeräte: Tastatur, Maus und Co.",
+    "section": "Ausgabegeräte",
+    "text": "Ausgabegeräte\nAusgabegeräte wandeln Daten aus dem Computer in etwas um, das du wahrnehmen kannst.\n\nBildschirm: Besteht aus Millionen winziger Bildpunkte (Pixel), die einzeln angesteuert werden können. Mehr zu Pixeln erfährst du in Kapitel 8.\nLautsprecher: Der umgekehrte Weg zum Mikrofon: Digitale Audiodaten werden in ein elektrisches Signal und darüber in eine Membranbewegung umgewandelt, die hörbare Schallwellen erzeugt.\nDrucker: Wandelt eine digitale Datei (z. B. ein Dokument) in ein Ergebnis auf Papier um, entweder durch Tintentröpfchen (Tintenstrahldrucker) oder durch aufgeschmolzenes Pulver (Laserdrucker).\n\n\n\n\n\n\n\nHinweisManche Geräte sind beides\n\n\n\nEin Touchscreen ist gleichzeitig Ausgabegerät (er zeigt etwas an) und Eingabegerät (er erkennt deine Berührungen). Auch ein Headset mit Mikrofon vereint Ausgabe (Kopfhörer) und Eingabe (Mikrofon) in einem Gerät.",
+    "crumbs": [
+      "Grundlagen",
+      "3. Peripheriegeräte: Tastatur, Maus und Co."
+    ]
+  },
+  {
+    "objectID": "03-peripheriegeraete.html#wie-der-computer-peripheriegeräte-erkennt",
+    "href": "03-peripheriegeraete.html#wie-der-computer-peripheriegeräte-erkennt",
+    "title": "3. Peripheriegeräte: Tastatur, Maus und Co.",
+    "section": "Wie der Computer Peripheriegeräte erkennt",
+    "text": "Wie der Computer Peripheriegeräte erkennt\nDamit Windows oder Ubuntu ein angeschlossenes Gerät nutzen kann, braucht es einen passenden Treiber – ein kleines Programm, das dem Betriebssystem erklärt, wie es mit genau diesem Gerät kommunizieren muss. Für die meisten Standardgeräte (Tastatur, Maus, USB-Headsets) bringen Windows und Ubuntu bereits passende Treiber mit, sodass das Gerät sofort funktioniert, wenn du es anschließt. Bei spezielleren Geräten (z. B. bestimmten Druckermodellen) muss man den Treiber manchmal zusätzlich installieren.",
+    "crumbs": [
+      "Grundlagen",
+      "3. Peripheriegeräte: Tastatur, Maus und Co."
+    ]
+  },
+  {
+    "objectID": "03-peripheriegeraete.html#praktische-übung",
+    "href": "03-peripheriegeraete.html#praktische-übung",
+    "title": "3. Peripheriegeräte: Tastatur, Maus und Co.",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\nFinde heraus, welche Peripheriegeräte an deinem Rechner erkannt werden.\nWindows:\n\nÖffne “Einstellungen” → “Bluetooth & Geräte” → “Geräte” (oder öffne den Geräte-Manager über die Suche).\nSchau dir an, welche Eingabe- und Ausgabegeräte gelistet sind (z. B. unter “Tastaturen”, “Mäuse”, “Audioein- und -ausgänge”).\n\nUbuntu:\n\nÖffne die “Einstellungen” und schaue unter “Bluetooth” bzw. “Geräte” nach.\nÖffne zusätzlich ein Terminal und tippe lsusb – das listet alle über USB angeschlossenen Geräte auf, oft inklusive Tastatur und Maus.\n\nVergleiche: Welche Geräte erkennst du in der Liste wieder?",
+    "crumbs": [
+      "Grundlagen",
+      "3. Peripheriegeräte: Tastatur, Maus und Co."
+    ]
+  },
+  {
+    "objectID": "03-peripheriegeraete.html#verständnisfragen",
+    "href": "03-peripheriegeraete.html#verständnisfragen",
+    "title": "3. Peripheriegeräte: Tastatur, Maus und Co.",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWas unterscheidet ein Eingabegerät von einem Ausgabegerät?\n\nEin Eingabegerät wandelt eine Handlung von dir (Tastendruck, Bewegung, Sprache) in Daten für den Computer um. Ein Ausgabegerät wandelt Daten des Computers in etwas um, das du wahrnehmen kannst (Bild, Ton, Ausdruck).\n\n\n\nNenne ein Gerät, das gleichzeitig Ein- und Ausgabegerät ist, und erkläre warum.\n\nEin Touchscreen: Er zeigt Inhalte an (Ausgabe) und erkennt gleichzeitig Berührungen (Eingabe).\n\n\n\nWas ist ein Treiber und wozu wird er gebraucht?\n\nEin Treiber ist ein Programm, das dem Betriebssystem erklärt, wie es mit einem bestimmten Peripheriegerät kommunizieren muss. Ohne passenden Treiber kann das Betriebssystem das Gerät nicht richtig nutzen.",
+    "crumbs": [
+      "Grundlagen",
+      "3. Peripheriegeräte: Tastatur, Maus und Co."
+    ]
+  },
+  {
+    "objectID": "03-peripheriegeraete.html#zusammenfassung",
+    "href": "03-peripheriegeraete.html#zusammenfassung",
+    "title": "3. Peripheriegeräte: Tastatur, Maus und Co.",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nPeripheriegeräte sind Ein- und Ausgabegeräte, über die du mit dem Computer kommunizierst.\nEingabegeräte (Tastatur, Maus, Mikrofon) wandeln deine Handlungen in Daten um.\nAusgabegeräte (Bildschirm, Lautsprecher, Drucker) wandeln Daten in wahrnehmbare Ergebnisse um.\nManche Geräte vereinen beide Funktionen, z. B. ein Touchscreen.\nEin Treiber ist nötig, damit das Betriebssystem ein Gerät korrekt ansteuern kann.",
+    "crumbs": [
+      "Grundlagen",
+      "3. Peripheriegeräte: Tastatur, Maus und Co."
+    ]
+  },
+  {
+    "objectID": "03-peripheriegeraete.html#ausblick",
+    "href": "03-peripheriegeraete.html#ausblick",
+    "title": "3. Peripheriegeräte: Tastatur, Maus und Co.",
+    "section": "Ausblick",
+    "text": "Ausblick\nWer koordiniert eigentlich, dass Tastatureingaben ankommen, während gleichzeitig ein Video läuft und eine Datei gespeichert wird? Diese Aufgabe übernimmt das Betriebssystem – darum geht es im nächsten Kapitel.",
+    "crumbs": [
+      "Grundlagen",
+      "3. Peripheriegeräte: Tastatur, Maus und Co."
+    ]
+  },
+  {
+    "objectID": "15-mobilfunk-wlan-nfc-bluetooth.html",
+    "href": "15-mobilfunk-wlan-nfc-bluetooth.html",
+    "title": "15. Mobilfunk, WLAN, NFC und Bluetooth",
+    "section": "",
+    "text": "Im letzten Kapitel hast du WLAN als eine der Möglichkeiten kennengelernt, dich mit einem lokalen Netzwerk und darüber mit dem Internet zu verbinden. WLAN ist aber nur eine von mehreren Funktechnologien, die in deinem Smartphone stecken. In diesem Kapitel schauen wir uns Mobilfunk, WLAN (noch einmal aus technischer Sicht), NFC und Bluetooth im Vergleich an.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "15. Mobilfunk, WLAN, NFC und Bluetooth"
+    ]
+  },
+  {
+    "objectID": "15-mobilfunk-wlan-nfc-bluetooth.html#warum-das-wichtig-ist",
+    "href": "15-mobilfunk-wlan-nfc-bluetooth.html#warum-das-wichtig-ist",
+    "title": "15. Mobilfunk, WLAN, NFC und Bluetooth",
+    "section": "",
+    "text": "Im letzten Kapitel hast du WLAN als eine der Möglichkeiten kennengelernt, dich mit einem lokalen Netzwerk und darüber mit dem Internet zu verbinden. WLAN ist aber nur eine von mehreren Funktechnologien, die in deinem Smartphone stecken. In diesem Kapitel schauen wir uns Mobilfunk, WLAN (noch einmal aus technischer Sicht), NFC und Bluetooth im Vergleich an.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "15. Mobilfunk, WLAN, NFC und Bluetooth"
+    ]
+  },
+  {
+    "objectID": "15-mobilfunk-wlan-nfc-bluetooth.html#mobilfunk-3g-4g-5g-und-sim-karte",
+    "href": "15-mobilfunk-wlan-nfc-bluetooth.html#mobilfunk-3g-4g-5g-und-sim-karte",
+    "title": "15. Mobilfunk, WLAN, NFC und Bluetooth",
+    "section": "Mobilfunk: 3G, 4G, 5G und SIM-Karte",
+    "text": "Mobilfunk: 3G, 4G, 5G und SIM-Karte\nWährend WLAN nur in Reichweite eines Routers funktioniert, ermöglicht Mobilfunk eine Internetverbindung nahezu überall, wo ein Mobilfunkmast in Reichweite ist. Mobilfunkanbieter haben über die Jahre mehrere Generationen von Mobilfunkstandards eingeführt, die jeweils höhere Übertragungsgeschwindigkeiten ermöglichen:\n\n3G: ermöglichte erstmals brauchbares mobiles Surfen im Internet.\n4G (auch LTE genannt): deutlich schnellere Verbindungen, heute in vielen Regionen der Standard.\n5G: die neueste Generation, nochmals schneller und mit geringerer Verzögerung (Latenz) als 4G.\n\nDamit sich dein Smartphone überhaupt bei einem Mobilfunknetz anmelden kann, benötigt es eine SIM-Karte (Subscriber Identity Module) – eine kleine Chipkarte, die dein Gerät eindeutig einem Mobilfunkvertrag zuordnet.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "15. Mobilfunk, WLAN, NFC und Bluetooth"
+    ]
+  },
+  {
+    "objectID": "15-mobilfunk-wlan-nfc-bluetooth.html#wlan-als-funktechnologie",
+    "href": "15-mobilfunk-wlan-nfc-bluetooth.html#wlan-als-funktechnologie",
+    "title": "15. Mobilfunk, WLAN, NFC und Bluetooth",
+    "section": "WLAN als Funktechnologie",
+    "text": "WLAN als Funktechnologie\nWLAN (Kapitel 14) überträgt Daten per Funk zwischen deinem Gerät und einem Router, meist über kurze bis mittlere Distanzen (innerhalb eines Gebäudes, teils bis in den Garten). Anders als Mobilfunk benötigt WLAN kein Mobilfunknetz eines Anbieters, sondern nutzt lizenzfreie Funkfrequenzbänder, über die jeder Router senden darf.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "15. Mobilfunk, WLAN, NFC und Bluetooth"
+    ]
+  },
+  {
+    "objectID": "15-mobilfunk-wlan-nfc-bluetooth.html#nfc-kommunikation-auf-wenigen-zentimetern",
+    "href": "15-mobilfunk-wlan-nfc-bluetooth.html#nfc-kommunikation-auf-wenigen-zentimetern",
+    "title": "15. Mobilfunk, WLAN, NFC und Bluetooth",
+    "section": "NFC: Kommunikation auf wenigen Zentimetern",
+    "text": "NFC: Kommunikation auf wenigen Zentimetern\nNFC (Near Field Communication, Nahfeldkommunikation) ist eine Funktechnologie für sehr kurze Distanzen – meist nur wenige Zentimeter. Die bekannteste Anwendung ist das kontaktlose Bezahlen: Du hältst dein Smartphone oder deine Bankkarte nah an ein Bezahlterminal, und die beiden Geräte tauschen über NFC die für die Zahlung nötigen Daten aus. Auch manche Fahrkarten und Zugangskarten nutzen NFC.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "15. Mobilfunk, WLAN, NFC und Bluetooth"
+    ]
+  },
+  {
+    "objectID": "15-mobilfunk-wlan-nfc-bluetooth.html#bluetooth-geräte-direkt-verbinden",
+    "href": "15-mobilfunk-wlan-nfc-bluetooth.html#bluetooth-geräte-direkt-verbinden",
+    "title": "15. Mobilfunk, WLAN, NFC und Bluetooth",
+    "section": "Bluetooth: Geräte direkt verbinden",
+    "text": "Bluetooth: Geräte direkt verbinden\nBluetooth ist eine Funktechnologie, mit der sich zwei Geräte direkt miteinander verbinden können, ohne ein gemeinsames Netzwerk oder einen Router zu benötigen. Die Reichweite liegt typischerweise bei einigen Metern. Typische Anwendungen sind kabellose Kopfhörer, Smartwatches, Lautsprecher oder eine kabellose Tastatur/Maus. Bevor zwei Bluetooth-Geräte Daten austauschen können, müssen sie einmalig gekoppelt (gepaart) werden.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "15. Mobilfunk, WLAN, NFC und Bluetooth"
+    ]
+  },
+  {
+    "objectID": "15-mobilfunk-wlan-nfc-bluetooth.html#die-vier-technologien-im-vergleich",
+    "href": "15-mobilfunk-wlan-nfc-bluetooth.html#die-vier-technologien-im-vergleich",
+    "title": "15. Mobilfunk, WLAN, NFC und Bluetooth",
+    "section": "Die vier Technologien im Vergleich",
+    "text": "Die vier Technologien im Vergleich\n\n\n\n\n\n\n\n\nTechnologie\nTypische Reichweite\nTypischer Einsatzzweck\n\n\n\n\nMobilfunk (3G/4G/5G)\nKilometer (über Mobilfunkmasten)\nInternet unterwegs, Telefonie\n\n\nWLAN\nMeter bis wenige zehn Meter\nInternetzugang zu Hause/im Gebäude\n\n\nBluetooth\nWenige Meter\nDirekte Geräte-zu-Geräte-Verbindung (Kopfhörer, Smartwatch)\n\n\nNFC\nWenige Zentimeter\nKontaktloses Bezahlen, Zutrittskarten\n\n\n\n\n\n\n\n\n\nHinweisMerkhilfe zur Reichweite\n\n\n\nJe kürzer die Reichweite einer Funktechnologie, desto weniger Energie wird meist benötigt und desto geringer ist tendenziell das Risiko, dass jemand ungewollt “mithört”. Deshalb ist NFC gerade für Bezahlvorgänge sinnvoll: Ein Angriff aus mehreren Metern Entfernung ist technisch praktisch ausgeschlossen.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "15. Mobilfunk, WLAN, NFC und Bluetooth"
+    ]
+  },
+  {
+    "objectID": "15-mobilfunk-wlan-nfc-bluetooth.html#praktische-übung",
+    "href": "15-mobilfunk-wlan-nfc-bluetooth.html#praktische-übung",
+    "title": "15. Mobilfunk, WLAN, NFC und Bluetooth",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\n\nWindows: Öffne “Einstellungen” → “Bluetooth & Geräte”. Schalte Bluetooth ein und schau, ob Geräte in der Nähe (z. B. ein Smartphone) gefunden werden.\nUbuntu: Öffne die “Einstellungen” → “Bluetooth”. Schalte Bluetooth ein und starte die Gerätesuche.\nFalls verfügbar: Versuche, ein Bluetooth-Gerät (z. B. Kopfhörer) mit beiden Systemen zu koppeln, und vergleiche den Ablauf.\nÜberlege: Warum würde es wenig Sinn ergeben, eine Kontaktlos-Zahlung per WLAN statt per NFC abzuwickeln?",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "15. Mobilfunk, WLAN, NFC und Bluetooth"
+    ]
+  },
+  {
+    "objectID": "15-mobilfunk-wlan-nfc-bluetooth.html#verständnisfragen",
+    "href": "15-mobilfunk-wlan-nfc-bluetooth.html#verständnisfragen",
+    "title": "15. Mobilfunk, WLAN, NFC und Bluetooth",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWas unterscheidet Mobilfunk grundsätzlich von WLAN?\n\nMobilfunk ermöglicht eine Internetverbindung über Mobilfunkmasten nahezu überall, während WLAN nur in Reichweite eines konkreten Routers funktioniert und keinen Mobilfunkvertrag benötigt.\n\n\n\nWofür wird NFC typischerweise eingesetzt und warum eignet sich die Technologie dafür?\n\nFür kontaktloses Bezahlen und Zutrittskarten. Die sehr kurze Reichweite von wenigen Zentimetern macht es unwahrscheinlich, dass ein Angreifer aus der Ferne unbemerkt Daten abgreifen oder eine Zahlung auslösen kann.\n\n\n\nWas ist der Unterschied zwischen Bluetooth und WLAN in Bezug auf ein Netzwerk?\n\nBluetooth verbindet zwei Geräte direkt miteinander, ohne ein gemeinsames Netzwerk oder einen Router zu benötigen. WLAN verbindet Geräte über einen Router mit einem lokalen Netzwerk und darüber mit dem Internet.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "15. Mobilfunk, WLAN, NFC und Bluetooth"
+    ]
+  },
+  {
+    "objectID": "15-mobilfunk-wlan-nfc-bluetooth.html#zusammenfassung",
+    "href": "15-mobilfunk-wlan-nfc-bluetooth.html#zusammenfassung",
+    "title": "15. Mobilfunk, WLAN, NFC und Bluetooth",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nMobilfunk (3G/4G/5G, per SIM-Karte) ermöglicht Internetzugang unterwegs über Mobilfunkmasten.\nWLAN verbindet Geräte per Funk mit einem Router und darüber mit dem Internet.\nNFC ermöglicht Datenaustausch auf wenigen Zentimetern, typisch beim kontaktlosen Bezahlen.\nBluetooth verbindet zwei Geräte direkt über einige Meter, z. B. für Kopfhörer oder Smartwatches.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "15. Mobilfunk, WLAN, NFC und Bluetooth"
+    ]
+  },
+  {
+    "objectID": "15-mobilfunk-wlan-nfc-bluetooth.html#ausblick",
+    "href": "15-mobilfunk-wlan-nfc-bluetooth.html#ausblick",
+    "title": "15. Mobilfunk, WLAN, NFC und Bluetooth",
+    "section": "Ausblick",
+    "text": "Ausblick\nWenn du eine Datei speicherst, landet sie entweder auf deinem eigenen Gerät oder auf einem Computer irgendwo im Internet. Im nächsten Kapitel schauen wir uns den Unterschied zwischen lokaler Speicherung und Server/Cloud an.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "15. Mobilfunk, WLAN, NFC und Bluetooth"
+    ]
+  },
+  {
+    "objectID": "13-programmiersprachen.html",
+    "href": "13-programmiersprachen.html",
+    "title": "13. Programmiersprachen",
+    "section": "",
+    "text": "In Kapitel 12 hast du gelernt, wie du der Kommandozeile Befehle gibst. Genau diesen Weg nutzen wir jetzt, um ein eigenes kleines Programm auszuführen. Aber zuerst: Was ist eine Programmiersprache überhaupt, und wie wird aus Text ein laufendes Programm?",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "13. Programmiersprachen"
+    ]
+  },
+  {
+    "objectID": "13-programmiersprachen.html#warum-das-wichtig-ist",
+    "href": "13-programmiersprachen.html#warum-das-wichtig-ist",
+    "title": "13. Programmiersprachen",
+    "section": "",
+    "text": "In Kapitel 12 hast du gelernt, wie du der Kommandozeile Befehle gibst. Genau diesen Weg nutzen wir jetzt, um ein eigenes kleines Programm auszuführen. Aber zuerst: Was ist eine Programmiersprache überhaupt, und wie wird aus Text ein laufendes Programm?",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "13. Programmiersprachen"
+    ]
+  },
+  {
+    "objectID": "13-programmiersprachen.html#was-ist-eine-programmiersprache",
+    "href": "13-programmiersprachen.html#was-ist-eine-programmiersprache",
+    "title": "13. Programmiersprachen",
+    "section": "Was ist eine Programmiersprache?",
+    "text": "Was ist eine Programmiersprache?\nEine Programmiersprache ist eine Sprache mit festen Regeln (Syntax), in der du Anweisungen für einen Computer formulierst. Ein Computer versteht letztlich nur Bitfolgen (Kapitel 1) – Programmiersprachen sind der Umweg, über den Menschen dem Computer trotzdem verständlich mitteilen können, was er tun soll, ohne selbst in Nullen und Einsen zu schreiben.\nDamit ein Computer den von dir geschriebenen Text (Quellcode oder Source Code) ausführen kann, muss dieser zunächst in eine Form übersetzt werden, die die CPU versteht. Dafür gibt es zwei grundsätzliche Wege:\n\nCompiler: Übersetzt den gesamten Quellcode vorab einmal komplett in eine ausführbare Datei (z. B. eine .exe-Datei unter Windows), die danach direkt ausgeführt werden kann.\nInterpreter: Liest den Quellcode Zeile für Zeile und führt ihn direkt aus, ohne vorher eine separate ausführbare Datei zu erzeugen. Das Programm muss dafür bei jeder Ausführung erneut vom Interpreter gelesen werden.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "13. Programmiersprachen"
+    ]
+  },
+  {
+    "objectID": "13-programmiersprachen.html#zwei-beispiele-python-und-javascript",
+    "href": "13-programmiersprachen.html#zwei-beispiele-python-und-javascript",
+    "title": "13. Programmiersprachen",
+    "section": "Zwei Beispiele: Python und JavaScript",
+    "text": "Zwei Beispiele: Python und JavaScript\n\nPython ist eine Programmiersprache, die für ihre einfache, gut lesbare Syntax bekannt ist. Sie wird über einen Interpreter ausgeführt und ist vielseitig einsetzbar: für kleine Skripte, Datenanalyse, Automatisierung und künstliche Intelligenz. In diesem Kapitel schreibst du dein erstes eigenes Python-Programm.\nJavaScript ist die Programmiersprache, die in praktisch jedem Webbrowser eingebaut ist und dafür sorgt, dass Websites interaktiv werden – z. B. wenn sich ein Menü beim Klicken öffnet oder ein Formular sofort prüft, ob du eine gültige E-Mail-Adresse eingegeben hast.\n\nEs gibt sehr viele weitere Programmiersprachen (z. B. C++, Java, Swift) für unterschiedliche Einsatzzwecke – Python und JavaScript sind hier zwei besonders verbreitete und für den Einstieg gut geeignete Beispiele.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "13. Programmiersprachen"
+    ]
+  },
+  {
+    "objectID": "13-programmiersprachen.html#dein-erstes-python-programm",
+    "href": "13-programmiersprachen.html#dein-erstes-python-programm",
+    "title": "13. Programmiersprachen",
+    "section": "Dein erstes Python-Programm",
+    "text": "Dein erstes Python-Programm\nPython ist auf Ubuntu meist schon vorinstalliert. Unter Windows musst du Python zunächst installieren, z. B. über den Microsoft Store (siehe Kapitel 11) oder von python.org.\nDer klassische erste Programmierschritt ist die Ausgabe eines Textes:\nprint(\"Hallo Welt\")\nDer Befehl print(...) gibt den Text in den Anführungszeichen auf dem Bildschirm aus. Python kann natürlich auch rechnen:\nprint(3 + 4 * 2)\nDieses Programm gibt 11 aus – Python beachtet dabei wie im Mathematikunterricht “Punkt vor Strich”: zuerst 4 × 2 = 8, dann 3 + 8 = 11.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "13. Programmiersprachen"
+    ]
+  },
+  {
+    "objectID": "13-programmiersprachen.html#praktische-übung",
+    "href": "13-programmiersprachen.html#praktische-übung",
+    "title": "13. Programmiersprachen",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\n\nÖffne einen Texteditor (z. B. Editor/Notepad unter Windows, gedit oder den Standard-Texteditor unter Ubuntu) und schreibe folgende zwei Zeilen hinein:\nprint(\"Hallo Welt\")\nprint(3 + 4 * 2)\nSpeichere die Datei als rechner.py in deinem Downloads-Ordner (denk an die Dateiendung .py, siehe Kapitel 6, und den Pfad, siehe Kapitel 5).\nÖffne ein Terminal und wechsle mit cd in deinen Downloads-Ordner (siehe Kapitel 12).\nFühre die Datei aus:\n\nWindows: python rechner.py\nUbuntu: python3 rechner.py\n\nDu solltest jetzt “Hallo Welt” und die Zahl 11 im Terminal sehen. Verändere die Rechnung in der Datei, speichere erneut und führe das Programm noch einmal aus.\n\n\n\n\n\n\n\nHinweisWarum python und python3?\n\n\n\nUnter Ubuntu ist der Befehl python3 üblich, weil Python in Version 2 und Version 3 existiert(e) und beide über getrennte Befehle ansprechbar sein sollten – Version 2 wird nicht mehr weiterentwickelt, weshalb heute praktisch ausschließlich Python 3 verwendet wird. Unter Windows installiert der offizielle Installer den Befehl meist schlicht als python.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "13. Programmiersprachen"
+    ]
+  },
+  {
+    "objectID": "13-programmiersprachen.html#verständnisfragen",
+    "href": "13-programmiersprachen.html#verständnisfragen",
+    "title": "13. Programmiersprachen",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWas ist der Unterschied zwischen einem Compiler und einem Interpreter?\n\nEin Compiler übersetzt den gesamten Quellcode vorab in eine eigenständige ausführbare Datei. Ein Interpreter liest und führt den Quellcode direkt, Zeile für Zeile, aus – ohne vorher eine separate ausführbare Datei zu erzeugen.\n\n\n\nWofür wird JavaScript hauptsächlich eingesetzt?\n\nFür interaktive Elemente auf Websites, die im Browser laufen, z. B. Menüs, Formularprüfungen oder dynamische Inhalte.\n\n\n\nWas gibt folgendes Python-Programm aus: print(10 - 2 * 3)?\n\n4, denn zuerst wird 2 × 3 = 6 gerechnet, dann 10 − 6 = 4 (“Punkt vor Strich”).",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "13. Programmiersprachen"
+    ]
+  },
+  {
+    "objectID": "13-programmiersprachen.html#zusammenfassung",
+    "href": "13-programmiersprachen.html#zusammenfassung",
+    "title": "13. Programmiersprachen",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nEine Programmiersprache erlaubt es, Anweisungen für einen Computer in menschenlesbarer Form zu formulieren.\nCompiler übersetzen Quellcode vorab vollständig, Interpreter führen ihn direkt Zeile für Zeile aus.\nPython ist eine interpretierte, gut lesbare Sprache; JavaScript macht Websites interaktiv.\nEin Python-Programm lässt sich direkt über die in Kapitel 12 gelernte Kommandozeile ausführen.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "13. Programmiersprachen"
+    ]
+  },
+  {
+    "objectID": "13-programmiersprachen.html#ausblick",
+    "href": "13-programmiersprachen.html#ausblick",
+    "title": "13. Programmiersprachen",
+    "section": "Ausblick",
+    "text": "Ausblick\nDamit dein Python-Programm über das Internet erreichbar wäre oder mit anderen Geräten kommunizieren könnte, braucht es ein Netzwerk. Im nächsten Kapitel geht es um die Grundlagen von Internet und Netzwerken: WLAN, LAN, Router und IP-Adressen.",
+    "crumbs": [
+      "Software und Kommandozeile",
+      "13. Programmiersprachen"
+    ]
+  },
+  {
+    "objectID": "06-dateiarten-und-endungen.html",
+    "href": "06-dateiarten-und-endungen.html",
+    "title": "6. Dateiarten und Dateiendungen",
+    "section": "",
+    "text": "Du hast gelernt, wo Dateien liegen (Kapitel 5). Aber woher weiß dein Computer, mit welchem Programm er eine Datei öffnen soll, wenn du sie doppelklickst? Die Antwort steckt meist im letzten Teil des Dateinamens: der Dateiendung.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "6. Dateiarten und Dateiendungen"
+    ]
+  },
+  {
+    "objectID": "06-dateiarten-und-endungen.html#warum-das-wichtig-ist",
+    "href": "06-dateiarten-und-endungen.html#warum-das-wichtig-ist",
+    "title": "6. Dateiarten und Dateiendungen",
+    "section": "",
+    "text": "Du hast gelernt, wo Dateien liegen (Kapitel 5). Aber woher weiß dein Computer, mit welchem Programm er eine Datei öffnen soll, wenn du sie doppelklickst? Die Antwort steckt meist im letzten Teil des Dateinamens: der Dateiendung.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "6. Dateiarten und Dateiendungen"
+    ]
+  },
+  {
+    "objectID": "06-dateiarten-und-endungen.html#was-ist-eine-dateiendung",
+    "href": "06-dateiarten-und-endungen.html#was-ist-eine-dateiendung",
+    "title": "6. Dateiarten und Dateiendungen",
+    "section": "Was ist eine Dateiendung?",
+    "text": "Was ist eine Dateiendung?\nEine Dateiendung (auch Dateierweiterung genannt) ist der Teil eines Dateinamens nach dem letzten Punkt, zum Beispiel .txt, .pdf oder .mp3. Sie gibt an, in welchem Format die Datei gespeichert ist – also nach welchen Regeln die Bits und Bytes in der Datei zu interpretieren sind (siehe Kapitel 1). Ein Textprogramm weiß dank der Endung .txt, dass es die Datei als reinen Text lesen soll, ein Bildbetrachter weiß dank .jpg, dass er die Bytes als Bilddaten dekodieren muss.\nBetriebssysteme nutzen die Dateiendung, um einer Datei automatisch ein passendes Standardprogramm zuzuordnen. Deshalb öffnet ein Doppelklick auf urlaubsfoto.jpg normalerweise einen Bildbetrachter, während bericht.docx in einem Textverarbeitungsprogramm geöffnet wird.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "6. Dateiarten und Dateiendungen"
+    ]
+  },
+  {
+    "objectID": "06-dateiarten-und-endungen.html#gängige-dateiendungen-im-überblick",
+    "href": "06-dateiarten-und-endungen.html#gängige-dateiendungen-im-überblick",
+    "title": "6. Dateiarten und Dateiendungen",
+    "section": "Gängige Dateiendungen im Überblick",
+    "text": "Gängige Dateiendungen im Überblick\n\n\n\n\n\n\n\n\nEndung\nArt der Datei\nTypisches Programm\n\n\n\n\n.txt\nReiner Text, ohne Formatierung\nTexteditor (Notepad, gedit)\n\n\n.docx\nTextdokument mit Formatierung\nWord, LibreOffice Writer\n\n\n.pdf\nPortables Dokumentenformat, layoutgetreu\nPDF-Reader\n\n\n.mp3\nKomprimierte Audiodatei\nMusik-Player\n\n\n.mp4\nKomprimierte Videodatei\nVideo-Player\n\n\n.jpg / .jpeg\nKomprimiertes Rasterbild\nBildbetrachter\n\n\n.png\nVerlustfrei komprimiertes Rasterbild\nBildbetrachter\n\n\n.zip\nKomprimiertes Archiv (mehrere Dateien gebündelt)\nArchivprogramm\n\n\n\nZu Bilddateien (.jpg, .png und weitere) erfährst du in Kapitel 8 deutlich mehr – hier reicht es zu wissen, dass es sie gibt und wofür sie stehen.\n\n\n\n\n\n\nWichtigVorsicht: Windows blendet Dateiendungen standardmäßig aus\n\n\n\nWindows zeigt Dateiendungen bei bekannten Dateitypen in der Standardeinstellung nicht an – du siehst also oft nur urlaubsfoto statt urlaubsfoto.jpg. Das kann zu einem echten Sicherheitsrisiko werden: Eine schädliche Datei könnte rechnung.pdf.exe heißen und dir – mit ausgeblendeter Endung – als rechnung.pdf angezeigt werden, obwohl es sich tatsächlich um ein ausführbares Programm handelt (mehr zu Schadsoftware in Kapitel 19). Ubuntu zeigt Dateiendungen im Dateimanager (Nautilus) standardmäßig immer vollständig an.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "6. Dateiarten und Dateiendungen"
+    ]
+  },
+  {
+    "objectID": "06-dateiarten-und-endungen.html#praktische-übung",
+    "href": "06-dateiarten-und-endungen.html#praktische-übung",
+    "title": "6. Dateiarten und Dateiendungen",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\n\nWindows: Öffne den Datei-Explorer, klicke oben auf den Tab “Ansicht” und dann auf “Anzeigen” bzw. suche das Kästchen “Dateinamenerweiterungen”. Aktiviere es. Beobachte, wie sich die Anzeige deiner Dateien verändert – plötzlich siehst du bei allen Dateien die Endung.\nUbuntu: Öffne den Dateimanager (“Dateien”/Nautilus) und schau dir ein paar Dateien in deinem Downloads-Ordner an. Die Endungen sollten bereits standardmäßig sichtbar sein.\nErstelle in beiden Systemen eine neue Textdatei (Rechtsklick → “Neu” → “Textdokument” bzw. “Neues Dokument” → “Leeres Dokument”) und prüfe, welche Endung sie automatisch bekommt.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "6. Dateiarten und Dateiendungen"
+    ]
+  },
+  {
+    "objectID": "06-dateiarten-und-endungen.html#verständnisfragen",
+    "href": "06-dateiarten-und-endungen.html#verständnisfragen",
+    "title": "6. Dateiarten und Dateiendungen",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWozu dient die Dateiendung?\n\nSie zeigt an, in welchem Format eine Datei gespeichert ist, und dem Betriebssystem, mit welchem Standardprogramm die Datei geöffnet werden soll.\n\n\n\nWarum kann das Ausblenden von Dateiendungen unter Windows riskant sein?\n\nWeil eine Datei mit doppelter oder versteckter Endung (z. B. rechnung.pdf.exe) so aussehen kann, als wäre sie harmlos (z. B. rechnung.pdf), obwohl sie tatsächlich ein ausführbares Programm ist, das Schaden anrichten könnte.\n\n\n\nWelche Dateiendung würdest du für eine reine, unformatierte Textdatei erwarten?\n\n.txt",
+    "crumbs": [
+      "Dateien und Ordner",
+      "6. Dateiarten und Dateiendungen"
+    ]
+  },
+  {
+    "objectID": "06-dateiarten-und-endungen.html#zusammenfassung",
+    "href": "06-dateiarten-und-endungen.html#zusammenfassung",
+    "title": "6. Dateiarten und Dateiendungen",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nDie Dateiendung steht nach dem letzten Punkt im Dateinamen und zeigt das Dateiformat an.\nBetriebssysteme nutzen die Endung, um Dateien automatisch einem Standardprogramm zuzuordnen.\nEs gibt viele gängige Endungen für Text (.txt, .docx, .pdf), Audio (.mp3), Video (.mp4) und Bilder (.jpg, .png).\nWindows blendet Dateiendungen standardmäßig aus, Ubuntu zeigt sie standardmäßig an – das ausgeblendete Format kann ein Sicherheitsrisiko sein.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "6. Dateiarten und Dateiendungen"
+    ]
+  },
+  {
+    "objectID": "06-dateiarten-und-endungen.html#ausblick",
+    "href": "06-dateiarten-und-endungen.html#ausblick",
+    "title": "6. Dateiarten und Dateiendungen",
+    "section": "Ausblick",
+    "text": "Ausblick\nJetzt kannst du Dateien anhand ihrer Endung erkennen. Im nächsten Kapitel lernst du die grundlegenden Handgriffe der Dateiverwaltung: Speichern, Umbenennen, Verschieben und Kopieren – sowohl im Windows-Explorer als auch im Ubuntu-Dateimanager.",
+    "crumbs": [
+      "Dateien und Ordner",
+      "6. Dateiarten und Dateiendungen"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IT-Wissen für Kinder",
+    "section": "",
+    "text": "Diese Website erklärt dir die Grundlagen der IT (Informationstechnik) – also alles rund um Computer, Smartphones, das Internet und die Programme, die du jeden Tag benutzt. Du brauchst kein Vorwissen, um hier einzusteigen.\nDie Kapitel bauen aufeinander auf: Am Anfang geht es um die Bausteine, aus denen ein Computer “denkt” (Bits und Bytes), dann um Hardware, Betriebssysteme, Dateien und Programme, und am Ende um Internet, Sicherheit und Datenschutz. Es lohnt sich also, ungefähr der Reihenfolge zu folgen.\n\n\n\n\n\n\nHinweisWindows und Ubuntu\n\n\n\nDu hast wahrscheinlich Zugriff auf Computer mit zwei unterschiedlichen Betriebssystemen: Windows und Ubuntu (eine Version von Linux). Überall dort, wo sich beide unterscheiden, zeigt dir diese Website beides parallel – damit du auf jedem Rechner zurechtkommst, den du in die Finger bekommst.\n\n\nJedes Kapitel enthält:\n\neine kurze Erklärung der wichtigsten Begriffe,\nmindestens ein konkretes Beispiel,\neine praktische Übung, die du direkt an deinem Computer ausprobieren kannst,\nein paar Verständnisfragen zum Selbsttest.",
+    "crumbs": [
+      "IT-Wissen für Kinder"
+    ]
+  },
+  {
+    "objectID": "index.html#worum-geht-es-hier",
+    "href": "index.html#worum-geht-es-hier",
+    "title": "IT-Wissen für Kinder",
+    "section": "",
+    "text": "Diese Website erklärt dir die Grundlagen der IT (Informationstechnik) – also alles rund um Computer, Smartphones, das Internet und die Programme, die du jeden Tag benutzt. Du brauchst kein Vorwissen, um hier einzusteigen.\nDie Kapitel bauen aufeinander auf: Am Anfang geht es um die Bausteine, aus denen ein Computer “denkt” (Bits und Bytes), dann um Hardware, Betriebssysteme, Dateien und Programme, und am Ende um Internet, Sicherheit und Datenschutz. Es lohnt sich also, ungefähr der Reihenfolge zu folgen.\n\n\n\n\n\n\nHinweisWindows und Ubuntu\n\n\n\nDu hast wahrscheinlich Zugriff auf Computer mit zwei unterschiedlichen Betriebssystemen: Windows und Ubuntu (eine Version von Linux). Überall dort, wo sich beide unterscheiden, zeigt dir diese Website beides parallel – damit du auf jedem Rechner zurechtkommst, den du in die Finger bekommst.\n\n\nJedes Kapitel enthält:\n\neine kurze Erklärung der wichtigsten Begriffe,\nmindestens ein konkretes Beispiel,\neine praktische Übung, die du direkt an deinem Computer ausprobieren kannst,\nein paar Verständnisfragen zum Selbsttest.",
+    "crumbs": [
+      "IT-Wissen für Kinder"
+    ]
+  },
+  {
+    "objectID": "index.html#alle-kapitel-im-überblick",
+    "href": "index.html#alle-kapitel-im-überblick",
+    "title": "IT-Wissen für Kinder",
+    "section": "Alle Kapitel im Überblick",
+    "text": "Alle Kapitel im Überblick\n\nGrundlagen\n\nBits und Bytes: Wie ein Computer denkt\nHardware-Grundlagen: CPU, GPU, RAM und Speichermedien\nPeripheriegeräte: Tastatur, Maus und Co.\nBetriebssysteme auf PC und Smartphone\n\n\n\nDateien und Ordner\n\nDas Ordnersystem: Verzeichnisse und Pfade\nDateiarten und Dateiendungen\nSpeichern, Umbenennen, Verschieben, Kopieren\nBilddateien: Pixel, Auflösung und Kompression\n\n\n\nSoftware und Kommandozeile\n\nApps und Software: Was ist ein Programm?\nTypische Menüpunkte einer App\nApps installieren: exe, apt, APK und Stores\nDie Kommandozeile (CLI)\nProgrammiersprachen\n\n\n\nInternet und Netzwerke\n\nInternet und Netzwerke: Die Grundlagen\nMobilfunk, WLAN, NFC und Bluetooth\nServer, lokal und Cloud\nE-Mail\n\n\n\nSicherheit und Datenschutz\n\nPasswörter und Accounts\nIT-Sicherheit\nDatenschutz\nUpdates und Backups\n\n\n\nSonstiges\n\nWie Software finanziert wird\n\n\n\n\n\n\n\nTippTipp\n\n\n\nNutze die Navigation am linken Rand, um direkt zu einem Kapitel zu springen, oder klicke dich einfach von Kapitel 1 aus durch.",
+    "crumbs": [
+      "IT-Wissen für Kinder"
+    ]
+  },
+  {
+    "objectID": "16-server-und-cloud.html",
+    "href": "16-server-und-cloud.html",
+    "title": "16. Server, lokal und Cloud",
+    "section": "",
+    "text": "In Kapitel 14 hast du gelernt, dass das Internet ein riesiges Netzwerk aus vielen einzelnen Netzwerken ist. Über dieses Netzwerk kommunizieren nicht nur Menschen mit Websites, sondern auch Geräte mit sogenannten Servern. In diesem Kapitel klären wir, was ein Server ist, was “die Cloud” eigentlich bedeutet – und wo der Unterschied zur lokalen Speicherung auf deinem eigenen Gerät liegt.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "16. Server, lokal und Cloud"
+    ]
+  },
+  {
+    "objectID": "16-server-und-cloud.html#warum-das-wichtig-ist",
+    "href": "16-server-und-cloud.html#warum-das-wichtig-ist",
+    "title": "16. Server, lokal und Cloud",
+    "section": "",
+    "text": "In Kapitel 14 hast du gelernt, dass das Internet ein riesiges Netzwerk aus vielen einzelnen Netzwerken ist. Über dieses Netzwerk kommunizieren nicht nur Menschen mit Websites, sondern auch Geräte mit sogenannten Servern. In diesem Kapitel klären wir, was ein Server ist, was “die Cloud” eigentlich bedeutet – und wo der Unterschied zur lokalen Speicherung auf deinem eigenen Gerät liegt.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "16. Server, lokal und Cloud"
+    ]
+  },
+  {
+    "objectID": "16-server-und-cloud.html#lokale-speicherung",
+    "href": "16-server-und-cloud.html#lokale-speicherung",
+    "title": "16. Server, lokal und Cloud",
+    "section": "Lokale Speicherung",
+    "text": "Lokale Speicherung\nLokal gespeicherte Daten liegen direkt auf deinem eigenen Gerät – auf der SSD oder HDD, wie in Kapitel 2 beschrieben. Der Vorteil: Du hast jederzeit Zugriff, auch ohne Internetverbindung, und die Daten verlassen dein Gerät nicht von selbst. Der Nachteil: Geht das Gerät kaputt oder verloren, sind die Daten unter Umständen ebenfalls verloren, falls keine Sicherungskopie existiert (mehr zu Backups in Kapitel 21).",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "16. Server, lokal und Cloud"
+    ]
+  },
+  {
+    "objectID": "16-server-und-cloud.html#was-ist-ein-server",
+    "href": "16-server-und-cloud.html#was-ist-ein-server",
+    "title": "16. Server, lokal und Cloud",
+    "section": "Was ist ein Server?",
+    "text": "Was ist ein Server?\nEin Server ist – vereinfacht gesagt – ein Computer, der meist dauerhaft läuft, permanent mit dem Internet verbunden ist, und dessen Aufgabe es ist, Daten oder Dienste für andere Computer bereitzustellen. Diese anfragenden Geräte (z. B. dein Laptop oder Smartphone) nennt man in diesem Zusammenhang Client. Das Grundprinzip: Der Client sendet eine Anfrage über das Internet, der Server sendet eine Antwort zurück – z. B. eine Webseite, ein Video oder eine gespeicherte Datei.\nServer stehen üblicherweise nicht bei dir zu Hause, sondern in großen, professionell betriebenen Rechenzentren, oft von spezialisierten Unternehmen betrieben.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "16. Server, lokal und Cloud"
+    ]
+  },
+  {
+    "objectID": "16-server-und-cloud.html#was-bedeutet-die-cloud",
+    "href": "16-server-und-cloud.html#was-bedeutet-die-cloud",
+    "title": "16. Server, lokal und Cloud",
+    "section": "Was bedeutet “die Cloud”?",
+    "text": "Was bedeutet “die Cloud”?\nCloud (englisch für Wolke) ist letztlich nur ein anschaulicherer Begriff für: Daten oder Programme laufen nicht auf deinem eigenen Gerät, sondern auf Servern eines Anbieters, auf die du über das Internet zugreifst. Wenn du ein Foto “in die Cloud” hochlädst (z. B. zu Google Drive, iCloud, OneDrive oder Dropbox), landet es technisch gesehen einfach auf Servern in einem Rechenzentrum dieses Anbieters.\n\n\n\n\n\n\nHinweis“Es gibt keine Cloud, nur andere Computer”\n\n\n\nDieser bekannte Satz bringt es auf den Punkt: “Die Cloud” ist keine eigene, unsichtbare Technologie, sondern schlicht ein Netzwerk aus Servern, die anderen Firmen gehören und die du über das Internet nutzt.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "16. Server, lokal und Cloud"
+    ]
+  },
+  {
+    "objectID": "16-server-und-cloud.html#vor--und-nachteile-im-vergleich",
+    "href": "16-server-und-cloud.html#vor--und-nachteile-im-vergleich",
+    "title": "16. Server, lokal und Cloud",
+    "section": "Vor- und Nachteile im Vergleich",
+    "text": "Vor- und Nachteile im Vergleich\n\n\n\n\n\n\n\n\n\nLokale Speicherung\nServer/Cloud\n\n\n\n\nZugriff ohne Internet\nJa\nMeist nein\n\n\nZugriff von mehreren Geräten gleichzeitig\nSchwierig\nEinfach (überall mit Internetzugang)\n\n\nAutomatische Sicherung bei Geräteverlust\nNein (außer eigenes Backup)\nMeist ja, da auf fremden Servern gespeichert\n\n\nKontrolle über die eigenen Daten\nVollständig bei dir\nTeilweise beim Anbieter\n\n\n\nDer letzte Punkt ist wichtig: Sobald deine Daten auf einem fremden Server liegen, hast du nicht mehr die vollständige, alleinige Kontrolle darüber – der Anbieter könnte theoretisch Einblick in die Daten haben oder sie für eigene Zwecke auswerten. Diesen Aspekt vertiefen wir in Kapitel 20 zum Thema Datenschutz.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "16. Server, lokal und Cloud"
+    ]
+  },
+  {
+    "objectID": "16-server-und-cloud.html#praktische-übung",
+    "href": "16-server-und-cloud.html#praktische-übung",
+    "title": "16. Server, lokal und Cloud",
+    "section": "Praktische Übung",
+    "text": "Praktische Übung\n\nSpeichere eine Textdatei lokal auf deinem Gerät (siehe Kapitel 7) und öffne sie erneut, nachdem du das WLAN ausgeschaltet hast (siehe Kapitel 10) – sie sollte weiterhin problemlos zugänglich sein.\nLade dieselbe Datei (mit eingeschaltetem WLAN) in einen Cloud-Speicher deiner Wahl hoch, den du bereits nutzt oder mit Erlaubnis einrichten darfst (z. B. Google Drive oder OneDrive).\nSchalte das WLAN wieder aus und versuche, über die Weboberfläche des Cloud-Speichers erneut auf die Datei zuzugreifen. Beobachte den Unterschied zum lokalen Zugriff.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "16. Server, lokal und Cloud"
+    ]
+  },
+  {
+    "objectID": "16-server-und-cloud.html#verständnisfragen",
+    "href": "16-server-und-cloud.html#verständnisfragen",
+    "title": "16. Server, lokal und Cloud",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen\n\n\nWas ist der Unterschied zwischen einem Server und einem Client?\n\nEin Server stellt Daten oder Dienste über das Internet bereit und läuft meist dauerhaft. Ein Client (z. B. dein Laptop) fragt diese Daten oder Dienste beim Server an.\n\n\n\nWas bedeutet es technisch gesehen, wenn eine Datei “in die Cloud” hochgeladen wird?\n\nDie Datei wird über das Internet auf einen Server eines Anbieters übertragen und dort in einem Rechenzentrum gespeichert – “die Cloud” ist kein eigenständiger, unsichtbarer Ort, sondern schlicht ein fremder Server.\n\n\n\nNenne einen Vorteil und einen Nachteil der Cloud-Speicherung gegenüber lokaler Speicherung.\n\nVorteil: Zugriff von mehreren Geräten aus, meist automatische Sicherung gegen Geräteverlust. Nachteil: Zugriff meist nur mit Internetverbindung möglich, und die Daten liegen nicht mehr vollständig unter eigener Kontrolle.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "16. Server, lokal und Cloud"
+    ]
+  },
+  {
+    "objectID": "16-server-und-cloud.html#zusammenfassung",
+    "href": "16-server-und-cloud.html#zusammenfassung",
+    "title": "16. Server, lokal und Cloud",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nLokale Speicherung liegt auf dem eigenen Gerät, ist auch ohne Internet zugänglich, aber ungeschützt bei Geräteverlust.\nEin Server stellt Daten/Dienste über das Internet für anfragende Clients bereit.\nCloud bedeutet: Daten/Programme laufen auf fremden Servern statt auf dem eigenen Gerät.\nCloud-Speicherung bringt Komfort (Zugriff von überall), aber auch einen Kontrollverlust über die eigenen Daten – ein Thema, das in Kapitel 20 vertieft wird.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "16. Server, lokal und Cloud"
+    ]
+  },
+  {
+    "objectID": "16-server-und-cloud.html#ausblick",
+    "href": "16-server-und-cloud.html#ausblick",
+    "title": "16. Server, lokal und Cloud",
+    "section": "Ausblick",
+    "text": "Ausblick\nE-Mail ist einer der ältesten und bis heute wichtigsten Dienste, die über Server im Internet laufen. Im nächsten Kapitel schauen wir uns E-Mail im Detail an: Aufbau einer Adresse, Anhänge und ein erster Hinweis auf Spam.",
+    "crumbs": [
+      "Internet und Netzwerke",
+      "16. Server, lokal und Cloud"
+    ]
+  }
+]
