@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2780e3"/>
+      <stop offset="100%" stop-color="#12b886"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background badge -->
+  <rect x="8" y="8" width="496" height="496" rx="110" fill="url(#bg)"/>
+
+  <!-- Chip pins -->
+  <g fill="#ffffff">
+    <!-- top -->
+    <rect x="176" y="70" width="26" height="54" rx="8"/>
+    <rect x="243" y="70" width="26" height="54" rx="8"/>
+    <rect x="310" y="70" width="26" height="54" rx="8"/>
+    <!-- bottom -->
+    <rect x="176" y="388" width="26" height="54" rx="8"/>
+    <rect x="243" y="388" width="26" height="54" rx="8"/>
+    <rect x="310" y="388" width="26" height="54" rx="8"/>
+    <!-- left -->
+    <rect x="70" y="176" width="54" height="26" rx="8"/>
+    <rect x="70" y="243" width="54" height="26" rx="8"/>
+    <rect x="70" y="310" width="54" height="26" rx="8"/>
+    <!-- right -->
+    <rect x="388" y="176" width="54" height="26" rx="8"/>
+    <rect x="388" y="243" width="54" height="26" rx="8"/>
+    <rect x="388" y="310" width="54" height="26" rx="8"/>
+  </g>
+
+  <!-- Chip body -->
+  <rect x="122" y="122" width="268" height="268" rx="40" fill="#ffffff"/>
+
+  <!-- Binary code on chip -->
+  <text x="256" y="238" font-family="'DejaVu Sans Mono', 'Courier New', monospace" font-weight="700"
+        font-size="86" fill="#2780e3" text-anchor="middle">01</text>
+  <text x="256" y="330" font-family="'DejaVu Sans Mono', 'Courier New', monospace" font-weight="700"
+        font-size="86" fill="#12b886" text-anchor="middle">10</text>
+</svg>
