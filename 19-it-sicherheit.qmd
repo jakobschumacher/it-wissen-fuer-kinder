@@ -1,0 +1,77 @@
+---
+title: "19. IT-Sicherheit"
+---
+
+## Warum das wichtig ist
+
+In Kapitel 11 hast du kurz gehört, dass Software aus unbekannten Quellen ein Risiko birgt, und in Kapitel 17, dass nicht jede E-Mail vertrauenswürdig ist. In diesem Kapitel vertiefen wir beides: Welche Arten von Schadsoftware gibt es, wie erkennst du Phishing-Versuche, und wie verhältst du dich beim Herunterladen von Dateien sicherer?
+
+## Grundtypen von Schadsoftware
+
+**Schadsoftware** (auch Malware genannt) ist Software, die absichtlich Schaden anrichtet – z. B. Daten stiehlt, zerstört oder ein Gerät für Angreifer fernsteuerbar macht. Es gibt mehrere Grundtypen, die sich vor allem darin unterscheiden, *wie* sie sich verbreiten und *was* sie tun:
+
+- **Virus:** Hängt sich an eine andere, eigentlich harmlose Datei oder ein Programm an und verbreitet sich, sobald diese infizierte Datei ausgeführt oder weitergegeben wird – ähnlich einem biologischen Virus, der einen Wirt braucht.
+- **Wurm:** Verbreitet sich selbstständig über Netzwerke, ohne dass eine infizierte Datei aktiv weitergegeben oder geöffnet werden muss.
+- **Trojaner (Trojanisches Pferd):** Tarnt sich als nützliches, harmloses Programm, führt im Hintergrund aber schädliche Aktionen aus – benannt nach dem hölzernen Pferd aus der griechischen Sage.
+- **Ransomware:** Verschlüsselt die Dateien auf einem Gerät, sodass sie nicht mehr genutzt werden können, und fordert Lösegeld für die Entschlüsselung.
+- **Spyware:** Sammelt heimlich Informationen über die Nutzung eines Geräts (z. B. Tastatureingaben oder besuchte Websites) und sendet sie an Dritte.
+
+## Phishing erkennen
+
+**Phishing** bezeichnet gefälschte Nachrichten (meist E-Mails, aber auch SMS oder Messenger-Nachrichten), die vorgeben, von einer vertrauenswürdigen Quelle zu stammen (z. B. deiner Bank, einem Online-Shop oder deiner Schule), um dich dazu zu bringen, Zugangsdaten preiszugeben oder auf einen schädlichen Link zu klicken.
+
+Typische Warnzeichen für Phishing:
+
+- **Künstlicher Druck:** "Handle sofort, sonst wird dein Konto gesperrt" – echte Anbieter setzen dich selten unter derartigen Zeitdruck.
+- **Unpersönliche Anrede:** "Sehr geehrter Kunde" statt deines echten Namens.
+- **Auffällige Absenderadresse:** Die Domain (siehe Kapitel 17) passt nicht zum angeblichen Absender, z. B. `service@paypal-sicherheit.com` statt einer echten PayPal-Domain.
+- **Aufforderung zur Preisgabe sensibler Daten:** Seriöse Anbieter fragen praktisch nie per E-Mail nach deinem vollständigen Passwort.
+- **Verdächtige Links:** Fährst du mit der Maus über einen Link (ohne zu klicken), zeigt dein Browser oder E-Mail-Programm meist die tatsächliche Ziel-Adresse an – diese sollte zur angeblichen Absenderseite passen.
+
+## Sicheres Verhalten beim Download
+
+In Kapitel 11 hast du gelernt, dass Software aus geprüften Quellen (Microsoft Store, Ubuntu-Repositories, Google Play Store) grundsätzlich vertrauenswürdiger ist als Dateien von unbekannten Websites. Zusätzlich helfen folgende Grundregeln:
+
+- Lade Programme möglichst nur von der offiziellen Website des Herstellers oder aus einem offiziellen Store herunter.
+- Achte auf Warnungen deines Betriebssystems oder Browsers vor potenziell unsicheren Dateien – ignoriere sie nicht einfach.
+- Halte dein System aktuell (mehr dazu in Kapitel 21) – viele Schadsoftware-Angriffe nutzen bekannte Sicherheitslücken in veralteter Software aus.
+
+::: {.callout-note}
+## Ist Ubuntu automatisch sicherer als Windows?
+
+Windows wird auf deutlich mehr Desktop-Computern weltweit eingesetzt als Linux-Distributionen wie Ubuntu. Da sich Schadsoftware-Angriffe meist auf möglichst viele mögliche Opfer richten, wird Windows-Schadsoftware häufiger entwickelt als Linux-Schadsoftware. Das bedeutet aber nicht, dass Ubuntu automatisch unangreifbar ist – Schadsoftware für Linux-Systeme existiert ebenfalls, sie ist im Alltag nur deutlich seltener anzutreffen. Vorsicht ist also auf beiden Systemen sinnvoll.
+:::
+
+## Praktische Übung
+
+1. **Windows:** Öffne "Einstellungen" → "Datenschutz & Sicherheit" → "Windows-Sicherheit" → "Viren- & Bedrohungsschutz". Prüfe, ob der Schutz aktiv ist und wann zuletzt ein Scan durchgeführt wurde.
+2. **Ubuntu:** Öffne ein Terminal und prüfe mit `sudo apt list --upgradable`, ob es ausstehende Sicherheitsaktualisierungen für installierte Pakete gibt (mehr zu Updates in Kapitel 21).
+3. Öffne dein E-Mail-Postfach und suche (ohne auf Links zu klicken!) eine Werbe- oder unbekannte E-Mail. Prüfe anhand der oben genannten Warnzeichen, ob sie verdächtig wirkt, und identifiziere die tatsächliche Absender-Domain.
+
+## Verständnisfragen
+
+<details>
+<summary>Was unterscheidet einen Virus von einem Wurm?</summary>
+Ein Virus braucht eine Wirtsdatei/ein Wirtsprogramm und verbreitet sich, wenn diese infizierte Datei ausgeführt oder weitergegeben wird. Ein Wurm verbreitet sich selbstständig über Netzwerke, ohne dass eine infizierte Datei aktiv weitergegeben werden muss.
+</details>
+
+<details>
+<summary>Nenne zwei typische Warnzeichen einer Phishing-E-Mail.</summary>
+Zum Beispiel: künstlicher Zeitdruck, unpersönliche Anrede, eine zur angeblichen Absenderseite nicht passende Domain, oder die Aufforderung, vertrauliche Zugangsdaten preiszugeben.
+</details>
+
+<details>
+<summary>Ist Ubuntu grundsätzlich unangreifbar durch Schadsoftware?</summary>
+Nein. Schadsoftware für Linux/Ubuntu existiert, ist aber deutlich seltener als für Windows, unter anderem weil Windows aufgrund seiner größeren Verbreitung ein attraktiveres Angriffsziel darstellt. Vorsicht bleibt auf beiden Systemen sinnvoll.
+</details>
+
+## Zusammenfassung
+
+- **Schadsoftware** umfasst u. a. Viren, Würmer, Trojaner, Ransomware und Spyware – sie unterscheiden sich in Verbreitungsweg und Wirkung.
+- **Phishing** versucht, dich über gefälschte Nachrichten zur Preisgabe von Daten oder zum Klick auf schädliche Links zu bewegen – typische Warnzeichen sind Zeitdruck, falsche Absenderdomains und unpersönliche Anrede.
+- Downloads aus offiziellen Quellen (Kapitel 11) und aktuelle Software (Kapitel 21) senken das Risiko deutlich.
+- Ubuntu ist seltener von Schadsoftware betroffen als Windows, aber nicht grundsätzlich unangreifbar.
+
+## Ausblick
+
+IT-Sicherheit schützt dich vor Angriffen von außen. Im nächsten Kapitel geht es um ein verwandtes, aber eigenständiges Thema: **Datenschutz** – also die Frage, welche Daten Unternehmen ganz offiziell über dich sammeln, und wie du deine Privatsphäre schützt.

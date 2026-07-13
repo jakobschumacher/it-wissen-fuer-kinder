@@ -1,0 +1,68 @@
+---
+title: "6. Dateiarten und Dateiendungen"
+---
+
+## Warum das wichtig ist
+
+Du hast gelernt, wo Dateien liegen (Kapitel 5). Aber woher weiß dein Computer, mit welchem Programm er eine Datei öffnen soll, wenn du sie doppelklickst? Die Antwort steckt meist im letzten Teil des Dateinamens: der **Dateiendung**.
+
+## Was ist eine Dateiendung?
+
+Eine **Dateiendung** (auch Dateierweiterung genannt) ist der Teil eines Dateinamens nach dem letzten Punkt, zum Beispiel `.txt`, `.pdf` oder `.mp3`. Sie gibt an, in welchem **Format** die Datei gespeichert ist – also nach welchen Regeln die Bits und Bytes in der Datei zu interpretieren sind (siehe Kapitel 1). Ein Textprogramm weiß dank der Endung `.txt`, dass es die Datei als reinen Text lesen soll, ein Bildbetrachter weiß dank `.jpg`, dass er die Bytes als Bilddaten dekodieren muss.
+
+Betriebssysteme nutzen die Dateiendung, um einer Datei automatisch ein passendes **Standardprogramm** zuzuordnen. Deshalb öffnet ein Doppelklick auf `urlaubsfoto.jpg` normalerweise einen Bildbetrachter, während `bericht.docx` in einem Textverarbeitungsprogramm geöffnet wird.
+
+## Gängige Dateiendungen im Überblick
+
+| Endung | Art der Datei | Typisches Programm |
+|---|---|---|
+| `.txt` | Reiner Text, ohne Formatierung | Texteditor (Notepad, gedit) |
+| `.docx` | Textdokument mit Formatierung | Word, LibreOffice Writer |
+| `.pdf` | Portables Dokumentenformat, layoutgetreu | PDF-Reader |
+| `.mp3` | Komprimierte Audiodatei | Musik-Player |
+| `.mp4` | Komprimierte Videodatei | Video-Player |
+| `.jpg` / `.jpeg` | Komprimiertes Rasterbild | Bildbetrachter |
+| `.png` | Verlustfrei komprimiertes Rasterbild | Bildbetrachter |
+| `.zip` | Komprimiertes Archiv (mehrere Dateien gebündelt) | Archivprogramm |
+
+Zu Bilddateien (`.jpg`, `.png` und weitere) erfährst du in Kapitel 8 deutlich mehr – hier reicht es zu wissen, dass es sie gibt und wofür sie stehen.
+
+::: {.callout-important}
+## Vorsicht: Windows blendet Dateiendungen standardmäßig aus
+
+Windows zeigt Dateiendungen bei bekannten Dateitypen in der Standardeinstellung **nicht** an – du siehst also oft nur `urlaubsfoto` statt `urlaubsfoto.jpg`. Das kann zu einem echten Sicherheitsrisiko werden: Eine schädliche Datei könnte `rechnung.pdf.exe` heißen und dir – mit ausgeblendeter Endung – als `rechnung.pdf` angezeigt werden, obwohl es sich tatsächlich um ein ausführbares Programm handelt (mehr zu Schadsoftware in Kapitel 19). Ubuntu zeigt Dateiendungen im Dateimanager (Nautilus) standardmäßig immer vollständig an.
+:::
+
+## Praktische Übung
+
+1. **Windows:** Öffne den Datei-Explorer, klicke oben auf den Tab "Ansicht" und dann auf "Anzeigen" bzw. suche das Kästchen "Dateinamenerweiterungen". Aktiviere es. Beobachte, wie sich die Anzeige deiner Dateien verändert – plötzlich siehst du bei allen Dateien die Endung.
+2. **Ubuntu:** Öffne den Dateimanager ("Dateien"/Nautilus) und schau dir ein paar Dateien in deinem Downloads-Ordner an. Die Endungen sollten bereits standardmäßig sichtbar sein.
+3. Erstelle in beiden Systemen eine neue Textdatei (Rechtsklick → "Neu" → "Textdokument" bzw. "Neues Dokument" → "Leeres Dokument") und prüfe, welche Endung sie automatisch bekommt.
+
+## Verständnisfragen
+
+<details>
+<summary>Wozu dient die Dateiendung?</summary>
+Sie zeigt an, in welchem Format eine Datei gespeichert ist, und dem Betriebssystem, mit welchem Standardprogramm die Datei geöffnet werden soll.
+</details>
+
+<details>
+<summary>Warum kann das Ausblenden von Dateiendungen unter Windows riskant sein?</summary>
+Weil eine Datei mit doppelter oder versteckter Endung (z. B. rechnung.pdf.exe) so aussehen kann, als wäre sie harmlos (z. B. rechnung.pdf), obwohl sie tatsächlich ein ausführbares Programm ist, das Schaden anrichten könnte.
+</details>
+
+<details>
+<summary>Welche Dateiendung würdest du für eine reine, unformatierte Textdatei erwarten?</summary>
+.txt
+</details>
+
+## Zusammenfassung
+
+- Die **Dateiendung** steht nach dem letzten Punkt im Dateinamen und zeigt das Dateiformat an.
+- Betriebssysteme nutzen die Endung, um Dateien automatisch einem Standardprogramm zuzuordnen.
+- Es gibt viele gängige Endungen für Text (`.txt`, `.docx`, `.pdf`), Audio (`.mp3`), Video (`.mp4`) und Bilder (`.jpg`, `.png`).
+- Windows blendet Dateiendungen standardmäßig aus, Ubuntu zeigt sie standardmäßig an – das ausgeblendete Format kann ein Sicherheitsrisiko sein.
+
+## Ausblick
+
+Jetzt kannst du Dateien anhand ihrer Endung erkennen. Im nächsten Kapitel lernst du die grundlegenden Handgriffe der Dateiverwaltung: **Speichern, Umbenennen, Verschieben und Kopieren** – sowohl im Windows-Explorer als auch im Ubuntu-Dateimanager.

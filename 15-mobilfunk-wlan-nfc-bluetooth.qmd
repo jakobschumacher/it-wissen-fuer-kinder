@@ -1,0 +1,79 @@
+---
+title: "15. Mobilfunk, WLAN, NFC und Bluetooth"
+---
+
+## Warum das wichtig ist
+
+Im letzten Kapitel hast du WLAN als eine der Möglichkeiten kennengelernt, dich mit einem lokalen Netzwerk und darüber mit dem Internet zu verbinden. WLAN ist aber nur eine von mehreren Funktechnologien, die in deinem Smartphone stecken. In diesem Kapitel schauen wir uns Mobilfunk, WLAN (noch einmal aus technischer Sicht), NFC und Bluetooth im Vergleich an.
+
+## Mobilfunk: 3G, 4G, 5G und SIM-Karte
+
+Während WLAN nur in Reichweite eines Routers funktioniert, ermöglicht **Mobilfunk** eine Internetverbindung nahezu überall, wo ein Mobilfunkmast in Reichweite ist. Mobilfunkanbieter haben über die Jahre mehrere **Generationen** von Mobilfunkstandards eingeführt, die jeweils höhere Übertragungsgeschwindigkeiten ermöglichen:
+
+- **3G:** ermöglichte erstmals brauchbares mobiles Surfen im Internet.
+- **4G** (auch LTE genannt): deutlich schnellere Verbindungen, heute in vielen Regionen der Standard.
+- **5G:** die neueste Generation, nochmals schneller und mit geringerer Verzögerung (Latenz) als 4G.
+
+Damit sich dein Smartphone überhaupt bei einem Mobilfunknetz anmelden kann, benötigt es eine **SIM-Karte** (Subscriber Identity Module) – eine kleine Chipkarte, die dein Gerät eindeutig einem Mobilfunkvertrag zuordnet.
+
+## WLAN als Funktechnologie
+
+WLAN (Kapitel 14) überträgt Daten per Funk zwischen deinem Gerät und einem Router, meist über kurze bis mittlere Distanzen (innerhalb eines Gebäudes, teils bis in den Garten). Anders als Mobilfunk benötigt WLAN kein Mobilfunknetz eines Anbieters, sondern nutzt lizenzfreie Funkfrequenzbänder, über die jeder Router senden darf.
+
+## NFC: Kommunikation auf wenigen Zentimetern
+
+**NFC** (Near Field Communication, Nahfeldkommunikation) ist eine Funktechnologie für sehr kurze Distanzen – meist nur wenige Zentimeter. Die bekannteste Anwendung ist das **kontaktlose Bezahlen**: Du hältst dein Smartphone oder deine Bankkarte nah an ein Bezahlterminal, und die beiden Geräte tauschen über NFC die für die Zahlung nötigen Daten aus. Auch manche Fahrkarten und Zugangskarten nutzen NFC.
+
+## Bluetooth: Geräte direkt verbinden
+
+**Bluetooth** ist eine Funktechnologie, mit der sich zwei Geräte direkt miteinander verbinden können, ohne ein gemeinsames Netzwerk oder einen Router zu benötigen. Die Reichweite liegt typischerweise bei einigen Metern. Typische Anwendungen sind kabellose Kopfhörer, Smartwatches, Lautsprecher oder eine kabellose Tastatur/Maus. Bevor zwei Bluetooth-Geräte Daten austauschen können, müssen sie einmalig **gekoppelt** (gepaart) werden.
+
+## Die vier Technologien im Vergleich
+
+| Technologie | Typische Reichweite | Typischer Einsatzzweck |
+|---|---|---|
+| Mobilfunk (3G/4G/5G) | Kilometer (über Mobilfunkmasten) | Internet unterwegs, Telefonie |
+| WLAN | Meter bis wenige zehn Meter | Internetzugang zu Hause/im Gebäude |
+| Bluetooth | Wenige Meter | Direkte Geräte-zu-Geräte-Verbindung (Kopfhörer, Smartwatch) |
+| NFC | Wenige Zentimeter | Kontaktloses Bezahlen, Zutrittskarten |
+
+::: {.callout-note}
+## Merkhilfe zur Reichweite
+
+Je kürzer die Reichweite einer Funktechnologie, desto weniger Energie wird meist benötigt und desto geringer ist tendenziell das Risiko, dass jemand ungewollt "mithört". Deshalb ist NFC gerade für Bezahlvorgänge sinnvoll: Ein Angriff aus mehreren Metern Entfernung ist technisch praktisch ausgeschlossen.
+:::
+
+## Praktische Übung
+
+1. **Windows:** Öffne "Einstellungen" → "Bluetooth & Geräte". Schalte Bluetooth ein und schau, ob Geräte in der Nähe (z. B. ein Smartphone) gefunden werden.
+2. **Ubuntu:** Öffne die "Einstellungen" → "Bluetooth". Schalte Bluetooth ein und starte die Gerätesuche.
+3. Falls verfügbar: Versuche, ein Bluetooth-Gerät (z. B. Kopfhörer) mit beiden Systemen zu koppeln, und vergleiche den Ablauf.
+4. Überlege: Warum würde es wenig Sinn ergeben, eine Kontaktlos-Zahlung per WLAN statt per NFC abzuwickeln?
+
+## Verständnisfragen
+
+<details>
+<summary>Was unterscheidet Mobilfunk grundsätzlich von WLAN?</summary>
+Mobilfunk ermöglicht eine Internetverbindung über Mobilfunkmasten nahezu überall, während WLAN nur in Reichweite eines konkreten Routers funktioniert und keinen Mobilfunkvertrag benötigt.
+</details>
+
+<details>
+<summary>Wofür wird NFC typischerweise eingesetzt und warum eignet sich die Technologie dafür?</summary>
+Für kontaktloses Bezahlen und Zutrittskarten. Die sehr kurze Reichweite von wenigen Zentimetern macht es unwahrscheinlich, dass ein Angreifer aus der Ferne unbemerkt Daten abgreifen oder eine Zahlung auslösen kann.
+</details>
+
+<details>
+<summary>Was ist der Unterschied zwischen Bluetooth und WLAN in Bezug auf ein Netzwerk?</summary>
+Bluetooth verbindet zwei Geräte direkt miteinander, ohne ein gemeinsames Netzwerk oder einen Router zu benötigen. WLAN verbindet Geräte über einen Router mit einem lokalen Netzwerk und darüber mit dem Internet.
+</details>
+
+## Zusammenfassung
+
+- **Mobilfunk** (3G/4G/5G, per SIM-Karte) ermöglicht Internetzugang unterwegs über Mobilfunkmasten.
+- **WLAN** verbindet Geräte per Funk mit einem Router und darüber mit dem Internet.
+- **NFC** ermöglicht Datenaustausch auf wenigen Zentimetern, typisch beim kontaktlosen Bezahlen.
+- **Bluetooth** verbindet zwei Geräte direkt über einige Meter, z. B. für Kopfhörer oder Smartwatches.
+
+## Ausblick
+
+Wenn du eine Datei speicherst, landet sie entweder auf deinem eigenen Gerät oder auf einem Computer irgendwo im Internet. Im nächsten Kapitel schauen wir uns den Unterschied zwischen **lokaler Speicherung** und **Server/Cloud** an.

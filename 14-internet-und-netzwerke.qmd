@@ -1,0 +1,81 @@
+---
+title: "14. Internet und Netzwerke: Die Grundlagen"
+---
+
+## Warum das wichtig ist
+
+Bisher ging es vor allem um einen einzelnen Computer. Aber die meisten Geräte, die du nutzt, sind mit anderen Geräten verbunden – über ein **Netzwerk**. In diesem Kapitel klären wir die Grundbegriffe LAN, WLAN, Router, IP-Adresse und den Unterschied zwischen "Internet" und "World Wide Web". Technische Details wie einzelne Übertragungsprotokolle sparen wir hier bewusst aus – die reichen für ein solides Grundverständnis noch nicht nötig aus.
+
+## LAN und WLAN: lokale Netzwerke
+
+Ein **Netzwerk** verbindet mehrere Geräte miteinander, damit sie Daten austauschen können.
+
+- **LAN** (Local Area Network, lokales Netzwerk) bezeichnet ein Netzwerk, das auf einen begrenzten Bereich beschränkt ist, z. B. eine Wohnung, ein Haus oder eine Schule – klassischerweise über Kabel (Ethernet) verbunden.
+- **WLAN** (Wireless LAN, drahtloses lokales Netzwerk) ist die kabellose Variante desselben Prinzips: Geräte verbinden sich per Funk statt per Kabel. Umgangssprachlich wird WLAN oft einfach "das Internet" genannt, was aber nicht ganz korrekt ist – WLAN ist nur die Funktechnik, die deinen lokalen Netzwerkzugang herstellt (mehr Technisches zu WLAN als Funktechnologie in Kapitel 15).
+
+## Der Router: Verbindung zur Außenwelt
+
+Ein **Router** ist das Gerät, das dein lokales Netzwerk (LAN/WLAN) mit dem Internet verbindet und den Datenverkehr zwischen den Geräten in deinem Zuhause und dem restlichen Internet lenkt. Die meisten Router kombinieren dabei mehrere Funktionen: WLAN-Zugangspunkt, Netzwerk-Verteiler für kabelgebundene Geräte und Verbindungsstelle zum Internetanbieter.
+
+## IP-Adressen: die Anschrift eines Geräts
+
+Damit Daten im Netzwerk beim richtigen Gerät ankommen, braucht jedes Gerät eine eindeutige **IP-Adresse** – vergleichbar mit einer Postanschrift. Eine IP-Adresse besteht (in der bis heute verbreitetsten Version) aus vier durch Punkte getrennten Zahlen zwischen 0 und 255, z. B. `192.168.1.23`. Geräte in deinem Heimnetzwerk bekommen dabei meist automatisch vom Router eine solche Adresse zugewiesen.
+
+::: {.callout-note}
+## Vereinfachung, die du kennen solltest
+
+Es gibt tatsächlich zwei Arten von IP-Adressen: eine **private** IP-Adresse, die dein Gerät nur innerhalb deines Heimnetzwerks eindeutig identifiziert (z. B. `192.168.1.23`), und eine **öffentliche** IP-Adresse, unter der dein gesamter Router im weltweiten Internet erreichbar ist. Die genauen Regeln dazu (z. B. warum `192.168.x.x`-Adressen nur lokal gelten) gehen über den Rahmen dieses Kapitels hinaus – wichtig ist hier nur die Grundidee: jedes Gerät braucht eine eindeutige Adresse, damit Daten es finden.
+:::
+
+## Internet vs. World Wide Web (WWW)
+
+Ein weit verbreitetes Missverständnis: "Internet" und "Websurfen im Browser" werden oft gleichgesetzt, sind aber nicht dasselbe.
+
+- Das **Internet** ist die technische Infrastruktur selbst: ein riesiges, weltweites Netzwerk aus unzähligen miteinander verbundenen einzelnen Netzwerken (daher manchmal "Netzwerk der Netzwerke" genannt).
+- Das **World Wide Web (WWW)** ist einer von mehreren **Diensten**, die über das Internet laufen: verlinkte Webseiten, die du über einen **Browser** aufrufst. Andere Dienste, die ebenfalls über das Internet laufen, aber nicht Teil des WWW sind, sind z. B. E-Mail (Kapitel 17) oder Messenger-Apps.
+
+Das Internet ist also die Straße, das WWW ist eine von mehreren Anwendungen, die diese Straße nutzen.
+
+## Praktische Übung
+
+Finde die (private) IP-Adresse deines eigenen Geräts heraus.
+
+**Windows:**
+
+1. Öffne die Eingabeaufforderung (Kapitel 12) und tippe `ipconfig`.
+2. Suche in der Ausgabe nach "IPv4-Adresse" – das ist deine private IP-Adresse im aktuellen Netzwerk.
+
+**Ubuntu:**
+
+1. Öffne das Terminal und tippe `hostname -I` (Großbuchstabe I).
+2. Die ausgegebene Zahl ist deine private IP-Adresse.
+
+Vergleiche: Beginnen beide Adressen mit denselben ersten Zahlen (z. B. `192.168.`)? Das würde bedeuten, dass beide Geräte im selben lokalen Netzwerk sind.
+
+## Verständnisfragen
+
+<details>
+<summary>Was ist der Unterschied zwischen LAN und WLAN?</summary>
+Beide bezeichnen ein lokal begrenztes Netzwerk. LAN verbindet Geräte über Kabel, WLAN verbindet sie kabellos per Funk.
+</details>
+
+<details>
+<summary>Welche Aufgabe hat ein Router?</summary>
+Er verbindet das lokale Netzwerk (LAN/WLAN) mit dem Internet und lenkt den Datenverkehr zwischen den Geräten im Netzwerk und dem restlichen Internet.
+</details>
+
+<details>
+<summary>Ist "Internet" dasselbe wie "World Wide Web"? Begründe.</summary>
+Nein. Das Internet ist die zugrundeliegende technische Netzwerk-Infrastruktur. Das World Wide Web ist ein Dienst, der über das Internet läuft und aus verlinkten, über einen Browser aufrufbaren Webseiten besteht. Weitere Dienste wie E-Mail laufen ebenfalls über das Internet, gehören aber nicht zum WWW.
+</details>
+
+## Zusammenfassung
+
+- Ein **Netzwerk** verbindet mehrere Geräte zum Datenaustausch; **LAN** (kabelgebunden) und **WLAN** (kabellos) sind lokal begrenzte Netzwerke.
+- Ein **Router** verbindet das lokale Netzwerk mit dem Internet.
+- Jedes Gerät im Netzwerk braucht eine eindeutige **IP-Adresse**, damit Daten es erreichen können.
+- Das **Internet** ist die technische Infrastruktur, das **WWW** ist nur einer von mehreren Diensten, die darüber laufen.
+
+## Ausblick
+
+WLAN ist nur eine von mehreren Funktechnologien, die du täglich nutzt. Im nächsten Kapitel schauen wir uns Mobilfunk (3G/4G/5G), NFC und Bluetooth an – und wie sie sich von WLAN unterscheiden.

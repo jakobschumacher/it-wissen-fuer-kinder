@@ -1,0 +1,93 @@
+---
+title: "1. Bits und Bytes: Wie ein Computer denkt"
+---
+
+## Warum das wichtig ist
+
+Ein Computer kann weder lesen noch sehen noch hören – zumindest nicht so, wie du es kannst. Alles, was ein Computer verarbeitet – Texte, Fotos, Musik, Videos, ganze Programme – wird am Ende auf eine einzige Sache heruntergebrochen: **Strom an oder Strom aus.** Wenn du in den folgenden Kapiteln lernst, wie Arbeitsspeicher (RAM) oder Festplatten funktionieren, wie groß eine Datei ist oder warum ein Prozessor "rechnet", steckt überall dieses Prinzip dahinter. Deshalb starten wir genau hier.
+
+## Das Kernkonzept: Bits
+
+Ein **Bit** ist die kleinste Informationseinheit, die ein Computer kennt. Ein Bit kann genau zwei Zustände annehmen:
+
+- `0` (kein Strom / Schalter aus)
+- `1` (Strom / Schalter an)
+
+Das nennt man das **Binärsystem** oder **Dualsystem** – ein Zahlensystem, das nur aus den Ziffern 0 und 1 besteht. Wir Menschen rechnen normalerweise im **Dezimalsystem** (Basis 10, Ziffern 0–9). Computer rechnen im Binärsystem (Basis 2), weil sich zwei Zustände (Strom an/aus) mit einfacher Elektronik sehr zuverlässig umsetzen lassen.
+
+### Vom Dezimalsystem zum Binärsystem
+
+Im Dezimalsystem hat jede Stelle einer Zahl einen Wert, der von rechts nach links um das Zehnfache steigt (1er, 10er, 100er, ...). Im Binärsystem steigt der Wert jeder Stelle von rechts nach links um das Zweifache:
+
+| Stelle | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+|---|---|---|---|---|---|---|---|---|
+| Bit-Wert | 2⁷ | 2⁶ | 2⁵ | 2⁴ | 2³ | 2² | 2¹ | 2⁰ |
+
+Um eine Binärzahl in eine Dezimalzahl umzurechnen, addierst du die Stellenwerte, an denen eine `1` steht. Ein Beispiel:
+
+```
+Binär:    0  1  0  0  0  0  0  1
+Stelle: 128 64 32 16  8  4  2  1
+```
+
+Hier steht eine `1` bei 64 und bei 1. Also: 64 + 1 = **65**.
+
+### Ein Bit reicht nicht – deshalb gibt es Bytes
+
+Mit einem einzelnen Bit kannst du nur zwei Zustände unterscheiden – viel zu wenig, um z. B. einen Buchstaben darzustellen. Deshalb fassen Computer immer **8 Bit zu 1 Byte** zusammen. Mit 8 Bit lassen sich 2⁸ = **256 unterschiedliche Werte** darstellen (die Werte 0 bis 255).
+
+## Ein konkretes Beispiel: Ein Buchstabe als Byte
+
+Computer brauchen eine Vereinbarung, welche Zahl welchem Zeichen entspricht. Eine der ältesten und bis heute gültigen Vereinbarungen dafür ist der **ASCII-Standard** (American Standard Code for Information Interchange). Darin ist zum Beispiel festgelegt:
+
+> Der Großbuchstabe **A** entspricht der Dezimalzahl **65**.
+
+Die Binärzahl von oben – `01000001` – ist also genau der Code, mit dem ein Computer den Buchstaben "A" speichert. Du kannst das selbst nachprüfen: Öffne auf einem beliebigen Rechner ein Terminal bzw. eine Eingabeaufforderung mit Python (siehe Kapitel 12 und 13) und tippe `print(ord("A"))` – das Ergebnis ist 65.
+
+::: {.callout-important}
+## Vertiefung: Warum zeigt der Explorer andere Werte an als erwartet?
+
+Für größere Mengen an Bytes werden Vorsilben wie Kilo, Mega und Giga verwendet – aber hier gibt es eine Falle, die viele nicht kennen:
+
+- Im **Dezimalsystem** (offizielle SI-Einheit) gilt: 1 Kilobyte (**KB**) = 1.000 Byte, 1 Megabyte (**MB**) = 1.000.000 Byte.
+- Computer rechnen aber intern binär, und dort liegt es näher, mit Zweierpotenzen zu arbeiten: 1 Kibibyte (**KiB**) = 1.024 Byte, 1 Mebibyte (**MiB**) = 1.024 × 1.024 Byte.
+
+Viele Betriebssysteme – auch Windows – zeigen dir bis heute eigentlich Kibi-/Mebi-/Gibi-Werte an, beschriften sie aber (technisch nicht ganz korrekt) mit "KB", "MB", "GB". Festplatten- und USB-Stick-Hersteller rechnen dagegen mit den korrekten Dezimal-Werten. Das ist der Grund, warum eine als "512 GB" verkaufte SSD im Windows-Explorer oder im Ubuntu-Dateimanager nur rund 477 GB anzeigt: Es ist dieselbe Menge an Bytes, nur unterschiedlich umgerechnet – kein Fehler und kein Betrug, sondern zwei verschiedene Rechenwege.
+:::
+
+## Praktische Übung
+
+1. Öffne den Taschenrechner in beiden Systemen im Programmierer-Modus:
+   - **Windows:** Öffne "Rechner" (Suche in der Taskleiste nach "Rechner"), klicke auf das Menü-Symbol oben links und wähle "Programmierer".
+   - **Ubuntu:** Öffne die App "Taschenrechner" (`gnome-calculator`), öffne über das Menü (☰) die Ansicht "Programmierer" bzw. "Programming".
+2. Gib dein Alter als Dezimalzahl ein (z. B. 13) und lies die Binärdarstellung ab.
+3. Rechne per Hand nach, ob die angezeigte Binärzahl stimmt, indem du die Stellenwerte (128, 64, 32, 16, 8, 4, 2, 1) addierst, an denen eine 1 steht.
+
+## Verständnisfragen
+
+<details>
+<summary>Was ist der Unterschied zwischen einem Bit und einem Byte?</summary>
+Ein Bit ist die kleinste Informationseinheit und kann nur 0 oder 1 sein. Ein Byte besteht aus 8 Bit und kann dadurch 256 unterschiedliche Werte (0–255) darstellen.
+</details>
+
+<details>
+<summary>Warum verwenden Computer das Binärsystem und nicht das Dezimalsystem?</summary>
+Weil sich zwei elektrische Zustände (Strom an/aus) mit einfacher, zuverlässiger Elektronik technisch leicht umsetzen lassen. Zehn unterschiedliche Spannungsstufen zuverlässig zu unterscheiden wäre viel aufwendiger und fehleranfälliger.
+</details>
+
+<details>
+<summary>Die Binärzahl 00001010 – welche Dezimalzahl steckt dahinter?</summary>
+Die Einsen stehen bei den Stellenwerten 8 und 2. Also: 8 + 2 = 10.
+</details>
+
+## Zusammenfassung
+
+- Ein **Bit** ist die kleinste Informationseinheit eines Computers und kann nur 0 oder 1 sein.
+- Ein **Byte** besteht aus 8 Bit und kann 256 verschiedene Werte darstellen.
+- Computer arbeiten im **Binärsystem** (Basis 2), weil sich zwei elektrische Zustände technisch einfach umsetzen lassen.
+- Zeichen wie Buchstaben werden über Standards wie **ASCII** einer Zahl (und damit einer Bitfolge) zugeordnet.
+- Bei Speichergrößen gibt es einen Unterschied zwischen dezimalen Einheiten (KB, MB = Vielfache von 1.000) und binären Einheiten (KiB, MiB = Vielfache von 1.024) – das erklärt scheinbare "fehlende" Speicherkapazität.
+
+## Ausblick
+
+Bits und Bytes sind die Bausteine, mit denen dein Computer arbeitet – aber wo passiert das eigentlich physisch? Im nächsten Kapitel schauen wir uns die **Hardware** an: den Prozessor (CPU), der die Bits verarbeitet, die Grafikkarte (GPU), den Arbeitsspeicher (RAM), in dem Bits kurzzeitig "geparkt" werden, und Speichermedien wie SSDs und Festplatten, auf denen Bytes dauerhaft gespeichert bleiben.

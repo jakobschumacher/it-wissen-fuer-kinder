@@ -1,0 +1,74 @@
+---
+title: "17. E-Mail"
+---
+
+## Warum das wichtig ist
+
+E-Mail ist einer der ältesten Dienste, die über das Internet laufen – älter als das World Wide Web selbst – und bis heute der Standardweg für offizielle digitale Kommunikation, z. B. mit Schulen, Behörden oder Unternehmen. Dein E-Mail-Postfach liegt dabei, wie in Kapitel 16 beschrieben, auf einem Server deines E-Mail-Anbieters.
+
+## Aufbau einer E-Mail-Adresse
+
+Eine E-Mail-Adresse besteht immer aus zwei Teilen, getrennt durch das @-Zeichen:
+
+```
+lokaler-teil@domain
+```
+
+Beispiel: `anna.mueller@web.de`
+
+- Der **lokale Teil** (`anna.mueller`) identifiziert das konkrete Postfach bei diesem Anbieter – vergleichbar mit einem Namen auf einem Briefkasten.
+- Die **Domain** (`web.de`) identifiziert den E-Mail-Anbieter, also den Server, auf dem das Postfach liegt – vergleichbar mit der Adresse des Hauses, in dem sich der Briefkasten befindet.
+
+## E-Mail vs. Messenger-Nachrichten
+
+E-Mail und Messenger-Apps (wie WhatsApp, Signal oder Telegram) dienen beide der digitalen Kommunikation, funktionieren aber grundlegend unterschiedlich:
+
+- **E-Mail folgt einem offenen, gemeinsamen Standard.** Das bedeutet: Eine E-Mail von einem Gmail-Postfach kann problemlos bei einem Web.de- oder Outlook-Postfach ankommen, weil sich alle E-Mail-Anbieter an dieselben grundlegenden Regeln halten. Anbieter-übergreifende Kommunikation ist der Normalfall.
+- **Messenger-Apps sind meist geschlossene Systeme.** Um jemandem über WhatsApp zu schreiben, müssen beide Seiten WhatsApp installiert haben – eine Nachricht von WhatsApp direkt an ein Signal-Konto zu schicken, ist normalerweise nicht möglich.
+
+Auch im Ton unterscheiden sich beide oft: E-Mails werden häufiger für formellere, längere Nachrichten genutzt (z. B. mit Anrede und Grußformel), Messenger-Nachrichten eher für kurze, informelle und direkte Kommunikation in Echtzeit.
+
+## Anhänge
+
+Eine E-Mail besteht nicht nur aus Text – du kannst zusätzlich Dateien als **Anhang** (Attachment) mitschicken, z. B. ein Dokument, ein Foto oder ein PDF (siehe Kapitel 6 zu Dateiendungen). Die angehängte Datei wird dabei zusammen mit der Nachricht zum Server des Empfängers übertragen und kann dort heruntergeladen werden.
+
+::: {.callout-important}
+## Kurzer Hinweis: Spam
+
+Nicht jede E-Mail in deinem Postfach ist erwünscht. **Spam** bezeichnet unerwünschte Massen-E-Mails, oft Werbung. Ein Teil davon ist nur lästig, ein anderer Teil ist gezielt darauf ausgelegt, dich zu täuschen (z. B. sogenanntes **Phishing**, bei dem Absender versuchen, an deine Zugangsdaten zu gelangen) oder schädliche Anhänge zu verbreiten. Wie du solche gefährlichen Nachrichten erkennst, behandeln wir ausführlich in Kapitel 19 (IT-Sicherheit) – hier reicht es zu wissen, dass nicht jede E-Mail automatisch vertrauenswürdig ist, nur weil sie in deinem Postfach liegt.
+:::
+
+## Praktische Übung
+
+1. Öffne dein E-Mail-Postfach (im Browser oder über eine E-Mail-App).
+2. Schreibe eine neue E-Mail an dich selbst oder – mit Erlaubnis – an eine Lehrkraft oder ein Elternteil.
+3. Hänge eine Datei an (z. B. das Textdokument aus Kapitel 7 oder das Bild aus Kapitel 8) und verschicke die E-Mail.
+4. Öffne die empfangene E-Mail und identifiziere: den lokalen Teil und die Domain der Absenderadresse, sowie den Anhang.
+
+## Verständnisfragen
+
+<details>
+<summary>Aus welchen zwei Teilen besteht eine E-Mail-Adresse, getrennt durch welches Zeichen?</summary>
+Aus dem lokalen Teil (identifiziert das Postfach) und der Domain (identifiziert den Anbieter/Server), getrennt durch das @-Zeichen.
+</details>
+
+<details>
+<summary>Warum kannst du von einem Gmail-Postfach problemlos an ein Web.de-Postfach schreiben, aber nicht ohne Weiteres von WhatsApp an Signal?</summary>
+E-Mail folgt einem offenen, gemeinsamen Standard, an den sich alle Anbieter halten, wodurch Anbieter-übergreifende Kommunikation funktioniert. Messenger-Apps sind meist geschlossene Systeme, bei denen beide Seiten dieselbe App nutzen müssen.
+</details>
+
+<details>
+<summary>Was ist Spam, und warum ist nicht jede Spam-Mail nur lästig?</summary>
+Spam sind unerwünschte Massen-E-Mails. Ein Teil ist nur störende Werbung, ein anderer Teil versucht gezielt, dich zu täuschen (Phishing) oder schädliche Anhänge zu verbreiten – daher ist Vorsicht beim Umgang mit unbekannten E-Mails wichtig.
+</details>
+
+## Zusammenfassung
+
+- Eine E-Mail-Adresse besteht aus **lokalem Teil@Domain**.
+- E-Mail folgt einem offenen Standard und funktioniert anbieterübergreifend, Messenger-Apps sind meist geschlossene Systeme.
+- E-Mails können **Anhänge** (Dateien) enthalten.
+- **Spam** kann von harmloser Werbung bis zu gefährlichem Phishing reichen – mehr dazu in Kapitel 19.
+
+## Ausblick
+
+Um dein E-Mail-Postfach zu nutzen, brauchst du ein Benutzerkonto mit Passwort. Im nächsten Kapitel geht es um **Passwörter und Accounts**: was einen Account ausmacht, was ein gutes Passwort auszeichnet, und was Zwei-Faktor-Authentifizierung ist.

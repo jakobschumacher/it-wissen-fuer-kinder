@@ -1,0 +1,77 @@
+---
+title: "8. Bilddateien: Pixel, Auflösung und Kompression"
+---
+
+## Warum das wichtig ist
+
+In Kapitel 6 hast du Dateiendungen wie `.jpg` und `.png` als "Bilddateien" kennengelernt, ohne genauer hinzuschauen. Bilder sind aber ein guter Anlass, um zu zeigen, wie viele der bisherigen Konzepte – Bits (Kapitel 1), Speicherplatz, Dateiformate – in der Praxis zusammenspielen. Deshalb widmen wir Bilddateien ein eigenes, vertiefendes Kapitel.
+
+## Pixel und Auflösung
+
+Die meisten Bilder, die du auf einem Bildschirm siehst oder mit einer Kamera aufnimmst, sind **Rastergrafiken**: Sie bestehen aus einem Raster winziger Bildpunkte, den **Pixeln** (von englisch "picture element"). Jedes Pixel hat einen festen Farbwert.
+
+Die **Auflösung** eines Bildes gibt an, aus wie vielen Pixeln es in der Breite und Höhe besteht, z. B. 1920 × 1080 Pixel (eine gängige Bildschirmauflösung, oft "Full HD" genannt). Multipliziert man diese Zahlen, erhält man die Gesamtzahl der Pixel: 1920 × 1080 = 2.073.600 Pixel, umgangssprachlich rund 2 Megapixel.
+
+Für jedes einzelne Pixel muss sein Farbwert als Zahl gespeichert werden – wieder als Bits und Bytes (Kapitel 1). Je mehr unterschiedliche Farben ein Bild darstellen können soll, desto mehr Bits werden pro Pixel benötigt. Das erklärt, warum Bilder mit hoher Auflösung unkomprimiert sehr viel Speicherplatz brauchen würden.
+
+## Rastergrafik vs. Vektorgrafik
+
+Es gibt neben Rastergrafiken noch eine zweite, grundsätzlich andere Art, Bilder digital zu beschreiben:
+
+- **Rastergrafik** (z. B. `.jpg`, `.png`, `.bmp`): Das Bild ist eine feste Pixel-Tabelle. Vergrößerst du das Bild deutlich über seine ursprüngliche Auflösung hinaus, werden die einzelnen Pixel als Klötzchen sichtbar ("Pixeligkeit").
+- **Vektorgrafik** (z. B. `.svg`): Das Bild wird nicht als Pixel-Raster, sondern durch mathematische Beschreibungen von Formen gespeichert – Linien, Kurven und Flächen mit exakten Koordinaten. Ein Kreis wird z. B. als "Mittelpunkt + Radius" gespeichert statt als Pixelhaufen. Dadurch lässt sich eine Vektorgrafik verlustfrei auf jede beliebige Größe skalieren, weil sie bei jeder Größe neu berechnet wird.
+
+Fotos sind praktisch immer Rastergrafiken (eine Kamera nimmt Licht pixelweise auf), während Logos, Icons und technische Zeichnungen häufig als Vektorgrafik erstellt werden, damit sie in jeder Größe scharf bleiben.
+
+## Kompression: JPEG vs. PNG
+
+Unkomprimierte Bilder wären riesig. Deshalb werden Bilddateien fast immer **komprimiert** – also so umgerechnet, dass sie weniger Speicherplatz brauchen. Dabei gibt es zwei grundsätzlich verschiedene Ansätze:
+
+- **Verlustfreie Kompression** (lossless): Die Datei wird kleiner, aber beim Öffnen lässt sich das Bild wieder exakt, Pixel für Pixel, in seinen Originalzustand zurückverwandeln. Es geht keine Bildinformation verloren.
+- **Verlustbehaftete Kompression** (lossy): Die Datei wird deutlich kleiner, weil bewusst Bildinformationen weggelassen werden, die für das menschliche Auge kaum auffallen. Das Originalbild lässt sich danach nicht mehr exakt wiederherstellen.
+
+**PNG** (Portable Network Graphics) verwendet verlustfreie Kompression und unterstützt zusätzlich Transparenz (durchsichtige Bildbereiche). Es eignet sich gut für Screenshots, Grafiken mit scharfen Kanten, Text oder wenigen Farben.
+
+**JPEG/JPG** (Joint Photographic Experts Group) verwendet verlustbehaftete Kompression, die speziell auf Fotos zugeschnitten ist. Dadurch erreicht JPEG bei Fotos deutlich kleinere Dateigrößen als PNG – auf Kosten einer (meist kaum sichtbaren) Bildqualitätseinbuße. Bei starker Kompression können allerdings sichtbare "Kompressionsartefakte" entstehen, z. B. blockartige Unschärfen an Kanten.
+
+::: {.callout-tip}
+## Faustregel
+
+Für Fotos eignet sich JPEG meist besser (kleinere Datei, kaum sichtbarer Qualitätsverlust). Für Screenshots, Logos, Icons oder Bilder mit Transparenz eignet sich PNG besser (verlustfrei, unterstützt Transparenz).
+:::
+
+## Praktische Übung
+
+Finde die Auflösung und Dateigröße eines Bildes heraus:
+
+1. Suche im Downloads- oder Bilder-Ordner ein Foto oder lade eines herunter.
+2. **Windows:** Rechtsklick auf die Datei → "Eigenschaften" → Tab "Details". Dort findest du "Abmessungen" (Breite × Höhe in Pixeln) und die Dateigröße.
+3. **Ubuntu:** Rechtsklick auf die Datei → "Eigenschaften" (Properties). Dort werden bei Bilddateien ebenfalls die Bildabmessungen sowie die Dateigröße angezeigt.
+4. Rechne die Anzahl der Pixel aus (Breite × Höhe) und vergleiche sie mit der Dateigröße. Speichere das Bild testweise einmal als PNG und einmal als JPEG (z. B. über ein Bildbearbeitungsprogramm oder einen Online-Bildbetrachter mit Exportfunktion) und vergleiche die Dateigrößen.
+
+## Verständnisfragen
+
+<details>
+<summary>Was ist ein Pixel und was bedeutet "Auflösung"?</summary>
+Ein Pixel ist der kleinste Bildpunkt einer Rastergrafik mit einem festen Farbwert. Die Auflösung gibt an, aus wie vielen Pixeln ein Bild in Breite und Höhe besteht.
+</details>
+
+<details>
+<summary>Warum bleibt eine Vektorgrafik beim Vergrößern scharf, eine Rastergrafik aber nicht?</summary>
+Eine Vektorgrafik wird als mathematische Formelbeschreibung (Linien, Kurven, Koordinaten) gespeichert und bei jeder Größe neu berechnet. Eine Rastergrafik hat eine feste Anzahl an Pixeln – vergrößert man sie über die Originalgröße hinaus, werden die einzelnen Pixel sichtbar.
+</details>
+
+<details>
+<summary>Was ist der Unterschied zwischen verlustfreier und verlustbehafteter Kompression, und welches Format nutzt welche?</summary>
+Verlustfreie Kompression (z. B. PNG) verkleinert die Datei, ohne dass Bildinformationen verloren gehen – das Original lässt sich exakt wiederherstellen. Verlustbehaftete Kompression (z. B. JPEG) lässt bewusst kaum wahrnehmbare Bildinformationen weg, um eine deutlich kleinere Datei zu erreichen; das Original lässt sich danach nicht mehr exakt wiederherstellen.
+</details>
+
+## Zusammenfassung
+
+- **Pixel** sind die einzelnen Bildpunkte einer Rastergrafik, die **Auflösung** gibt ihre Anzahl in Breite × Höhe an.
+- **Rastergrafiken** (Pixel-Raster) und **Vektorgrafiken** (mathematische Formbeschreibung) sind zwei grundsätzlich verschiedene Bildarten.
+- **Verlustfreie Kompression** (z. B. PNG) erhält alle Bildinformationen, **verlustbehaftete Kompression** (z. B. JPEG) verkleinert die Datei stärker, indem sie kaum sichtbare Details opfert.
+
+## Ausblick
+
+Bilddateien werden mit Programmen geöffnet und bearbeitet. Doch was genau ist eigentlich ein "Programm" – und was unterscheidet eine "App" von einer "Software"? Damit beschäftigt sich das nächste Kapitel.

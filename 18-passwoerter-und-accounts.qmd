@@ -1,0 +1,68 @@
+---
+title: "18. Passwörter und Accounts"
+---
+
+## Warum das wichtig ist
+
+Ob E-Mail (Kapitel 17), Cloud-Speicher (Kapitel 16) oder eine beliebige App (Kapitel 9) – die meisten Online-Dienste erfordern ein eigenes Benutzerkonto. In diesem Kapitel geht es darum, wie du deine Accounts sinnvoll absicherst. Größere Gefahren wie Schadsoftware und Phishing behandeln wir erst im nächsten Kapitel – hier geht es um das, was du selbst direkt beeinflussen kannst.
+
+## Was ist ein Account?
+
+Ein **Account** (Benutzerkonto) ist eine digitale Identität bei einem Dienst, meist bestehend aus einem Benutzernamen oder einer E-Mail-Adresse (siehe Kapitel 17) und einem **Passwort**. Über diese Kombination weist du gegenüber dem Server (Kapitel 16) nach, dass du wirklich die Person bist, der dieser Account gehört. Diesen Vorgang nennt man **Authentifizierung**.
+
+## Was macht ein gutes Passwort aus?
+
+Ein gutes Passwort sollte vor allem drei Eigenschaften erfüllen:
+
+- **Lang genug:** Je länger ein Passwort ist, desto schwerer ist es, es durch systematisches Ausprobieren zu erraten. Aktuelle Empfehlungen (z. B. des Bundesamts für Sicherheit in der Informationstechnik, BSI) gehen eher in Richtung "möglichst lang" als "möglichst kompliziert" – ein langer, gut merkbarer Satz aus mehreren Wörtern (eine sogenannte **Passphrase**) kann sicherer sein als ein kurzes, aber kompliziertes Passwort.
+- **Nicht erratbar:** Keine offensichtlichen Informationen wie Geburtsdatum, Name von Haustieren oder das Wort "Passwort" selbst. Auch bekannte Muster wie "123456" oder Tastaturfolgen wie "qwertz" sind unsicher, weil sie in jeder Liste häufig geknackter Passwörter ganz oben stehen.
+- **Einzigartig pro Dienst:** Jeder Account sollte ein eigenes, unterschiedliches Passwort haben. Wird ein Passwort bei einem Dienst gestohlen (z. B. durch ein Datenleck beim Anbieter), können Angreifer es sonst automatisch auch bei anderen Diensten ausprobieren.
+
+::: {.callout-tip}
+## Passwort-Manager
+
+Sich für jeden Dienst ein eigenes, langes Passwort zu merken, ist für Menschen kaum machbar. Ein **Passwort-Manager** ist ein Programm, das alle deine Passwörter verschlüsselt speichert – du musst dir nur noch ein einziges, starkes Hauptpasswort merken, mit dem du den Passwort-Manager selbst entsperrst. Sowohl Windows als auch Ubuntu bieten außerdem in ihren Browsern eine einfache, eingebaute Passwortverwaltung an.
+:::
+
+## Zwei-Faktor-Authentifizierung (2FA)
+
+Selbst ein gutes Passwort kann gestohlen werden, z. B. durch Phishing (mehr dazu in Kapitel 19). Die **Zwei-Faktor-Authentifizierung (2FA)** fügt eine zweite, unabhängige Sicherheitsstufe hinzu: Zusätzlich zum Passwort ("etwas, das du weißt") brauchst du einen zweiten Faktor, meist "etwas, das du besitzt" – zum Beispiel:
+
+- einen Code, der per App (z. B. einer Authenticator-App) auf deinem Smartphone erzeugt wird,
+- einen Code, der per SMS an deine Handynummer geschickt wird,
+- oder einen physischen Sicherheitsschlüssel (z. B. einen USB-Stick, der zum Einloggen eingesteckt werden muss).
+
+Selbst wenn ein Angreifer dein Passwort kennt, kommt er ohne den zweiten Faktor in der Regel trotzdem nicht in deinen Account.
+
+## Praktische Übung
+
+1. Überlege dir (ohne sie irgendwo einzugeben) eine Passphrase aus vier zufälligen, für dich merkbaren Wörtern, z. B. "Regenschirm-Gitarre-Dienstag-Blau17". Erkläre einem Elternteil oder einer Mitschülerin, warum diese Passphrase vermutlich sicherer ist als ein kurzes Passwort wie "Sonne23!".
+2. Öffne bei einem Dienst, den du bereits nutzt (z. B. deinem Schul- oder E-Mail-Account, mit Erlaubnis), die Kontoeinstellungen und suche den Bereich "Sicherheit" oder "Anmeldung". Prüfe, ob die Zwei-Faktor-Authentifizierung verfügbar ist, und aktiviere sie gegebenenfalls gemeinsam mit einem Erziehungsberechtigten.
+
+## Verständnisfragen
+
+<details>
+<summary>Warum ist die Länge eines Passworts oft wichtiger als seine Kompliziertheit?</summary>
+Ein langes Passwort ist für systematisches Ausprobieren (Brute-Force) deutlich aufwendiger zu erraten. Eine lange, gut merkbare Passphrase kann daher sicherer sein als ein kurzes, kompliziertes Passwort mit vielen Sonderzeichen.
+</details>
+
+<details>
+<summary>Warum sollte man für jeden Dienst ein eigenes Passwort verwenden?</summary>
+Wird ein Passwort bei einem Dienst durch ein Datenleck gestohlen, könnten Angreifer es sonst automatisch auch bei anderen Diensten ausprobieren. Mit einzigartigen Passwörtern bleibt der Schaden auf den betroffenen Dienst begrenzt.
+</details>
+
+<details>
+<summary>Was bedeutet "Zwei-Faktor-Authentifizierung" und wovor schützt sie?</summary>
+Neben dem Passwort ("etwas, das du weißt") ist ein zweiter, unabhängiger Faktor nötig, z. B. ein Code von deinem Smartphone ("etwas, das du besitzt"). Sie schützt davor, dass ein gestohlenes Passwort allein ausreicht, um sich in einen Account einzuloggen.
+</details>
+
+## Zusammenfassung
+
+- Ein **Account** identifiziert dich gegenüber einem Dienst, meist über Benutzername/E-Mail und Passwort.
+- Ein gutes Passwort ist **lang**, **nicht erratbar** und **einzigartig pro Dienst**.
+- Ein **Passwort-Manager** hilft dabei, viele einzigartige Passwörter zu verwalten.
+- **Zwei-Faktor-Authentifizierung** ergänzt das Passwort um einen zweiten, unabhängigen Sicherheitsfaktor.
+
+## Ausblick
+
+Passwörter und Accounts sind ein Baustein deiner digitalen Sicherheit. Im nächsten Kapitel weiten wir den Blick: Welche Arten von Schadsoftware gibt es, wie erkennst du Phishing-Versuche, und worauf solltest du beim Herunterladen von Dateien achten?

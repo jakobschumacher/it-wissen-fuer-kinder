@@ -1,0 +1,73 @@
+---
+title: "21. Updates und Backups"
+---
+
+## Warum das wichtig ist
+
+In Kapitel 19 hast du gelernt, dass viele Schadsoftware-Angriffe bekannte Sicherheitslücken in veralteter Software ausnutzen. In Kapitel 16 hast du gesehen, dass Daten entweder lokal oder auf einem Server/in der Cloud liegen können. Dieses Kapitel verbindet beides: Warum regelmäßige **Updates** und **Backups** zu den wichtigsten Gewohnheiten in der digitalen Welt gehören.
+
+## Warum Updates wichtig sind
+
+Ein **Update** ist eine Aktualisierung von Software – entweder des Betriebssystems selbst (Kapitel 4) oder einzelner Apps/Programme (Kapitel 9). Updates erfüllen meist mehrere Zwecke gleichzeitig:
+
+- **Sicherheitslücken schließen:** Sobald eine Schwachstelle in einer Software bekannt wird, entwickeln Angreifer oft gezielt Wege, sie auszunutzen (Kapitel 19). Ein Sicherheitsupdate schließt diese Lücke.
+- **Fehler beheben:** Programme enthalten selten von Anfang an fehlerfreien Code – Updates korrigieren solche Fehler (Bugs).
+- **Neue Funktionen bringen:** Manche Updates fügen zusätzliche Funktionen hinzu.
+
+Ohne regelmäßige Updates bleibt ein Gerät verwundbar gegenüber Angriffsmethoden, die längst öffentlich bekannt sind und gegen die es bereits eine Lösung gäbe – man lässt eine bekannte "Tür" quasi absichtlich offen.
+
+### Updates in Windows und Ubuntu
+
+- **Windows:** Updates werden über "Windows Update" verwaltet (Einstellungen → Windows Update). Betriebssystem-Updates laufen meist automatisch im Hintergrund; einzelne Apps aktualisieren sich zusätzlich über den Microsoft Store (Kapitel 11).
+- **Ubuntu:** System- und Paket-Updates laufen über die Paketverwaltung (Kapitel 11), grafisch über die App "Software-Aktualisierung" oder über die Kommandozeile (Kapitel 12) mit den Befehlen `sudo apt update` (prüft, welche Updates verfügbar sind) und `sudo apt upgrade` (installiert die verfügbaren Updates).
+
+## Warum Backups wichtig sind
+
+Ein **Backup** (Sicherungskopie) ist eine zusätzliche Kopie deiner Daten, die getrennt vom Original aufbewahrt wird. Ohne Backup sind deine Daten nur so sicher wie das eine Gerät, auf dem sie liegen. Ein Backup schützt dich unter anderem vor:
+
+- einem **technischen Defekt** der Festplatte/SSD (Kapitel 2),
+- **Verlust oder Diebstahl** des Geräts,
+- versehentlichem **Löschen** einer wichtigen Datei,
+- **Ransomware** (Kapitel 19), die deine Originaldateien verschlüsselt – mit einem separaten, nicht betroffenen Backup kannst du deine Daten trotzdem wiederherstellen.
+
+Wichtig dabei: Ein Backup muss an einem **anderen Ort** liegen als das Original. Eine zweite Kopie auf derselben Festplatte hilft z. B. nicht, wenn genau diese Festplatte kaputtgeht.
+
+::: {.callout-tip}
+## Die 3-2-1-Regel
+
+Eine bewährte Faustregel für Backups lautet: **3** Kopien deiner Daten (Original + 2 Sicherungen), auf **2** unterschiedlichen Speicherarten (z. B. interne SSD und externe Festplatte), davon **1** Kopie an einem anderen physischen Ort (z. B. in der Cloud, siehe Kapitel 16, oder bei Verwandten). So bist du selbst dann noch abgesichert, wenn ein ganzer Wohnort z. B. durch einen Wasserschaden betroffen wäre.
+:::
+
+## Praktische Übung
+
+1. **Windows:** Öffne "Einstellungen" → "Windows Update" und prüfe, ob automatische Updates aktiviert sind und ob ausstehende Updates vorliegen.
+2. **Ubuntu:** Öffne ein Terminal und tippe `sudo apt update`, um zu prüfen, ob Updates verfügbar sind (bei Bedarf mit `sudo apt upgrade` installieren).
+3. Erstelle ein einfaches Backup: Kopiere (siehe Kapitel 7) einen wichtigen Ordner mit Übungsdateien aus diesem Kurs auf einen externen USB-Stick oder in einen Cloud-Speicher (Kapitel 16). Kontrolliere anschließend, ob die Kopie am neuen Ort vollständig und unabhängig vom Original vorhanden ist.
+
+## Verständnisfragen
+
+<details>
+<summary>Nenne zwei Gründe, warum Updates wichtig sind.</summary>
+Zum Beispiel: Schließen bekannter Sicherheitslücken, Beheben von Programmfehlern, Hinzufügen neuer Funktionen.
+</details>
+
+<details>
+<summary>Warum reicht eine zweite Kopie einer Datei auf derselben Festplatte nicht als Backup aus?</summary>
+Weil ein Backup vor dem Ausfall des Speichermediums selbst schützen soll. Liegen Original und Kopie auf derselben Festplatte, sind bei einem Defekt der Festplatte beide Kopien gleichzeitig verloren.
+</details>
+
+<details>
+<summary>Erkläre die 3-2-1-Regel für Backups in eigenen Worten.</summary>
+3 Kopien der Daten insgesamt, auf 2 unterschiedlichen Speicherarten, davon 1 Kopie an einem anderen physischen Ort als die restlichen Kopien.
+</details>
+
+## Zusammenfassung
+
+- **Updates** schließen Sicherheitslücken, beheben Fehler und bringen manchmal neue Funktionen.
+- Windows nutzt Windows Update, Ubuntu die Paketverwaltung (`apt update` / `apt upgrade`).
+- Ein **Backup** ist eine an einem anderen Ort gespeicherte Kopie deiner Daten und schützt vor Defekten, Verlust, Diebstahl und Ransomware.
+- Die **3-2-1-Regel** ist eine bewährte Faustregel für zuverlässige Backups.
+
+## Ausblick
+
+Im letzten Kapitel dieses Kurses schauen wir uns an, wie die Software, die du täglich nutzt, eigentlich finanziert wird – von kostenlosen Apps über Abos bis hin zu Open Source.

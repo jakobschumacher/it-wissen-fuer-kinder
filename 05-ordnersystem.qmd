@@ -1,0 +1,76 @@
+---
+title: "5. Das Ordnersystem: Verzeichnisse und Pfade"
+---
+
+## Warum das wichtig ist
+
+Das Betriebssystem organisiert alle deine Dateien in einem **Ordnersystem** (auch Dateisystem genannt). Wenn du verstehst, wie dieses System aufgebaut ist, findest du deine Dateien leichter wieder – und du legst die Grundlage für Kapitel 12, in dem du Ordner nicht mehr nur per Mausklick, sondern über die Kommandozeile ansteuerst.
+
+## Der Verzeichnisbaum
+
+Ordner (auch **Verzeichnisse** genannt) können weitere Ordner enthalten, die wiederum weitere Ordner enthalten können – und so weiter. Diese Struktur nennt man einen **Verzeichnisbaum**, weil sie sich, ähnlich wie bei einem Baum, von einer Wurzel aus verzweigt. Ganz oben steht immer ein **Wurzelverzeichnis** (Root), von dem aus sich alle anderen Ordner ableiten.
+
+Windows und Ubuntu bauen ihren Verzeichnisbaum unterschiedlich auf:
+
+- **Windows** hat für jedes Speichermedium ein eigenes Wurzelverzeichnis, benannt mit einem Laufwerksbuchstaben, z. B. `C:\` für die interne Festplatte/SSD. Ein zweites Speichermedium würde z. B. als `D:\` erscheinen.
+- **Ubuntu** (wie alle Linux- und Unix-Systeme) hat nur **ein** Wurzelverzeichnis für das gesamte System, geschrieben als `/`. Auch zusätzliche Speichermedien werden in diesen einen Baum eingehängt, statt einen eigenen Buchstaben zu bekommen.
+
+## Was ist ein Pfad?
+
+Ein **Pfad** beschreibt, wo genau sich eine Datei oder ein Ordner im Verzeichnisbaum befindet – vergleichbar mit einer Postanschrift. Ein Pfad listet alle Ordner auf, die man vom Wurzelverzeichnis aus nacheinander öffnen muss, um zur gewünschten Datei zu gelangen, getrennt durch ein Trennzeichen.
+
+|  | Windows | Ubuntu |
+|---|---|---|
+| Trennzeichen | Backslash `\` | Schrägstrich `/` |
+| Wurzelverzeichnis | Laufwerksbuchstabe, z. B. `C:\` | `/` |
+| Beispielpfad | `C:\Users\Anna\Downloads` | `/home/anna/Downloads` |
+
+Der Beispielpfad `C:\Users\Anna\Downloads` bedeutet: Gehe ins Laufwerk `C:`, dann in den Ordner `Users`, dann in den Ordner `Anna`, dann in den Ordner `Downloads`. Der Ubuntu-Pfad `/home/anna/Downloads` funktioniert nach demselben Prinzip, nur mit anderem Trennzeichen und anderen Ordnernamen auf dem Weg dorthin.
+
+## Das persönliche Standardverzeichnis
+
+Beide Systeme legen für jeden Benutzer bzw. jede Benutzerin ein eigenes **Home-Verzeichnis** an, in dem persönliche Dateien standardmäßig liegen:
+
+- **Windows:** `C:\Users\<Benutzername>\` mit Unterordnern wie `Desktop`, `Documents` (Dokumente), `Downloads`, `Pictures` (Bilder), `Music` (Musik), `Videos`.
+- **Ubuntu:** `/home/<Benutzername>/` mit Unterordnern wie `Desktop`, `Documents`, `Downloads`, `Pictures`, `Music`, `Videos` – die Ordnernamen sind je nach Spracheinstellung teils auf Deutsch (z. B. `Dokumente`, `Bilder`).
+
+::: {.callout-tip}
+## Abkürzung für das Home-Verzeichnis
+
+Unter Ubuntu wird das eigene Home-Verzeichnis oft mit der Tilde `~` abgekürzt. `~/Downloads` bedeutet also dasselbe wie `/home/<dein Benutzername>/Downloads`. Diese Abkürzung wirst du in Kapitel 12 auf der Kommandozeile wiedersehen.
+:::
+
+## Praktische Übung
+
+1. **Windows:** Öffne den Datei-Explorer und navigiere zu deinem Downloads-Ordner. Klicke einmal in die Adressleiste oben – dort erscheint jetzt der vollständige Pfad als Text (z. B. `C:\Users\DeinName\Downloads`). Schreibe ihn dir auf.
+2. **Ubuntu:** Öffne den Dateimanager (z. B. Nautilus/"Dateien") und navigiere zu deinem Downloads-Ordner. Drücke `Strg + L` (bzw. `Ctrl+L`), um die Adressleiste als Text einzublenden, und lies den Pfad ab (z. B. `/home/deinname/Downloads`). Schreibe ihn dir ebenfalls auf.
+3. Vergleiche die beiden Pfade: Was ist gleich (Grundstruktur), was ist unterschiedlich (Trennzeichen, Wurzelverzeichnis, Ordnernamen)?
+
+## Verständnisfragen
+
+<details>
+<summary>Was ist der Unterschied zwischen dem Wurzelverzeichnis unter Windows und unter Ubuntu?</summary>
+Windows hat für jedes Speichermedium ein eigenes Wurzelverzeichnis mit Laufwerksbuchstaben (z. B. C:\). Ubuntu hat nur ein einziges Wurzelverzeichnis für das gesamte System, geschrieben als /, in das auch zusätzliche Speichermedien eingehängt werden.
+</details>
+
+<details>
+<summary>Was bedeutet der Pfad /home/tom/Documents?</summary>
+Er beschreibt: Ausgehend vom Wurzelverzeichnis / geht es in den Ordner home, darin in den Ordner tom (das Home-Verzeichnis von Tom), darin in den Ordner Documents.
+</details>
+
+<details>
+<summary>Welches Zeichen trennt Ordnernamen in einem Pfad unter Windows, welches unter Ubuntu?</summary>
+Windows verwendet den Backslash \, Ubuntu (wie andere Linux-Systeme) verwendet den Schrägstrich /.
+</details>
+
+## Zusammenfassung
+
+- Ordner werden in einem **Verzeichnisbaum** organisiert, der von einem **Wurzelverzeichnis** ausgeht.
+- Windows nutzt Laufwerksbuchstaben (`C:\`) als Wurzelverzeichnisse, Ubuntu nutzt ein einziges `/`.
+- Ein **Pfad** beschreibt den genauen Ort einer Datei im Verzeichnisbaum – unter Windows mit `\` getrennt, unter Ubuntu mit `/`.
+- Jeder Benutzer hat ein eigenes **Home-Verzeichnis** mit Standardordnern wie Downloads, Documents, Pictures.
+- Unter Ubuntu steht `~` als Abkürzung für das eigene Home-Verzeichnis.
+
+## Ausblick
+
+Jetzt weißt du, *wo* Dateien liegen. Im nächsten Kapitel geht es darum, *was* eigentlich in einer Datei steckt – genauer gesagt, wie du an der **Dateiendung** erkennst, um welche Art von Datei es sich handelt.

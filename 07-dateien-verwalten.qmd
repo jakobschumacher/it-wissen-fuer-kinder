@@ -1,0 +1,75 @@
+---
+title: "7. Speichern, Umbenennen, Verschieben, Kopieren"
+---
+
+## Warum das wichtig ist
+
+Du kennst jetzt das Ordnersystem mit Pfaden (Kapitel 5) und Dateiendungen (Kapitel 6). Jetzt geht es darum, wie du im Alltag praktisch mit Dateien umgehst: speichern, umbenennen, verschieben und kopieren. Diese vier Handgriffe brauchst du ständig, egal welches Programm du benutzt.
+
+## Speichern
+
+Wenn du in einem Programm (z. B. einem Textprogramm) etwas erstellst, existiert es zunächst nur im RAM (siehe Kapitel 2) – also nur, solange das Programm läuft. Erst durch **Speichern** wird der Inhalt dauerhaft als Datei auf einem Speichermedium (HDD/SSD) abgelegt.
+
+Beim ersten Speichern fragt dich das Programm meist nach zwei Dingen, die du inzwischen einordnen kannst:
+
+1. **Wo** die Datei liegen soll – also nach dem **Pfad**/Ordner (Kapitel 5).
+2. **Wie** die Datei heißen soll, inklusive Dateiendung (Kapitel 6), die meist automatisch vom Programm vorgegeben wird.
+
+Der Menüpunkt **"Speichern unter"** (Save As) erlaubt es dir, eine bereits gespeicherte Datei erneut unter einem neuen Namen oder an einem neuen Ort zu speichern – die ursprüngliche Datei bleibt dabei unverändert erhalten. Der normale Menüpunkt **"Speichern"** (Save) überschreibt dagegen die bestehende Datei mit dem aktuellen Stand.
+
+## Umbenennen, Verschieben, Kopieren
+
+Diese drei Aktionen funktionieren im Windows-Explorer und im Ubuntu-Dateimanager (Nautilus/"Dateien") sehr ähnlich:
+
+| Aktion | Windows-Explorer | Ubuntu-Dateimanager |
+|---|---|---|
+| Umbenennen | Datei markieren, Taste `F2` drücken, neuen Namen eingeben | Datei markieren, Taste `F2` drücken, neuen Namen eingeben |
+| Kopieren | Datei markieren, `Strg+C`, im Zielordner `Strg+V` | Datei markieren, `Strg+C`, im Zielordner `Strg+V` |
+| Verschieben (ausschneiden) | Datei markieren, `Strg+X`, im Zielordner `Strg+V` | Datei markieren, `Strg+X`, im Zielordner `Strg+V` |
+| Verschieben (Drag & Drop) | Datei mit gedrückter Maustaste in den Zielordner ziehen | Datei mit gedrückter Maustaste in den Zielordner ziehen |
+
+Der wichtige begriffliche Unterschied zwischen **Kopieren** und **Verschieben**: Beim Kopieren entsteht eine zweite, unabhängige Version der Datei – die Originaldatei bleibt am alten Ort erhalten. Beim Verschieben gibt es die Datei am Ende nur noch am neuen Ort, am alten Ort ist sie verschwunden.
+
+::: {.callout-note}
+## Achtung bei der Umbenennung
+
+Wenn unter Windows die Dateiendung sichtbar ist (siehe Kapitel 6), gehört sie beim Umbenennen mit zum markierten Text. Wenn du aus Versehen die Endung mit veränderst oder löschst (z. B. aus `foto.jpg` wird `foto`), kann das Betriebssystem nicht mehr automatisch erkennen, mit welchem Programm die Datei geöffnet werden soll.
+:::
+
+## Praktische Übung
+
+Übe alle vier Aktionen einmal im Windows-Explorer und einmal im Ubuntu-Dateimanager:
+
+1. Erstelle in deinem Downloads-Ordner eine neue Textdatei.
+2. **Umbenennen:** Benenne sie in `notiz.txt` um.
+3. **Kopieren:** Kopiere sie in deinen Dokumente-Ordner (die Originaldatei soll danach an beiden Orten existieren).
+4. **Verschieben:** Verschiebe die Kopie im Dokumente-Ordner zusätzlich auf den Desktop (per Ausschneiden/Einfügen oder Drag & Drop).
+5. Kontrolliere am Ende: Liegt die Datei jetzt in Downloads *und* auf dem Desktop, aber nicht mehr in Dokumente?
+
+## Verständnisfragen
+
+<details>
+<summary>Was ist der Unterschied zwischen "Speichern" und "Speichern unter"?</summary>
+"Speichern" überschreibt die bestehende Datei mit dem aktuellen Stand. "Speichern unter" legt eine neue Datei (mit neuem Namen und/oder neuem Ort) an, ohne die ursprüngliche Datei zu verändern.
+</details>
+
+<details>
+<summary>Was passiert mit der Originaldatei, wenn du eine Datei kopierst statt verschiebst?</summary>
+Beim Kopieren bleibt die Originaldatei am alten Ort erhalten, zusätzlich entsteht eine unabhängige Kopie am neuen Ort. Beim Verschieben existiert die Datei danach nur noch am neuen Ort.
+</details>
+
+<details>
+<summary>Warum sollte man beim Umbenennen einer Datei die Dateiendung nicht versehentlich verändern?</summary>
+Weil das Betriebssystem anhand der Endung erkennt, mit welchem Programm die Datei geöffnet werden soll. Eine falsche oder fehlende Endung kann dazu führen, dass die Datei nicht mehr richtig geöffnet werden kann.
+</details>
+
+## Zusammenfassung
+
+- **Speichern** legt den aktuellen Stand einer Datei dauerhaft ab, **Speichern unter** legt eine neue Datei an.
+- **Umbenennen**, **Kopieren** und **Verschieben** funktionieren im Windows-Explorer und im Ubuntu-Dateimanager mit denselben Tastenkombinationen (`F2`, `Strg+C`, `Strg+X`, `Strg+V`).
+- Beim **Kopieren** bleibt die Originaldatei erhalten, beim **Verschieben** nicht.
+- Beim Umbenennen sollte die Dateiendung erhalten bleiben.
+
+## Ausblick
+
+Bisher hast du Bilddateien nur als eine von vielen Dateiendungen kennengelernt (`.jpg`, `.png`). Im nächsten Kapitel schauen wir uns genauer an, was eigentlich in einer Bilddatei steckt: **Pixel, Auflösung und Kompression**.

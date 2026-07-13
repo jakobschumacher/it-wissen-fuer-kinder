@@ -1,0 +1,77 @@
+---
+title: "11. Apps installieren: exe, apt, APK und Stores"
+---
+
+## Warum das wichtig ist
+
+Im letzten Kapitel ging es um Menüs innerhalb bereits installierter Apps. Aber wie kommt eine App überhaupt erst auf ein Gerät? Windows, Ubuntu und Android gehen dabei unterschiedliche Wege – die du kennen solltest, bevor du selbst etwas installierst.
+
+## Windows: exe-Dateien und Microsoft Store
+
+Unter Windows gibt es zwei gängige Installationswege:
+
+- **`.exe`-Installationsdateien:** Du lädst eine Datei mit der Endung `.exe` (ausführbare Datei, siehe Kapitel 6) von der Website eines Herstellers herunter und startest sie per Doppelklick. Ein Installationsassistent führt dich dann durch die Einrichtung, kopiert die Programmdateien an ihren Zielort und legt Verknüpfungen an (z. B. auf dem Desktop oder im Startmenü).
+- **Microsoft Store:** Eine zentrale, von Microsoft betriebene App, in der Programme und Apps gesammelt und vor der Veröffentlichung geprüft werden. Installation und spätere Updates laufen automatisiert über den Store.
+
+## Ubuntu: Paketverwaltung, .deb-Dateien und Software-Center
+
+Ubuntu organisiert Software über eine **Paketverwaltung**: Programme liegen als sogenannte **Pakete** in zentralen, von Ubuntu/Canonical betriebenen Online-Verzeichnissen (**Repositories**) und können von dort gezielt installiert, aktualisiert und wieder entfernt werden. Das zugrundeliegende Werkzeug heißt **APT** (Advanced Package Tool):
+
+- Über die Kommandozeile (Kapitel 12) installierst du ein Paket z. B. mit `sudo apt install <paketname>`.
+- Über die grafische App **"Software"** (Ubuntu Software Center) kannst du dieselben Pakete auch per Mausklick suchen und installieren.
+
+Ein wichtiger Vorteil der Paketverwaltung: Sie kümmert sich automatisch um **Abhängigkeiten** – wenn ein Programm ein anderes Programm oder eine Bibliothek benötigt, installiert APT diese passend mit.
+
+Zusätzlich gibt es, ähnlich wie die `.exe`-Datei unter Windows, einzelne Installationsdateien mit der Endung **`.deb`**, die du manuell herunterladen und installieren kannst, wenn ein Programm nicht über die Standard-Repositories verfügbar ist.
+
+## Android: APK-Dateien und Play Store
+
+Auf Android-Geräten heißt das Installationsdateiformat **APK** (Android Package). Die meisten Nutzerinnen und Nutzer installieren Apps über den **Google Play Store**, der die Apps zentral bereitstellt und vor der Veröffentlichung prüft. Es ist aber auch möglich, eine `.apk`-Datei manuell von anderswo herunterzuladen und direkt zu installieren – das nennt man **Sideloading**.
+
+## Die drei Wege im Vergleich
+
+| System | Installationsdatei | Zentraler Store |
+|---|---|---|
+| Windows | `.exe` | Microsoft Store |
+| Ubuntu | `.deb` (einzeln) oder Paket über APT | Software (Ubuntu Software Center) |
+| Android | `.apk` | Google Play Store |
+
+::: {.callout-important}
+## Kurzer Sicherheitshinweis
+
+Software aus einem geprüften Store (Microsoft Store, Ubuntu-Repositories, Google Play Store) wurde vor der Veröffentlichung zumindest grob kontrolliert. Wenn du dagegen eine `.exe`-, `.deb`- oder `.apk`-Datei von einer beliebigen, dir unbekannten Website herunterlädst, umgehst du diese Kontrolle – das erhöht das Risiko, versehentlich Schadsoftware zu installieren. Dieses Thema vertiefen wir ausführlich in Kapitel 19 (IT-Sicherheit); hier reicht es, das Risiko zu kennen.
+:::
+
+## Praktische Übung
+
+1. **Windows:** Öffne den Microsoft Store und suche nach einer dir bekannten App. Schau dir die Angaben zum Herausgeber und die Bewertungen an, bevor du (falls gewünscht) installierst.
+2. **Ubuntu:** Öffne die App "Software", suche ebenfalls nach einem Programm und schau dir die Beschreibung an. Öffne zusätzlich ein Terminal und tippe `apt list --installed | wc -l` – das zeigt dir, wie viele Pakete aktuell über APT installiert sind.
+3. Vergleiche: Welche Informationen (Bewertungen, Herausgeber, Berechtigungen) zeigen dir beide Stores vor der Installation an?
+
+## Verständnisfragen
+
+<details>
+<summary>Welches Installationsdateiformat gehört zu welchem System: Windows, Ubuntu, Android?</summary>
+Windows: .exe. Ubuntu: .deb (bzw. Pakete über APT). Android: .apk.
+</details>
+
+<details>
+<summary>Was ist ein Vorteil der Paketverwaltung (APT) unter Ubuntu gegenüber dem manuellen Herunterladen einzelner Installationsdateien?</summary>
+APT kümmert sich automatisch um Abhängigkeiten (benötigte weitere Programme/Bibliotheken werden automatisch mitinstalliert) und erleichtert zentrale Updates aller installierten Pakete.
+</details>
+
+<details>
+<summary>Was bedeutet "Sideloading" bei Android und warum ist es riskanter als der Play Store?</summary>
+Sideloading bedeutet, eine APK-Datei manuell von einer anderen Quelle als dem Play Store zu installieren. Es ist riskanter, weil diese App die Prüfung durch den Play Store umgeht und somit potenziell ungeprüfte oder schädliche Inhalte enthalten könnte.
+</details>
+
+## Zusammenfassung
+
+- Windows installiert Software über **`.exe`-Dateien** oder den **Microsoft Store**.
+- Ubuntu nutzt die **Paketverwaltung (APT)** mit zentralen Repositories, alternativ einzelne **`.deb`-Dateien**.
+- Android installiert Apps meist über den **Google Play Store**, alternativ per **Sideloading** von `.apk`-Dateien.
+- Software aus geprüften Stores ist grundsätzlich vertrauenswürdiger als Dateien von unbekannten Websites – mehr dazu in Kapitel 19.
+
+## Ausblick
+
+Die Paketverwaltung hast du gerade über die Kommandozeile kennengelernt (`apt install ...`). Im nächsten Kapitel schauen wir uns die Kommandozeile selbst genauer an: Was unterscheidet sie von der grafischen Oberfläche, und welche Grundbefehle solltest du auf Windows und Ubuntu kennen?
